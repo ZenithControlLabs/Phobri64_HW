@@ -1,0 +1,49 @@
+### Footprint positions - created on Mon 05 Jun 2023 11:33:47 PM CDT ###
+### Printed by KiCad version 7.0.5-7.0.5~ubuntu20.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val               Package                                                PosX       PosY       Rot  Side
+C1        100n              C_0402_1005Metric                                  189.5000   -80.0000   90.0000  top
+C2        0.047u            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder        227.5759   -99.7686   90.0000  top
+C3        0.047u            C_0603_1608Metric_Pad1.08x0.95mm_HandSolder        243.2239  -107.9061  -90.0000  top
+C4        100n              C_0402_1005Metric                                  178.5000   -88.4800  -90.0000  top
+C5        1u                C_0402_1005Metric                                  189.0582   -86.3657    0.0000  top
+C6        100n              C_0402_1005Metric                                  184.4509   -77.5407   90.0000  top
+C7        100n              C_0402_1005Metric                                  190.0000   -82.3036    0.0000  top
+C8        1u                C_0402_1005Metric                                  189.0653   -87.6950    0.0000  top
+C9        100n              C_0402_1005Metric                                  193.0000   -91.9800  -90.0000  top
+C10       100n              C_0402_1005Metric                                  187.0000   -87.9800  -90.0000  top
+C11       100n              C_0402_1005Metric                                  182.0335   -77.5294   90.0000  top
+C12       100n              C_0402_1005Metric                                  188.5000   -89.9800  -90.0000  top
+C13       100n              C_0402_1005Metric                                  185.5000   -88.0000  -90.0000  top
+C14       100n              C_0402_1005Metric                                  191.5000   -91.0000  -90.0000  top
+C15       100n              C_0402_1005Metric                                  190.0000   -91.0000  -90.0000  top
+C16       27p               C_0402_1005Metric                                  175.3031   -81.4411   90.0000  top
+C17       27p               C_0402_1005Metric                                  172.3031   -84.9411    0.0000  top
+C18       10u               C_0805_2012Metric                                  207.3031   -77.9411  180.0000  top
+C19       47u               CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder   155.1781   -98.9411    0.0000  top
+C20       10u               C_0805_2012Metric                                  204.3531   -87.4411    0.0000  top
+C21       100n              C_0402_1005Metric                                  188.0000   -67.5000  180.0000  top
+D1        CUS10S30,H3F      D_SOD-323                                          150.8031  -100.4411  -90.0000  top
+D2        CUS10S30,H3F      D_SOD-323                                          201.3031   -87.9411   90.0000  top
+J1        Stick_To_Mobo     FPC-SMD_6P-P1.00_HDGC_1.0K-LS-6PWB                 251.8267  -118.0000   90.0000  top
+J2        USB_B_Mini        MINI-USB-TH_C13453                                 195.4405   -72.8911  180.0000  top
+J5        N64_Intf          CONN3_B3B-EH-ALFSN_JST                             156.5000  -105.6428  180.0000  top
+J6        Mobo_To_Stick     FPC-SMD_6P-P1.00_HDGC_1.0K-LS-6PWB                 188.9661  -103.6003   90.0000  top
+R1        27                R_0402_1005Metric                                  189.0406   -83.7411    0.0000  top
+R2        27                R_0402_1005Metric                                  189.0488   -85.0701  180.0000  top
+R3        2k                R_0603_1608Metric_Pad0.98x0.95mm_HandSolder        246.0450  -109.9061   90.0000  top
+R4        2k                R_0603_1608Metric_Pad0.98x0.95mm_HandSolder        230.6970   -98.5861  180.0000  top
+R5        100k              R_0603_1608Metric_Pad0.98x0.95mm_HandSolder        192.8031   -66.9411    0.0000  top
+R6        1k                R_0402_1005Metric                                  175.3031   -83.5000  -90.0000  top
+R7        1k                R_0402_1005Metric                                  168.0000   -76.0000  180.0000  top
+S1        BOOTSEL           SW_TS-1187A-B-A-B                                  164.5000   -81.3750  180.0000  top
+U1        DRV5055A3xDBZxQ1  SOT-23                                             242.6267  -111.8587  180.0000  top
+U2        DRV5055A3xDBZxQ1  SOT-23                                             232.5767  -101.8000  -90.0000  top
+U3        RP2040            QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm                182.1031   -82.7411  -90.0000  top
+U4        MCP3202           SOIC-8_3.9x4.9mm_P1.27mm                           221.2239  -112.9061  -90.0000  top
+U6        USBLC6-2P6        SOT-666                                            194.3031   -78.2911  -90.0000  top
+U7        AMS1117-3.3       SOT-223-3_TabPin2                                  201.3031   -81.4411  -90.0000  top
+U8        W25Q128JVPIQ      WSON-8_6X5_WIN                                     185.5000   -72.3000    0.0000  top
+Y1        Crystal_GND24     Crystal_SMD_3225-4Pin_3.2x2.5mm                    172.3031   -82.4411    0.0000  top
+## End

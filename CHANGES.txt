@@ -1,0 +1,17 @@
+ (6/8/2023)
+ 
+ Schematic:
+ 
+ Phobri64 reuses most of the same circuit elements from the PhobGCC, namely:
+ 
+ * Hall effect + LPF + ADC subsystem (specifically for the cstick board, because it attaches separately like the hori does)
+ * Crystal circuit
+ * Flash circuit
+ * N64/GCC bus + USB power delivery circuitry ( & ESD device)
+ * RP2040 + bypass capacitors
+ 
+It removes the remaining components such as analog trigger support, motor control, the 2nd stick, and the resistor ladder DAC for composite out.
+
+Layout:
+
+The Hori pad mini uses a vastly different layout than the GCC so little is shared here. Mainly the footprints for the button contacts have been copied over and resized slightly to fit better with the hori motherboard. Some footprints for components not present in KiCad's library have also been copied over.
