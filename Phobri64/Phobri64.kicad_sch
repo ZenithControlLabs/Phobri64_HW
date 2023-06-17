@@ -3585,6 +3585,31 @@
     )
   )
 
+  (symbol (lib_id "Phobri64:GND_S") (at 86.36 121.285 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0549dd2b-d85a-4a0a-866b-072f0f994823)
+    (property "Reference" "#PWR06" (at 86.36 127.635 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_S" (at 86.36 125.095 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 86.36 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 86.36 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 87cc3c14-3d47-4b45-9c7c-2fc56fe7c94c))
+    (instances
+      (project "Phobri64"
+        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+          (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 107.95 174.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06174136-3a37-49a1-86b7-aad048935d32)
@@ -4201,6 +4226,31 @@
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
           (reference "SW5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Phobri64:+3V3_S") (at 100.33 111.125 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3a0ac30f-772f-45ec-ace0-da6a8fe79234)
+    (property "Reference" "#PWR03" (at 100.33 107.315 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3_S" (at 100.33 114.935 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 100.33 111.125 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 100.33 111.125 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d87338ef-3c25-4e89-861f-2c47ee2efe57))
+    (instances
+      (project "Phobri64"
+        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -5267,31 +5317,6 @@
     )
   )
 
-  (symbol (lib_id "Phobri64:+3V3_S") (at 100.33 85.725 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a077562e-82b4-4b7b-bfb3-b65163d1b8e9)
-    (property "Reference" "#PWR0130" (at 100.33 89.535 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3_S" (at 100.33 81.915 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 100.33 85.725 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 100.33 85.725 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid af14440d-a927-491f-a9c8-42a5f71524a5))
-    (instances
-      (project "Phobri64"
-        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
-          (reference "#PWR0130") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Mechanical:MountingHole") (at 367.665 79.375 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a32d168a-38b2-452f-98c7-d0028653be86)
@@ -5311,6 +5336,31 @@
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
           (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Phobri64:+3V3_S") (at 86.36 113.665 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a3c7c193-988d-47ab-96ef-2e0e3c6080c7)
+    (property "Reference" "#PWR05" (at 86.36 117.475 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3_S" (at 86.36 109.855 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 86.36 113.665 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 86.36 113.665 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 988d2089-1587-477e-bdd2-e478985cab86))
+    (instances
+      (project "Phobri64"
+        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -5364,6 +5414,32 @@
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
           (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 86.36 117.475 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a9c9255b-b7ce-4419-a545-575c6d6ec4db)
+    (property "Reference" "C22" (at 90.17 116.205 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100n" (at 90.17 118.745 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 87.3252 121.285 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 86.36 117.475 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8be41e52-e436-4332-9371-815e0faf2367))
+    (pin "2" (uuid e9b1c98d-5152-492d-ba56-7c4318ae06fb))
+    (instances
+      (project "Phobri64"
+        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -6036,31 +6112,6 @@
     )
   )
 
-  (symbol (lib_id "Phobri64:GND_S") (at 100.33 111.125 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e65fa58a-f628-4efb-bc33-87e9109b9a39)
-    (property "Reference" "#PWR0131" (at 100.33 117.475 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_S" (at 100.33 114.935 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 100.33 111.125 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 100.33 111.125 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6e562cc8-46a3-4906-9e06-91591343f251))
-    (instances
-      (project "Phobri64"
-        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
-          (reference "#PWR0131") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 273.05 208.915 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e68dc75a-cb15-4fc1-9b73-0de1b9098000)
@@ -6452,6 +6503,31 @@
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
           (reference "#PWR0118") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Phobri64:GND_S") (at 100.33 85.725 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ff243e68-8bd8-4d8d-b157-69620083a3be)
+    (property "Reference" "#PWR04" (at 100.33 79.375 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_S" (at 100.33 81.915 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 100.33 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 100.33 85.725 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a383b526-5982-4094-892a-05626fcd55e4))
+    (instances
+      (project "Phobri64"
+        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+          (reference "#PWR04") (unit 1)
         )
       )
     )
