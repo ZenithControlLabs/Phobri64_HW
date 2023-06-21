@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name "Phobri64")(type "KiCad")(uri "${KIPRJMOD}/Phobri64_footprints")(options "")(descr ""))
+  (version 7)
+  (lib (name "Phobri64")(type "KiCad")(uri "${KIPRJMOD}/Phobri64_footprints.pretty")(options "")(descr ""))
 )
