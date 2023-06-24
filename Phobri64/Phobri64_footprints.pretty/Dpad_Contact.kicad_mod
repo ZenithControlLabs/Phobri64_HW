@@ -1,8 +1,8 @@
-(footprint "Dpad_Contact_TL3315NF_2_2" (version 20221018) (generator pcbnew)
+(footprint "Dpad_Contact" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (property "Sheetfile" "File: PhobGCC_2_0_0_proto_1.kicad_sch")
   (property "Sheetname" "")
-  (attr through_hole)
+  (attr smd exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
   (fp_text reference "SW11" (at -0.750779 2.442285) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     (tstamp a43db512-a50e-469d-912d-5524fa4f58b1)
