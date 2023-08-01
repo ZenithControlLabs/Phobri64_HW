@@ -13,8 +13,6 @@
   )
   (fp_circle (center 0 0) (end 2.53 -0.05)
     (stroke (width 0.12) (type solid)) (fill solid) (layer "F.Mask") (tstamp 8e3d8f7e-8ba0-46c7-b90e-47c3ad601afe))
-  (fp_circle (center 0 0) (end 0 -2.5)
-    (stroke (width 0.12) (type solid)) (fill none) (layer "Dwgs.User") (tstamp 50285f2a-8352-4b16-862b-7e5df72fbe7f))
   (pad "1" smd custom (at 1.632 0 90) (size 1.524 1.524) (layers "F.Cu" "F.Paste" "F.Mask")
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))

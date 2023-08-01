@@ -3,3 +3,17 @@ flash part: W25Q16JVUXIQ
 
 yay/nay for v1.0 features 
 st microelectronics integrated hall sensor: LIS2MDLTR
+
+
+LIST OF SILKSCREENS:
+
+- ZL/ZR labels for the appropriate connectors
+- Phobri HW version number
+- Github link
+- Button labels instead of "SW1" etc.  (?)
+- Very epic awesome ascii art
+
+Image:
+X: 181.228
+Y: 96.268
+Scale: 0.999166
