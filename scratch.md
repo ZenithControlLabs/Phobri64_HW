@@ -12,6 +12,7 @@ LIST OF SILKSCREENS:
 - Github link
 - Button labels instead of "SW1" etc.  (?)
 - Very epic awesome ascii art
+- Put back the Pin 1 circles. Perhaps figure out a better solution for it going forward.
 
 Image:
 X: 181.228
