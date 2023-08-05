@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.3,
-          "height": 4.3,
-          "width": 4.3
+          "drill": 0.0,
+          "height": 0.2,
+          "width": 0.875
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -413,7 +413,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "2023-08-02_01-52-28"
+    ]
   },
   "meta": {
     "filename": "Phobri64.kicad_pro",

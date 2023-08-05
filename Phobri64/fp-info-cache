@@ -1,4 +1,4 @@
-21893988022657702
+21897370772760161
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -79429,6 +79429,13 @@ B3B-EH-ALFSN
 3
 3
 Phobri64
+CON_5034801000_MOL
+
+5034801000 
+0
+12
+12
+Phobri64
 CSTNE_G_MUR
 
 CSTNE12M0G550000R0 
@@ -79463,6 +79470,13 @@ FPC-SMD_6P-P1.00_HDGC_1.0K-LS-6PWB
 0
 8
 8
+Phobri64
+HHL_USBC_10pin_Breakout
+Through hole straight socket strip, 2x05, 2.00mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x05 2.00mm double row
+0
+10
+10
 Phobri64
 Header_1x3
 
