@@ -1,0 +1,51 @@
+kibot:
+  version: 1
+
+preflight:
+  run_erc: true
+  update_xml: false
+  run_drc: true
+  check_zone_fills: true
+  ignore_unconnected: false
+  filters:
+  # these are all spammy generally just annoying errors
+    - error: "silk_edge_clearance"
+    - error: "silk_over_copper"
+    - error: "lib_footprint_mismatch"
+
+#global:
+#  # We want the revision added to the names for this project
+#  output: '%f-%i_%r.%x'
+
+import:
+  - file: JLCPCB
+
+outputs:
+  - name: 'print_sch'
+    comment: "Print schematic (PDF)"
+    type: pdf_sch_print
+    dir: .
+
+  - name: 'JLCPCB_fab_compress'
+    comment: "Generates a ZIP file with all the gerber/drill outputs"
+    type: compress
+    run_by_default: false
+    options:
+      files:
+        - from_output: _JLCPCB_gerbers
+          dest: /
+        - from_output: _JLCPCB_drill
+          dest: /
+      output: "%f_gerbers_jlc.%x"
+  
+  - name: 'JLCPCB'
+    comment: "Generates a ZIP file with all outputs together"
+    type: compress
+    run_by_default: false
+    options:
+      files:
+        - from_output: JLCPCB_fab_compress
+        - from_output: _JLCPCB_position
+          dest: /
+        - from_output: _JLCPCB_bom
+          dest: /

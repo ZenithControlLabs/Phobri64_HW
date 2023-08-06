@@ -1,0 +1,85 @@
+# Pipeline file based off of
+# https://github.com/INTI-CMNB/kicad-ci-test-spora/blob/master/.github/workflows/spora_main.yml
+
+name: "Main Pipeline"
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "v*.*.*"
+  pull_request:
+
+permissions:
+  contents: write
+    
+jobs:
+  ERC:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad7_auto:latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Run ERC
+      run: make erc || { cat Output/*.txt; exit 1; }
+
+    - name: Display ERC results
+      run: cat Output/*.txt
+  
+  DRC:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad7_auto:latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Run DRC
+      run: make drc || { cat Output/*.txt; exit 1; }
+
+    - name: Display DRC results
+      run: cat Output/*.txt
+
+  PCB:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad7_auto:latest
+    if: startsWith(github.ref, 'refs/tags/')
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: PCB/SCH outputs
+      run: make fab
+
+    - name: Retrieve results
+      uses: actions/upload-artifact@v3
+      with:
+        name: PCB_SCH_Output
+        path: Output/
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs:
+      - ERC
+      - DRC
+      - PCB
+    if: startsWith(github.ref, 'refs/tags/')
+    steps:
+      - uses: actions/checkout@v3
+        name: Clone Phobri repo
+
+      - uses: actions/download-artifact@v3
+        name: Download artifacts
+
+      - name: Move around files
+        run: |
+          mv PCB_SCH_Output/Phobri64-schematic.pdf ./Phobri64_${{ github.ref_name }}_schematic.pdf
+          mv PCB_SCH_Output/Phobri64-JLCPCB.zip ./Phobri64_${{ github.ref_name }}_JLCPCB_FAB.zip
+
+      - name: Push to release
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+            files: |
+              Phobri64_${{ github.ref_name }}_schematic.pdf
+              Phobri64_${{ github.ref_name }}_JLCPCB_FAB.zip
