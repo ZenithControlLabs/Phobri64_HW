@@ -3561,7 +3561,7 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid e2b759c0-863c-4703-b2e6-5190220babb4)
   )
-  (text "Shield resistor to both pins?" (at 190.5 228.6 0)
+  (text "(X) Shield resistor to both pins?" (at 190.5 228.6 0)
     (effects (font (size 2 2) (color 255 0 0 1)) (justify left bottom))
     (uuid eb1f94ac-a6a1-4728-a4c6-e1e9b3aa3b3f)
   )

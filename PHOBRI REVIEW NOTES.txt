@@ -1,0 +1,21 @@
+Put pullups at the loads not on the microcontroller
+I2C bus isolator perhaps at the connector
+Orthogonal routing (did you learn anythign from 315)
+
+Pick the capacitor with the highest voltage rating possible for a given package size at a given capacitance value.
+
+Do differential measurement with the remaining two channels. Tie to ground.
+
+Don't add the resistor to prevent overdrive.
+
+Doesn't really matter if the chassis pins are grounded or not.
+
+Remove thermal reliefs on the holes under the chip
+
+LDO needs more copper, exapnd the pour to the right
+and then do a local 3v3 pour on the bottom side to  
+
+Sprinkle vias freely to tie the planes together
+Put it near other vias to minimize return path
+
+Add some test points (3v3 GND I2C)
