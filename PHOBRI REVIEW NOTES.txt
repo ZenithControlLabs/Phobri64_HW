@@ -19,3 +19,5 @@ Sprinkle vias freely to tie the planes together
 Put it near other vias to minimize return path
 
 Add some test points (3v3 GND I2C)
+
+Watch out for traces close to the edge, check with board constraints
