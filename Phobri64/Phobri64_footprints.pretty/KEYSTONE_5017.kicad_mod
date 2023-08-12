@@ -1,7 +1,7 @@
 (footprint "KEYSTONE_5017" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
-  (fp_text reference "REF**" (at 1.21 -2.775) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0.635 -1.905) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e8c91834-5e2a-411e-aedd-3aae59f1cb6e)
   )
@@ -25,7 +25,7 @@
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp b5fb9d9b-ddc1-47e5-ad65-7e4aeec33c3f))
   (fp_line (start 1.335 0.51) (end -1.335 0.51)
     (stroke (width 0.127) (type solid)) (layer "F.Fab") (tstamp c9f006e2-f767-4598-8a5d-bd26871051ed))
-  (pad "TP" smd rect (at 0 0) (size 3.43 1.78) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 83108e8a-0d96-4f4c-8577-c229e694dd54))
+  (pad "1" smd rect (at 0 0) (size 3.43 1.78) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 83108e8a-0d96-4f4c-8577-c229e694dd54))
   (model "${KIPRJMOD}/Phobri64_3Dmodels/5017.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

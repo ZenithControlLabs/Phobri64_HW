@@ -17,7 +17,7 @@ Put it near other vias to minimize return path
 
 
 Watch out for traces close to the edge, check with board constraints
-
+Should we put the ESD diode close to the edge too??
 
 
 
@@ -36,3 +36,6 @@ SCH
 (X) Do differential measurement with the remaining two channels on the ADC. Tie to ground.
 
 SIZE I2C PULLUPS INTELLIGENTLY (ASK FOR HELP)
+
+LOOK MORE AT ADCS
+https://www.lcsc.com/product-detail/Analog-To-Digital-Converters-ADCs_Texas-Instruments-ADS7142IRUGR_C2669859.html
