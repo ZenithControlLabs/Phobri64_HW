@@ -2,24 +2,36 @@
 
 (X) Doesn't really matter if the chassis pins are grounded or not.
 
-Orthogonal routing (did you learn anythign from 315)
+(X) Orthogonal routing (did you learn anythign from 315)
 
 Pick the capacitor with the highest voltage rating possible for a given package size at a given capacitance value.
 
 
-Remove thermal reliefs on the holes under rp2040
+(X) Remove thermal reliefs on the holes under rp2040
 
-LDO needs more copper, exapnd the pour to the right
-and then do a local 3v3 pour on the bottom side to  
+(X) LDO needs more copper, exapnd the pour to the right
+(X) and then do a local 3v3 pour on the bottom side to
 
 Sprinkle vias freely to tie the planes together
 Put it near other vias to minimize return path
 
 
-Watch out for traces close to the edge, check with board constraints
-Should we put the ESD diode close to the edge too??
+(X) Watch out for traces close to the edge, check with board constraints
+(X) Should we put the ESD diode close to the edge too?? (yea, diff routing doesnt really work on inside and it would complicate 3d modeling + risky to expose any unecessary components)
 
+(X) increase mounting hole sizes at exp pak [need mechanical testing again]
 
+(X) Place flat test points for I2C on stick mobo
+
+(X) Do we really need to have the grabbable test points? What would be the add to BOM cost? [No, went with flat ones, grabbable ones add like $3 to BOM.]
+
+Test points add cost due to ENIG? Investigate removing them with JLC
+
+Touch up silkscreens
+
+Clean up footprints (make sure there is PCB/schematic parity by re-running update PCB from schematic at the very end)
+
+3D model for button for next mechanical test?
 
 SCH
 ===
@@ -35,7 +47,7 @@ SCH
 
 (X) Do differential measurement with the remaining two channels on the ADC. Tie to ground.
 
-SIZE I2C PULLUPS INTELLIGENTLY (ASK FOR HELP)
+(X) SIZE I2C PULLUPS INTELLIGENTLY (ASK FOR HELP) [PROBABLY FINE, WENT WITH 1K]
 
 LOOK MORE AT ADCS
 https://www.lcsc.com/product-detail/Analog-To-Digital-Converters-ADCs_Texas-Instruments-ADS7142IRUGR_C2669859.html
