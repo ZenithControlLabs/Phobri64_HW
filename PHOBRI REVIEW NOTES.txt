@@ -31,11 +31,13 @@ Touch up silkscreens
 
 Clean up footprints (make sure there is PCB/schematic parity by re-running update PCB from schematic at the very end)
 
-3D model for button for next mechanical test?
+(X) 3D model for button for next mechanical test?
 
 Fix that ugly looking 5V copper pour
 
 Clean up footprint library
+
+What exactly do those randomly placed vias do?
 
 SCH
 ===
