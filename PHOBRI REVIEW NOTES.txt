@@ -33,6 +33,10 @@ Clean up footprints (make sure there is PCB/schematic parity by re-running updat
 
 3D model for button for next mechanical test?
 
+Fix that ugly looking 5V copper pour
+
+Clean up footprint library
+
 SCH
 ===
 

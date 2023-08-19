@@ -79,4 +79,9 @@
   (pad "B" smd rect (at 3 -1.875) (size 1 0.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 89085121-712d-4206-9a55-741c8c57024c))
   (pad "C" smd rect (at -3 1.875) (size 1 0.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7fc42727-116e-415b-97c7-d130a18cf0ec))
   (pad "D" smd rect (at 3 1.875) (size 1 0.75) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2c8c3d90-4323-4559-aedc-54e44d224fc1))
+  (model "${KIPRJMOD}/Phobri64_3Dmodels/TS-1187A.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

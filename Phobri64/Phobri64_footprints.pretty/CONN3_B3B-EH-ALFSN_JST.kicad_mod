@@ -46,4 +46,9 @@
   (pad "1" thru_hole circle (at -2.5 0) (size 1.397 1.397) (drill 0.889) (layers "*.Cu" "*.Mask") (tstamp 24a2e96d-b6c9-4c36-ad6b-ba9af99ee1cc))
   (pad "2" thru_hole circle (at 0 0) (size 1.397 1.397) (drill 0.889) (layers "*.Cu" "*.Mask") (tstamp 2e741e81-af9a-4692-8c1c-0d41c0a95fe1))
   (pad "3" thru_hole circle (at 2.5 0) (size 1.397 1.397) (drill 0.889) (layers "*.Cu" "*.Mask") (tstamp b5a1124b-0652-4aff-ac74-38aee3acb200))
+  (model "${KIPRJMOD}/Phobri64_3Dmodels/B3B-EH-A.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1.1))
+    (rotate (xyz -90 0 0))
+  )
 )
