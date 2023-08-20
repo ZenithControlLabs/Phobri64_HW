@@ -13,7 +13,7 @@ preflight:
 #  output: '%f-%i_%r.%x'
 
 import:
-  - file: JLCPCB
+  - file: JLCPCB_with_THT
 
 outputs:
   - name: 'print_sch'
