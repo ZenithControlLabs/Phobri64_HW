@@ -6379,7 +6379,7 @@
     (property "Value" "Conn_01x01" (at 282.194 97.536 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm" (at 279.654 96.266 0)
+    (property "Footprint" "Phobri64:Debug_Pin" (at 279.654 96.266 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 279.654 96.266 0)

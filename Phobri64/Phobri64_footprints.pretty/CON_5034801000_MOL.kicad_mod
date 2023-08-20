@@ -72,4 +72,9 @@
   (pad "10" smd rect (at 2.250006 -1.5) (size 0.3 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cad96561-4e0d-4ad6-8203-fcbb65e72046))
   (pad "P1" smd rect (at -3.039993 1.15) (size 0.3 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 04c84abe-60c9-48c8-978f-bc711ace8399))
   (pad "P2" smd rect (at 3.039994 1.15) (size 0.3 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2be47fb8-633f-4b02-ab0e-0dd339deb087))
+  (model ":KICAD7_3DMODEL_DIR:Connector_FFC-FPC.3dshapes/Molex_502250-1791_2Rows-17Pins-1MP_P0.60mm_Horizontal.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )

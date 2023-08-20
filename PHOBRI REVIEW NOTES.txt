@@ -4,7 +4,7 @@
 
 (X) Orthogonal routing (did you learn anythign from 315)
 
-Pick the capacitor with the highest voltage rating possible for a given package size at a given capacitance value.
+(X) Pick the capacitor with the highest voltage rating possible for a given package size at a given capacitance value.
 
 
 (X) Remove thermal reliefs on the holes under rp2040
@@ -12,7 +12,7 @@ Pick the capacitor with the highest voltage rating possible for a given package 
 (X) LDO needs more copper, exapnd the pour to the right
 (X) and then do a local 3v3 pour on the bottom side to
 
-Sprinkle vias freely to tie the planes together
+(?) Sprinkle vias freely to tie the planes together
 Put it near other vias to minimize return path
 
 
@@ -27,15 +27,15 @@ Put it near other vias to minimize return path
 
 Test points add cost due to ENIG? Investigate removing them with JLC
 
-Touch up silkscreens
+(X) Touch up silkscreens
 
-Clean up footprints (make sure there is PCB/schematic parity by re-running update PCB from schematic at the very end)
+(X) Clean up footprints (make sure there is PCB/schematic parity by re-running update PCB from schematic at the very end)
 
 (X) 3D model for button for next mechanical test?
 
-Fix that ugly looking 5V copper pour
+(X) Fix that ugly looking 5V copper pour
 
-Clean up footprint library
+(X) Clean up footprint library
 
 What exactly do those randomly placed vias do?
 
