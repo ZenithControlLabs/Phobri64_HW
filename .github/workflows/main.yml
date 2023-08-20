@@ -44,7 +44,7 @@ jobs:
   PCB:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad7_auto:latest
-    if: startsWith(github.ref, 'refs/tags/')
+      #    if: startsWith(github.ref, 'refs/tags/')
     steps:
     - uses: actions/checkout@v3
 
