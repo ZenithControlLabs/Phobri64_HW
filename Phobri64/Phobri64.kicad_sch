@@ -10402,7 +10402,7 @@
     (property "Reference" "TP1" (at 276.2504 87.63 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SLC" (at 272.4497 86.36 0)
+    (property "Value" "SCL" (at 272.4497 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm" (at 268.7828 84.328 0)
