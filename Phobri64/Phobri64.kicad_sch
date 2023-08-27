@@ -12,6 +12,98 @@
   )
 
   (lib_symbols
+    (symbol "Connector:Conn_01x04_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x04_Socket" (at 0 -7.62 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x04, script generated" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x04_Socket_1_1"
+        (arc (start 0 -4.572) (mid -0.5058 -5.08) (end 0 -5.588)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 -2.032) (mid -0.5058 -2.54) (end 0 -3.048)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -5.08)
+            (xy -0.508 -5.08)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -2.54)
+            (xy -0.508 -2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy -0.508 0)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 2.54)
+            (xy -0.508 2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 0.508) (mid -0.5058 0) (end 0 -0.508)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (arc (start 0 3.048) (mid -0.5058 2.54) (end 0 2.032)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -5.08 2.54 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -5.08 0) (length 3.81)
+          (name "Pin_4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (at 0 6.858 0)
         (effects (font (size 1.27 1.27)))
@@ -2328,8 +2420,8 @@
   (junction (at 261.112 37.846) (diameter 0) (color 0 0 0 0)
     (uuid 0a9296ac-e963-4adb-9299-4b2591fc5a6b)
   )
-  (junction (at 113.03 195.58) (diameter 0) (color 0 0 0 0)
-    (uuid 0fc4d3e2-b99a-472e-9b5a-337296c5a96c)
+  (junction (at 168.91 234.188) (diameter 0) (color 0 0 0 0)
+    (uuid 110af22c-c05a-4615-a78b-7a7bd043728e)
   )
   (junction (at 188.976 197.866) (diameter 0) (color 0 0 0 0)
     (uuid 1157ae9e-8380-4d5f-af89-9f37dd1bfb11)
@@ -2343,9 +2435,6 @@
   (junction (at 236.982 75.946) (diameter 0) (color 0 0 0 0)
     (uuid 18b1fb0a-51ad-45d2-aeb8-70aa6d8c8812)
   )
-  (junction (at 113.03 208.28) (diameter 0) (color 0 0 0 0)
-    (uuid 192b6136-c7ac-4300-96c3-8a53f2da5db2)
-  )
   (junction (at 83.058 38.862) (diameter 0) (color 0 0 0 0)
     (uuid 1c69aca2-64b9-47b8-8452-21b52b684555)
   )
@@ -2357,9 +2446,6 @@
   )
   (junction (at 99.568 38.862) (diameter 0) (color 0 0 0 0)
     (uuid 1da1f86d-7622-45b4-8cdf-0d4e353a0532)
-  )
-  (junction (at 113.03 198.12) (diameter 0) (color 0 0 0 0)
-    (uuid 233fa130-c608-4352-9b3d-f070402e57fe)
   )
   (junction (at 83.058 50.292) (diameter 0) (color 0 0 0 0)
     (uuid 2984591a-35a1-46fd-98ef-75a3fc4daac6)
@@ -2373,11 +2459,11 @@
   (junction (at 236.0168 151.892) (diameter 0) (color 0 0 0 0)
     (uuid 2a90f03a-2170-49b1-ae18-b2f7b0cc6995)
   )
+  (junction (at 163.83 234.188) (diameter 0) (color 0 0 0 0)
+    (uuid 2fdf4489-ac16-408e-a76c-48c26d867b49)
+  )
   (junction (at 306.832 132.207) (diameter 0) (color 0 0 0 0)
     (uuid 34607e1f-cff3-4e4a-ba0a-8cab5c62a51e)
-  )
-  (junction (at 166.751 267.208) (diameter 0) (color 0 0 0 0)
-    (uuid 3bd42a48-b033-4496-ad4b-e6b01447254f)
   )
   (junction (at 169.418 46.482) (diameter 0) (color 0 0 0 0)
     (uuid 3e8516d3-45c7-4292-8b64-f152b3d97e97)
@@ -2412,9 +2498,6 @@
   (junction (at 205.74 101.346) (diameter 0) (color 0 0 0 0)
     (uuid 48cd7a00-f3cd-4e2a-93c6-7c1fbace60b3)
   )
-  (junction (at 117.094 221.234) (diameter 0) (color 0 0 0 0)
-    (uuid 4b2ac8a2-1827-4c41-9840-591ee886b75b)
-  )
   (junction (at 145.288 38.862) (diameter 0) (color 0 0 0 0)
     (uuid 4fe5e338-ce79-4132-95fd-9042019f3bc7)
   )
@@ -2426,9 +2509,6 @@
   )
   (junction (at 236.982 65.786) (diameter 0) (color 0 0 0 0)
     (uuid 56b02c1c-8819-4ac9-b12e-a722cd7b7081)
-  )
-  (junction (at 105.664 221.234) (diameter 0) (color 0 0 0 0)
-    (uuid 5a5d7d90-da1f-4c09-8c23-c58fff9aa017)
   )
   (junction (at 351.282 144.272) (diameter 0) (color 0 0 0 0)
     (uuid 5dba536a-f891-452d-82c4-ed732a0ae922)
@@ -2454,6 +2534,9 @@
   (junction (at 122.809 237.49) (diameter 0) (color 0 0 0 0)
     (uuid 67a05ee1-db7b-45dc-8893-6572d0aae253)
   )
+  (junction (at 166.37 267.208) (diameter 0) (color 0 0 0 0)
+    (uuid 6880a593-e07c-4c94-9e76-75fcf4bb5f03)
+  )
   (junction (at 203.708 35.306) (diameter 0) (color 0 0 0 0)
     (uuid 6975e239-3db9-4d69-9fa4-c272c34d6d80)
   )
@@ -2469,9 +2552,6 @@
   (junction (at 195.072 191.516) (diameter 0) (color 0 0 0 0)
     (uuid 75fe3697-600f-49b9-a4c5-33604ce8bedf)
   )
-  (junction (at 122.809 246.507) (diameter 0) (color 0 0 0 0)
-    (uuid 765a98d1-9c6e-42b3-96d8-71d8748bc7c2)
-  )
   (junction (at 238.506 128.524) (diameter 0) (color 0 0 0 0)
     (uuid 77686f48-8f5f-403b-b1fb-1704bc4eec88)
   )
@@ -2483,9 +2563,6 @@
   )
   (junction (at 238.76 75.946) (diameter 0) (color 0 0 0 0)
     (uuid 7ddf63ca-b7ed-402a-8194-6188404da1a1)
-  )
-  (junction (at 164.211 234.188) (diameter 0) (color 0 0 0 0)
-    (uuid 7ff33bef-410c-42c7-af6d-62f2905c9935)
   )
   (junction (at 224.282 75.946) (diameter 0) (color 0 0 0 0)
     (uuid 83d946a6-f135-41d7-b0d7-b26ae511d79e)
@@ -2571,9 +2648,6 @@
   (junction (at 315.722 153.797) (diameter 0) (color 0 0 0 0)
     (uuid b3022363-9cda-413a-8ac6-36a4fa0eaa56)
   )
-  (junction (at 105.791 246.507) (diameter 0) (color 0 0 0 0)
-    (uuid bdc7547b-bdb8-495f-8964-f68d4cb7f988)
-  )
   (junction (at 306.197 144.272) (diameter 0) (color 0 0 0 0)
     (uuid be899035-2c7e-4430-8d56-4817aa983fa8)
   )
@@ -2649,9 +2723,6 @@
   (junction (at 203.708 65.786) (diameter 0) (color 0 0 0 0)
     (uuid ef8e96d6-03d9-4b10-aa90-45ee009d6b36)
   )
-  (junction (at 169.291 234.188) (diameter 0) (color 0 0 0 0)
-    (uuid ef9b032e-56c8-409f-a6e9-0977459a9c56)
-  )
   (junction (at 145.288 24.892) (diameter 0) (color 0 0 0 0)
     (uuid f043ce90-ece3-4fc9-a9c5-43fd884d744a)
   )
@@ -2713,10 +2784,6 @@
   (wire (pts (xy 53.848 80.772) (xy 53.848 79.502))
     (stroke (width 0) (type default))
     (uuid 00b7081d-9aea-40cf-8b17-f4c72c049671)
-  )
-  (wire (pts (xy 171.577 234.188) (xy 169.291 234.188))
-    (stroke (width 0) (type default))
-    (uuid 00bb316c-b92a-46ea-b434-594cf8067065)
   )
   (wire (pts (xy 148.082 187.071) (xy 148.082 190.627))
     (stroke (width 0) (type default))
@@ -2782,10 +2849,6 @@
     (stroke (width 0) (type default))
     (uuid 0bd24a85-cec0-4793-bcfc-608616c38681)
   )
-  (wire (pts (xy 121.285 196.215) (xy 121.285 198.12))
-    (stroke (width 0) (type default))
-    (uuid 0cbbb0ac-6a9b-4016-af1b-0f719dab251d)
-  )
   (wire (pts (xy 205.74 86.106) (xy 205.74 96.266))
     (stroke (width 0) (type default))
     (uuid 0d0ab07f-a0ea-4695-9ab5-875836b8cbc6)
@@ -2801,6 +2864,10 @@
   (wire (pts (xy 205.74 55.626) (xy 205.74 65.786))
     (stroke (width 0) (type default))
     (uuid 0feb9121-dd0b-4b66-aa36-e70dc3e9a489)
+  )
+  (wire (pts (xy 168.91 234.188) (xy 171.577 234.188))
+    (stroke (width 0) (type default))
+    (uuid 10c936b8-1460-406e-9a4a-fbd7b71688d4)
   )
   (wire (pts (xy 98.298 57.912) (xy 95.758 57.912))
     (stroke (width 0) (type default))
@@ -2858,7 +2925,7 @@
     (stroke (width 0) (type default))
     (uuid 1d25289e-7adc-4b99-9c71-8470a195218b)
   )
-  (wire (pts (xy 166.751 234.188) (xy 169.291 234.188))
+  (wire (pts (xy 166.751 234.188) (xy 168.91 234.188))
     (stroke (width 0) (type default))
     (uuid 1db57a8a-63f6-475e-980e-d748b2f13d54)
   )
@@ -2885,10 +2952,6 @@
   (wire (pts (xy 188.976 191.516) (xy 195.072 191.516))
     (stroke (width 0) (type default))
     (uuid 21e8d871-f47e-451a-bfbd-5594678ffa89)
-  )
-  (wire (pts (xy 121.285 198.12) (xy 113.03 198.12))
-    (stroke (width 0) (type default))
-    (uuid 227fd3e0-70f8-4211-bb79-541d7802d0f1)
   )
   (wire (pts (xy 117.348 143.002) (xy 113.538 143.002))
     (stroke (width 0) (type default))
@@ -2934,7 +2997,7 @@
     (stroke (width 0) (type default))
     (uuid 29be9566-b6ff-41bb-826b-5966401cebd9)
   )
-  (wire (pts (xy 183.134 259.08) (xy 181.483 259.08))
+  (wire (pts (xy 183.134 259.08) (xy 181.102 259.08))
     (stroke (width 0) (type default))
     (uuid 2a051068-e94b-4fde-820a-9d02028e5d83)
   )
@@ -2970,7 +3033,7 @@
     (stroke (width 0) (type default))
     (uuid 330570f2-e71f-41ab-977a-55039752111a)
   )
-  (wire (pts (xy 169.291 234.188) (xy 169.291 235.458))
+  (wire (pts (xy 168.91 234.188) (xy 168.91 235.458))
     (stroke (width 0) (type default))
     (uuid 332fefd6-d0e2-4e32-a7ee-2596bc62a510)
   )
@@ -3006,7 +3069,7 @@
     (stroke (width 0) (type default))
     (uuid 36d99bf0-c22b-4093-a5fe-4cf50bd2b2f5)
   )
-  (wire (pts (xy 161.671 234.188) (xy 164.211 234.188))
+  (wire (pts (xy 161.671 234.188) (xy 163.83 234.188))
     (stroke (width 0) (type default))
     (uuid 37e9a53f-0f36-4d1b-b885-759cb8ed710a)
   )
@@ -3046,10 +3109,6 @@
     (stroke (width 0) (type default))
     (uuid 415cc53e-cb17-48f2-80a2-ee042db48086)
   )
-  (wire (pts (xy 112.9668 195.58) (xy 113.03 195.58))
-    (stroke (width 0) (type default))
-    (uuid 42ff54c5-095d-418f-a07d-385827266739)
-  )
   (wire (pts (xy 191.77 96.266) (xy 191.262 96.266))
     (stroke (width 0) (type default))
     (uuid 43a39b61-4a6f-4e83-aa30-dd7d5c617ddc)
@@ -3086,7 +3145,7 @@
     (stroke (width 0) (type default))
     (uuid 49288e14-dd28-49f4-9fab-1ac2d6d3703e)
   )
-  (wire (pts (xy 164.211 234.188) (xy 164.211 235.458))
+  (wire (pts (xy 163.83 234.188) (xy 163.83 235.458))
     (stroke (width 0) (type default))
     (uuid 4933dfca-8c01-47b1-866a-8b2c7885577f)
   )
@@ -3102,7 +3161,7 @@
     (stroke (width 0) (type default))
     (uuid 4a62ade3-2879-4d0f-9ca1-3df8e7c94aa1)
   )
-  (wire (pts (xy 152.019 267.208) (xy 166.751 267.208))
+  (wire (pts (xy 151.638 267.208) (xy 166.37 267.208))
     (stroke (width 0) (type default))
     (uuid 4e5b525f-ec97-40fa-8cf5-8d0d767f80c7)
   )
@@ -3202,7 +3261,7 @@
     (stroke (width 0) (type default))
     (uuid 648e928c-57fc-4df2-af47-d259b93b2358)
   )
-  (wire (pts (xy 164.211 234.188) (xy 166.751 234.188))
+  (wire (pts (xy 163.83 234.188) (xy 166.751 234.188))
     (stroke (width 0) (type default))
     (uuid 64d1271a-07fc-46f6-997f-11d6a6086e4e)
   )
@@ -3262,6 +3321,10 @@
     (stroke (width 0) (type default))
     (uuid 701a3bff-a9f8-4202-aded-0c998c94e5af)
   )
+  (wire (pts (xy 181.102 247.396) (xy 181.483 247.396))
+    (stroke (width 0) (type default))
+    (uuid 72226789-faad-4f98-904b-db7db8278d95)
+  )
   (wire (pts (xy 109.728 24.892) (xy 119.888 24.892))
     (stroke (width 0) (type default))
     (uuid 72ab817e-f421-42bc-99a4-384ba283f65c)
@@ -3298,7 +3361,7 @@
     (stroke (width 0) (type default))
     (uuid 7877dbaa-c5ef-43c7-ad64-973d23f9b8c2)
   )
-  (wire (pts (xy 152.019 256.54) (xy 152.019 267.208))
+  (wire (pts (xy 151.638 256.54) (xy 151.638 267.208))
     (stroke (width 0) (type default))
     (uuid 797ba9c4-1590-4191-b344-c54a0a9c47e7)
   )
@@ -3414,7 +3477,7 @@
     (stroke (width 0) (type default))
     (uuid 931f27ac-ef99-4345-90b6-4c9ffeca3c7f)
   )
-  (wire (pts (xy 181.483 259.08) (xy 181.483 256.54))
+  (wire (pts (xy 181.102 259.08) (xy 181.102 256.54))
     (stroke (width 0) (type default))
     (uuid 936b88b7-48c2-46e3-8ff6-fddaee3c54bb)
   )
@@ -3437,6 +3500,10 @@
   (wire (pts (xy 315.722 151.892) (xy 315.722 153.797))
     (stroke (width 0) (type default))
     (uuid 958d95b4-1858-4eff-9007-5238c94d339c)
+  )
+  (wire (pts (xy 113.538 107.442) (xy 117.348 107.442))
+    (stroke (width 0) (type default))
+    (uuid 959ac1a1-c0e6-4f71-8c78-29b1bf78b87d)
   )
   (wire (pts (xy 341.122 51.562) (xy 341.122 54.102))
     (stroke (width 0) (type default))
@@ -3582,10 +3649,6 @@
     (stroke (width 0) (type default))
     (uuid b59c46ff-fa08-4f78-ba17-7872b612c32f)
   )
-  (wire (pts (xy 117.475 107.442) (xy 113.538 107.442))
-    (stroke (width 0) (type default))
-    (uuid b6a78252-045a-44b1-b475-dd9b8708913a)
-  )
   (wire (pts (xy 148.082 202.311) (xy 148.082 198.247))
     (stroke (width 0) (type default))
     (uuid b789eddc-aaa5-47aa-8ae7-ddba12cbb301)
@@ -3706,6 +3769,10 @@
     (stroke (width 0) (type default))
     (uuid d2846ee4-e378-47b9-8127-c4837da637ec)
   )
+  (wire (pts (xy 181.102 249.936) (xy 181.483 249.936))
+    (stroke (width 0) (type default))
+    (uuid d3436bd1-8b81-4c7d-81ee-957a3e205732)
+  )
   (wire (pts (xy 201.93 35.306) (xy 203.708 35.306))
     (stroke (width 0) (type default))
     (uuid d38040db-a60d-4b4c-a047-6dd345c67679)
@@ -3798,10 +3865,6 @@
     (stroke (width 0) (type default))
     (uuid e63806a7-f7a1-4db2-b885-46f4210dd3c0)
   )
-  (wire (pts (xy 121.285 196.215) (xy 121.92 196.215))
-    (stroke (width 0) (type default))
-    (uuid e6b11d2a-b0cc-429b-8231-fae91864402e)
-  )
   (wire (pts (xy 281.94 52.07) (xy 281.94 53.086))
     (stroke (width 0) (type default))
     (uuid e6df2de6-0a7f-4a6b-b2a0-5a86a2c69536)
@@ -3817,10 +3880,6 @@
   (wire (pts (xy 383.54 134.874) (xy 389.255 134.874))
     (stroke (width 0) (type default))
     (uuid e88b81c0-fada-4a72-8944-cdb8666e13e1)
-  )
-  (wire (pts (xy 113.03 195.58) (xy 113.03 198.12))
-    (stroke (width 0) (type default))
-    (uuid e90f6362-19a9-4dd5-89f2-f00070268a33)
   )
   (wire (pts (xy 154.6566 187.071) (xy 154.6566 190.6275))
     (stroke (width 0) (type default))
@@ -3846,10 +3905,6 @@
     (stroke (width 0) (type default))
     (uuid eb906f24-3f63-4973-abed-93e01ba1c99c)
   )
-  (wire (pts (xy 113.03 205.74) (xy 113.03 208.28))
-    (stroke (width 0) (type default))
-    (uuid ec5569b0-260c-4913-9dfc-35b6f49bfbdd)
-  )
   (wire (pts (xy 157.988 46.482) (xy 169.418 46.482))
     (stroke (width 0) (type default))
     (uuid ec5ba029-a81d-4eff-a358-e5937c523e42)
@@ -3865,10 +3920,6 @@
   (wire (pts (xy 341.122 46.482) (xy 341.122 49.022))
     (stroke (width 0) (type default))
     (uuid eda7bda4-7a09-4f18-9274-698abe4be470)
-  )
-  (wire (pts (xy 113.03 208.28) (xy 120.65 208.28))
-    (stroke (width 0) (type default))
-    (uuid ee01ca3d-8b45-4107-8493-fa33e97f1a6c)
   )
   (wire (pts (xy 389.255 126.238) (xy 389.255 124.968))
     (stroke (width 0) (type default))
@@ -3942,9 +3993,9 @@
     (stroke (width 0) (type default))
     (uuid fc17c4dc-209c-4839-bc67-6041ee9da44e)
   )
-  (wire (pts (xy 113.03 185.42) (xy 120.65 185.42))
+  (wire (pts (xy 181.102 254) (xy 181.483 254))
     (stroke (width 0) (type default))
-    (uuid fcfa2f54-aa92-4ece-aa7a-23f8fab4b602)
+    (uuid fcb0d44e-5fc5-435a-a363-65da748bf052)
   )
   (wire (pts (xy 238.506 127.508) (xy 238.506 128.524))
     (stroke (width 0) (type default))
@@ -4172,10 +4223,10 @@
     (uuid f03da52f-9e77-4605-8224-f2e5e3ad42b1)
   )
 
-  (global_label "ADC_DRDY_N" (shape input) (at 117.348 104.902 0) (fields_autoplaced)
+  (global_label "ADC_DRDY_N" (shape input) (at 117.348 107.442 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 03961729-648f-421a-a9dc-973bcf0d4243)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.1261 104.902 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.1261 107.442 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4242,10 +4293,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "S_HY_DRDY" (shape output) (at 113.03 203.2 0) (fields_autoplaced)
+  (global_label "S_HY_DRDY" (shape output) (at 113.03 190.5 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 133028a6-58ed-4d56-a010-7d8c644414c2)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.4776 203.2 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.4776 190.5 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4291,10 +4342,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "S_HX_DRDY" (shape output) (at 113.03 200.66 0) (fields_autoplaced)
+  (global_label "S_HX_DRDY" (shape output) (at 113.03 187.96 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2a6f71ce-7cde-4b3e-82bf-ebe4f500d9c4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.5985 200.66 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 126.5985 187.96 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4347,10 +4398,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "Y_FILT" (shape input) (at 152.019 247.396 180) (fields_autoplaced)
+  (global_label "Y_FILT" (shape input) (at 151.638 249.936 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4443c187-d5ee-46df-9477-c82843105bd0)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 143.2885 247.396 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 142.9075 249.936 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -4382,10 +4433,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "S_SDA" (shape bidirectional) (at 113.03 190.5 0) (fields_autoplaced)
+  (global_label "S_SDA" (shape bidirectional) (at 113.03 203.2 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 4e6f9d56-d929-4ad2-b8ab-a24dbf451b90)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 122.8717 190.5 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 122.8717 203.2 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4431,17 +4482,17 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "MOBO_TO_STICK_SPARE" (shape output) (at 283.718 74.168 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 58c88199-6306-4cfd-abfa-92bc419439cf)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 258.8405 74.168 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "QSPI_SCLK" (shape input) (at 219.583 144.145 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5b9d4959-2691-49f3-9f55-6d55477b0694)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 206.4378 144.145 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "ADC_DRDY_N" (shape output) (at 283.718 74.168 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5ca51716-d7c3-4b6b-83c7-e2426d199b2c)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 268.9399 74.168 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -4452,10 +4503,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "S_SCL" (shape bidirectional) (at 113.03 193.04 0) (fields_autoplaced)
+  (global_label "S_SCL" (shape bidirectional) (at 113.03 205.74 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 63dfe216-40b5-46e0-95e2-50a39c2dd7eb)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 122.8112 193.04 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 122.8112 205.74 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4466,10 +4517,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "MOBO_TO_STICK_SPARE" (shape input) (at 117.348 107.442 0) (fields_autoplaced)
+  (global_label "MOBO_TO_STICK_SPARE" (shape input) (at 117.348 104.902 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 666fc4bc-af11-420d-9fbf-a8df7c4ce518)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 142.2255 107.442 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 142.2255 104.902 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4480,10 +4531,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "S_ADC_DRDY_N" (shape output) (at 113.03 187.96 0) (fields_autoplaced)
+  (global_label "S_ADC_DRDY_N" (shape output) (at 113.03 195.58 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 71dd2c2a-e92b-496c-b0a6-c51c2cde7d7b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 129.9852 187.96 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 129.9852 195.58 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4508,10 +4559,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "X_FILT" (shape input) (at 152.019 249.936 180) (fields_autoplaced)
+  (global_label "X_FILT" (shape input) (at 151.638 247.396 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 774bf6c0-bfae-4259-9856-a2b4879362d8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 143.1676 249.936 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 142.7866 247.396 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -4617,6 +4668,20 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid adfbb533-8862-4abd-9f03-776ba1c556a8)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 53.433 115.062 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "S_SCL" (shape bidirectional) (at 129.54 221.3356 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid aebe37ec-ef3c-4c96-a5e7-140f8d763edd)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 119.7588 221.3356 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "MOBO_TO_STICK_SPARE" (shape output) (at 283.718 71.628 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid b5ae7e40-6de2-4cdb-837d-0093ef9afa72)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 258.8405 71.628 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -4739,6 +4804,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "S_SDA" (shape bidirectional) (at 129.54 218.7956 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid db932bb2-5b1f-4f73-9191-d10ed383322e)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 119.6983 218.7956 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "Dleft" (shape input) (at 117.348 125.222 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid dbc1a239-0efe-4efc-b5cd-2825914503af)
@@ -4764,13 +4836,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid dfb7f798-daec-4813-8c8e-49c962a9b7a9)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 28.0648 256.286 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "ADC_DRDY_N" (shape output) (at 283.718 71.628 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e32a70d5-eeb8-4a8e-94a0-0f146dae9a9f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 268.9399 71.628 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -4832,7 +4897,7 @@
     (property "Datasheet" "" (at 34.036 241.046 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1bd79d81-8dbc-4e9b-8994-939a8269bd31))
+    (pin "1" (uuid 65555064-16af-4e5d-9a12-f51b85122717))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -4866,8 +4931,8 @@
     (property "DIGIKEY" "" (at 195.072 187.706 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8dd7a114-748d-4dda-9f37-6d7d3e387ce6))
-    (pin "2" (uuid 55d8d82b-2faa-4084-8644-8b83fc6f290b))
+    (pin "1" (uuid cac27530-1f6f-44d9-961b-80273d3ecebb))
+    (pin "2" (uuid 213b6c8e-4e4e-449f-97c8-c9f64b3e547b))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -4901,8 +4966,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 70.358 43.942 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b2569d7f-c3f8-4da7-8e32-7221019b337f))
-    (pin "2" (uuid 04c4ec21-95a0-4b55-b25f-46057d6afcca))
+    (pin "1" (uuid 3c90ecf2-4ccf-4360-9bd6-b78ad0771575))
+    (pin "2" (uuid 40d9c869-fd77-4839-9c1e-8407fb484908))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -4963,8 +5028,8 @@
     (property "MPN" "CL05A105KA5NQNC" (at 107.188 54.102 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63e861a8-ca9f-4088-bd67-826517509715))
-    (pin "2" (uuid 48d2a6b2-a362-4b80-90c5-f2e5c596c6ac))
+    (pin "1" (uuid 4f872bf6-cacf-47c5-b427-44f84cfb381f))
+    (pin "2" (uuid e1ac0e3e-386b-483d-bd69-0b56aa9e1227))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -4989,7 +5054,7 @@
     (property "Datasheet" "" (at 195.961 131.572 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4fb640b5-ffa7-4dc7-a617-e0ee1499c367))
+    (pin "1" (uuid f064b9ac-71e2-4bd1-b1df-e3c76b25de3d))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5014,7 +5079,7 @@
     (property "Datasheet" "" (at 58.928 47.752 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0aa63862-adf0-40ed-8ab6-9bf5400911b9))
+    (pin "1" (uuid 7f60c78f-c625-4ba8-9c09-d950dc6840ad))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5039,7 +5104,7 @@
     (property "Datasheet" "" (at 183.134 183.896 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63fbcead-51a4-4ad4-8dc3-46b77e99034c))
+    (pin "1" (uuid 7c29f965-ec41-4066-9fcf-8650f5d922f0))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5070,8 +5135,8 @@
     (property "MPN" "0805W8F0000T5E" (at 278.13 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 498b45fa-8027-4d9c-a06d-1731be7343b2))
-    (pin "2" (uuid 8c21ad79-4728-4aea-a0bf-961d3a49e673))
+    (pin "1" (uuid b93fdad0-3408-40c0-aa12-45135a7b794b))
+    (pin "2" (uuid c6352c77-2fe7-452b-b9cd-bba08e9ca422))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5096,7 +5161,7 @@
     (property "Datasheet" "" (at 83.058 38.862 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2e85603f-54d4-44a4-88f5-b6effc807d03))
+    (pin "1" (uuid d9dc34dc-1810-4b7f-9cf1-e2def59baebf))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5106,22 +5171,22 @@
     )
   )
 
-  (symbol (lib_id "Phobri64:S_GND") (at 166.751 267.208 0) (unit 1)
+  (symbol (lib_id "Phobri64:S_GND") (at 166.37 267.208 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a7662cd-2d00-4851-b434-a51bb1564a93)
-    (property "Reference" "#PWR024" (at 166.751 273.558 0)
+    (property "Reference" "#PWR024" (at 166.37 273.558 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "S_GND" (at 166.751 271.018 0)
+    (property "Value" "S_GND" (at 166.37 271.018 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 166.751 267.208 0)
+    (property "Footprint" "" (at 166.37 267.208 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 166.751 267.208 0)
+    (property "Datasheet" "" (at 166.37 267.208 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f3f9c924-eefb-495d-8747-eda4413de3c1))
+    (pin "1" (uuid 21c852d5-ef30-46c5-b48d-f19700091a17))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5146,7 +5211,7 @@
     (property "Datasheet" "" (at 344.678 122.936 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db484a42-24a2-4a58-8078-535e2d9e60c3))
+    (pin "1" (uuid e5bfc84b-f225-45e6-b000-78d116d05532))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5198,7 +5263,7 @@
     (property "Datasheet" "~" (at 117.348 150.622 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db1de64c-df37-4c91-87f2-aee8dd0ee081))
+    (pin "1" (uuid f50bd94c-5cdb-473c-9a54-ec78df1eb401))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5232,16 +5297,16 @@
     (property "MPN" "5034801000" (at 107.95 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4188a3a3-2b18-4f7b-9e6e-3dfe16ee59c0))
-    (pin "10" (uuid a72a7864-4252-4d91-84bd-380b6dd10f14))
-    (pin "2" (uuid 6c16c120-cc6e-4da3-98f8-3377d73eae66))
-    (pin "3" (uuid ff07d60b-fc48-402d-b99d-ddce44411242))
-    (pin "4" (uuid 354ed134-4278-4a4a-b51f-1ac27427096a))
-    (pin "5" (uuid ed85d5c2-dd60-4d17-8a87-0b7c2bb906d3))
-    (pin "6" (uuid 1652094e-f2d5-40bb-a8a3-22c6766ed1aa))
-    (pin "7" (uuid 1a420268-1700-4253-9642-981aba0c49fa))
-    (pin "8" (uuid 33c6d895-9959-441c-a070-48da18509262))
-    (pin "9" (uuid 565ce696-cbc9-4015-89d7-ab1454fe5dd7))
+    (pin "1" (uuid 88acea01-7162-4a51-8485-bbe6a5c77b40))
+    (pin "10" (uuid e503bacd-ca93-4b2f-b4f4-78526f5564c2))
+    (pin "2" (uuid ef3b5f17-0af7-45fa-9a5a-a8517075ec64))
+    (pin "3" (uuid 8d7efcce-62a1-4647-883d-f7215c9d5597))
+    (pin "4" (uuid 91d67293-d205-47f5-9647-ff6b5b17461b))
+    (pin "5" (uuid 60f752e2-b77d-461a-8e7d-3c2cc229f45a))
+    (pin "6" (uuid ce4cc464-cd15-4ec4-9b08-ee3915f077c8))
+    (pin "7" (uuid 17547a97-d59d-4194-a3e5-4fb154a0eb19))
+    (pin "8" (uuid e244e7f1-7bdf-406a-b04f-be2a5f648c08))
+    (pin "9" (uuid 63364586-cf52-4fe5-b2c4-cb00e583212e))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5275,8 +5340,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 34.036 237.236 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a03fcd4f-20e9-43cb-9f1b-1634981055ad))
-    (pin "2" (uuid 22c3faa6-d678-4017-88f2-83a104dc5278))
+    (pin "1" (uuid 14a9edec-f4ba-4658-92a2-0316554d3998))
+    (pin "2" (uuid f7db411a-6e32-45c6-828b-051315d9a3fa))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5310,8 +5375,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 157.988 42.672 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0d114d7a-4176-43da-bfac-4f895c3b0080))
-    (pin "2" (uuid 3b233de3-1ae1-4297-8c22-eda95db21bf2))
+    (pin "1" (uuid 8aad8eac-9731-44b0-95b4-e34ef0da5b13))
+    (pin "2" (uuid eae25537-f2a1-4abc-b6ad-0799a52da951))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5342,8 +5407,8 @@
     (property "MPN" "0805W8F0000T5E" (at 278.13 59.182 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7bfb544c-26a9-4928-91d8-936bb9347ae8))
-    (pin "2" (uuid b5729c72-8f5b-4d8a-8759-8193ec5a568a))
+    (pin "1" (uuid 0f75d44f-dd8a-4e29-add2-1a3471fe23e1))
+    (pin "2" (uuid 28a2b4c1-b965-4937-9b54-eca23842e3c2))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5377,8 +5442,8 @@
     (property "MPN" "TAJB476K010RNJ" (at 306.832 128.397 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fe67d43a-feda-420b-bedb-8f044831b3cb))
-    (pin "2" (uuid 92d3786a-e4d0-4577-835b-0c6d08ec4b39))
+    (pin "1" (uuid e1380227-9bc2-4854-8536-a2840511d675))
+    (pin "2" (uuid 45cb8dbb-b71d-4988-ad81-d223ba5232bb))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5403,7 +5468,7 @@
     (property "Datasheet" "~" (at 266.192 37.846 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ac8c544f-4b57-441e-ad65-78a838c22fb5))
+    (pin "1" (uuid e68cada8-c71a-4a87-822a-4b9213d1ad2e))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5437,8 +5502,8 @@
     (property "DIGIKEY" "" (at 175.387 234.188 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3b030f97-489e-42d0-bf70-dc58e38dbf3b))
-    (pin "2" (uuid 484b9d90-24ea-4938-9db0-8864c39453c4))
+    (pin "1" (uuid 6266c253-e46d-419a-abdc-c9f1010aa4f3))
+    (pin "2" (uuid a328de04-1b40-4428-85d6-e675f157a0ec))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5493,10 +5558,10 @@
     (property "DIGIKEY" "" (at 163.576 194.691 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f49c4998-7aca-4d38-8c2a-2b53a55f877e))
-    (pin "2" (uuid 77a0dbb1-155f-488f-ae19-c0de768daede))
-    (pin "3" (uuid 000c5724-cab7-40e0-95ea-750b6ec36ea6))
-    (pin "4" (uuid f5520aab-2573-435b-96d5-2884fc2d8700))
+    (pin "1" (uuid b0d04409-fa79-456c-84e1-4878599c716f))
+    (pin "2" (uuid fe3cc31e-05cc-4620-a2e8-fc9e31bf94d2))
+    (pin "3" (uuid b9e53e4b-42bf-4587-9266-35279f22752c))
+    (pin "4" (uuid 4640bace-c069-4160-93c6-064d5ad98f58))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5521,7 +5586,7 @@
     (property "Datasheet" "" (at 51.181 223.901 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 841e88ba-66ef-438d-84c0-540f6d3329af))
+    (pin "1" (uuid 89a97660-62ed-48e2-98db-70877b3f34a8))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5546,39 +5611,11 @@
     (property "Datasheet" "" (at 396.24 130.048 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a13bbaa6-5bcd-4182-8892-815fea7f4914))
+    (pin "1" (uuid 1bd607df-2bb4-407b-9f3b-3765a21f5d00))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
           (reference "#PWR053") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 122.809 246.507 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 1a57eb97-349d-4d96-8da5-b3c7aeccbbb5)
-    (property "Reference" "TP8" (at 124.333 248.539 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 124.841 247.9201 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 122.809 251.587 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 122.809 251.587 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DIGIKEY" "" (at 122.809 246.507 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6d4b02e4-01f1-4aa4-9c2f-3d5ab688b3b6))
-    (instances
-      (project "Phobri64"
-        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
-          (reference "TP8") (unit 1)
         )
       )
     )
@@ -5608,8 +5645,8 @@
     (property "MPN" "RC0402FR-0727RL" (at 50.038 73.152 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 02f9e3e8-1b83-47e4-b476-9aa4ab747047))
-    (pin "2" (uuid 614daf2a-e0ba-4159-9b0c-3685f4d945af))
+    (pin "1" (uuid 40b61a87-c08e-46c2-a098-8b0b0c6ace01))
+    (pin "2" (uuid f82b80c4-f296-4f9e-8bd8-45f50674b5b1))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5661,7 +5698,7 @@
     (property "Datasheet" "" (at 34.671 192.786 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d077266e-6261-404f-bfd4-577cbbb8151f))
+    (pin "1" (uuid 457b89d0-c110-45ee-8763-ef2c3b0017b8))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5686,7 +5723,7 @@
     (property "Datasheet" "" (at 318.262 99.822 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d3e17b18-c496-401f-a3ab-54235b23c368))
+    (pin "1" (uuid 48683d12-f7e6-4909-b5e0-151ddf3f4256))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5711,7 +5748,7 @@
     (property "Datasheet" "~" (at 242.062 96.266 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 61e65391-1024-4ab1-a63d-f7711cfc6eee))
+    (pin "1" (uuid b8feb758-42dc-4002-b40b-0c9b84234b4e))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5745,8 +5782,8 @@
     (property "MPN" "PTFR0402B1K00P9" (at 122.809 242.697 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2b259333-fba8-4f3b-92a9-a0909c5cc85e))
-    (pin "2" (uuid a88e17be-5cca-412c-b21e-31831342e98c))
+    (pin "1" (uuid 4fbe6397-4bd3-4980-9bf9-50128bc500d0))
+    (pin "2" (uuid fa8c5130-e32f-42ec-9c35-8c573fad765a))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5771,7 +5808,7 @@
     (property "Datasheet" "~" (at 242.062 65.786 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cdfd794a-4967-470f-aece-4c8796a0312e))
+    (pin "1" (uuid 353b2e05-715e-4623-9f11-6465a0e6210c))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5796,7 +5833,7 @@
     (property "Datasheet" "~" (at 209.042 45.466 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 53dd0c7c-c1e6-4d72-9eb0-28ad1e250f97))
+    (pin "1" (uuid f4b87a59-379e-4122-859c-4317c122c736))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5827,31 +5864,31 @@
     (property "MPN" "24PLT-H10.5" (at 325.882 59.182 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A1" (uuid 74a1eff2-dbfd-4244-824a-4f135d2c582b))
-    (pin "A10" (uuid a98130d0-280a-4d37-a890-05d8e811dd73))
-    (pin "A11" (uuid ea6e2f2b-20f4-465b-baec-0c53023b9e65))
-    (pin "A12" (uuid 7d3864d4-b5fd-4346-abf0-a274f3caf9ef))
-    (pin "A2" (uuid cd39d509-e0ee-470a-b7b6-58d78583c127))
-    (pin "A3" (uuid 6443685c-c894-4b13-93cb-c7eeb9cd6fd6))
-    (pin "A4" (uuid 4b328b17-b00b-4db5-8883-064e98111a3d))
-    (pin "A5" (uuid f8836356-c412-40b1-aa5e-c49803af12f5))
-    (pin "A6" (uuid fa8bd79b-a8cf-4b10-87ba-108dbc965ed5))
-    (pin "A7" (uuid 7f3c2fcc-25df-454d-8aae-0d0b2c0a3efd))
-    (pin "A8" (uuid 7c3031ad-2341-4544-88f8-f57ccdc4d2d8))
-    (pin "A9" (uuid c1e9dd67-fd19-406b-99b6-16e550125fff))
-    (pin "B1" (uuid 9e8bdb81-ee85-4bb4-a476-b37fca27842c))
-    (pin "B10" (uuid 9ffcb147-810b-4879-832f-db1858eebbcc))
-    (pin "B11" (uuid cc472b72-0883-4881-b431-31380684e9a1))
-    (pin "B12" (uuid 23bff814-86ed-47c8-8ce9-08b31f07742b))
-    (pin "B2" (uuid 705c33ba-69e4-41a0-9303-66d943b8b77c))
-    (pin "B3" (uuid feaf4bb5-0278-424b-a25c-dc100a036281))
-    (pin "B4" (uuid 82e48b36-2ef7-433e-bbcd-b4e12430e1a7))
-    (pin "B5" (uuid a9d6d3ba-aca9-497a-8b1e-849f44181a01))
-    (pin "B6" (uuid 8110c4e3-a3d1-4136-82a6-376e2581e82d))
-    (pin "B7" (uuid fc21732e-29bb-422e-97df-07997cdd8d0e))
-    (pin "B8" (uuid ef05ddd2-3d84-407f-8b9a-86a4b40c4baf))
-    (pin "B9" (uuid bcc33fe0-4d69-4355-ac1e-4e15b0d045b8))
-    (pin "S1" (uuid 367be5fc-fd46-45c2-b96c-815465ae710e))
+    (pin "A1" (uuid 785ebc18-6395-4fe2-96b9-7833bbda69aa))
+    (pin "A10" (uuid a013fdb8-207b-4b82-9c00-ae5cb6420cd8))
+    (pin "A11" (uuid 325bf24d-279e-4b8b-a611-7f25d5d3cc77))
+    (pin "A12" (uuid ca20975a-c6fa-4575-903b-2e899bb2c303))
+    (pin "A2" (uuid 68b44484-1a66-4415-8690-4c08d6f83a1a))
+    (pin "A3" (uuid 4d201b06-62db-48d8-951e-5b2d70461411))
+    (pin "A4" (uuid f9294e2d-6cab-4062-b789-111c10031a93))
+    (pin "A5" (uuid 6613fa71-83e4-48fc-b170-1bf69bd8e0e9))
+    (pin "A6" (uuid 3221f023-9304-4198-843e-91b3373d2a84))
+    (pin "A7" (uuid bfe2461f-239c-47f2-a983-70a74cce89d2))
+    (pin "A8" (uuid 85493964-f1fa-4584-83f7-262a4ed98370))
+    (pin "A9" (uuid 20022139-bc33-44f5-bcdc-acd3951ffcec))
+    (pin "B1" (uuid 05f0df1f-971d-4344-a453-58818a65b251))
+    (pin "B10" (uuid b05bfe27-a5fa-4df1-9d73-5ec1c2adb975))
+    (pin "B11" (uuid 31b7fdad-559b-466e-8287-f03bfaaec68b))
+    (pin "B12" (uuid 75a2b2a8-b848-4b81-b011-88e91c4711fa))
+    (pin "B2" (uuid 5756a5e2-59f5-4b70-91cb-13dd4373fb4e))
+    (pin "B3" (uuid aa705628-e971-43e3-827d-dcdd739d4eee))
+    (pin "B4" (uuid 230a7430-6839-4241-9e3b-f2ae95b85de4))
+    (pin "B5" (uuid ea3ecd60-5040-4de9-ae87-4e816d5b5df8))
+    (pin "B6" (uuid 57a619da-5637-44e9-920c-f94c1d6e7621))
+    (pin "B7" (uuid a13c6c04-bede-4f19-9694-489fdc10fc83))
+    (pin "B8" (uuid 4fc9d931-1c36-40c2-b6ee-59c62df5ac72))
+    (pin "B9" (uuid 6b53d214-a97f-43e5-a79e-b8cf3567c86a))
+    (pin "S1" (uuid 7a200261-9e1a-41b0-a08f-4edfd759ba1a))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5876,7 +5913,7 @@
     (property "Datasheet" "" (at 238.506 153.162 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 02e5942c-61ca-4bce-aded-8632a552fec6))
+    (pin "1" (uuid 1e769512-e4a5-4391-95f7-987b8ab4beb5))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5901,7 +5938,7 @@
     (property "Datasheet" "~" (at 88.138 20.574 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 85e1849d-0ba5-4203-8497-a2280c4cca87))
+    (pin "1" (uuid ebc99f65-88e2-4a68-b640-247322e61834))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5926,7 +5963,7 @@
     (property "Datasheet" "" (at 351.282 136.652 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b889e00e-f456-4d87-bed6-fbf05142bd4c))
+    (pin "1" (uuid 40b30782-9dd7-4165-b50c-375205f3acad))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5951,7 +5988,7 @@
     (property "Datasheet" "~" (at 195.58 45.466 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d4f6e759-e656-421d-8d6d-f035ab3ea2d8))
+    (pin "1" (uuid b4ee3b94-fab9-4c7d-9a83-0184d29042f5))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -5985,8 +6022,8 @@
     (property "DIGIKEY" "" (at 177.546 191.516 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7626d2b-9cf6-4874-baad-069bc6059dd4))
-    (pin "2" (uuid fa960c8d-7ba2-49f9-bfff-6f7a803480a1))
+    (pin "1" (uuid 4e69cbd5-96d1-49c8-96b9-6901f34ac71e))
+    (pin "2" (uuid bc00f610-b152-4dd3-bb76-bb691213ed3e))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6020,8 +6057,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 132.588 28.702 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5741f445-3d56-48e6-9590-f24f2fa871d0))
-    (pin "2" (uuid 3949c1b4-1317-4ed2-8e13-3d7460328aba))
+    (pin "1" (uuid 67fe18ce-a0fa-4fcd-92a3-bcf13a467636))
+    (pin "2" (uuid 9379243b-daa6-424c-8761-6f9e596392e8))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6046,7 +6083,7 @@
     (property "Datasheet" "~" (at 236.0168 146.812 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d4f01c38-149c-47d8-a2ed-3164780fd391))
+    (pin "1" (uuid 644528bd-34ba-4b56-92b9-a2fe54e2b853))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6071,7 +6108,7 @@
     (property "Datasheet" "" (at 325.882 99.822 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 49bde4af-afa1-442e-8be1-c2d38397b927))
+    (pin "1" (uuid 54e1e550-359b-4fff-95b6-d0e0d73af3c7))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6099,9 +6136,9 @@
     (property "DIGIKEY" "" (at 288.798 35.306 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fff8e70d-a1a8-44cf-bff8-6ea2914d780a))
-    (pin "2" (uuid b96d0ce7-f016-4e77-a2cc-e97201cf21aa))
-    (pin "3" (uuid fcac411b-6bd4-4384-8359-8e65e157726a))
+    (pin "1" (uuid a76ab0b3-6afc-41fd-86e3-19bf5822cd62))
+    (pin "2" (uuid c679231e-dbee-472d-bc28-aeaf6264f8ad))
+    (pin "3" (uuid 586c88e4-2c7f-493c-80eb-61cac0bf4892))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6126,7 +6163,7 @@
     (property "Datasheet" "" (at 122.809 237.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7cb2f203-a4e2-47e5-a7f4-0a47e1eceeb5))
+    (pin "1" (uuid d92b9a6c-fa85-4227-8eb9-8bdc4792f709))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6160,8 +6197,8 @@
     (property "DIGIKEY" "" (at 183.134 201.676 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 874d45d2-021e-424b-af09-a3b83f818649))
-    (pin "2" (uuid 934b0b31-5e4d-4c3c-acde-c043f7486c01))
+    (pin "1" (uuid a2cbd55e-42bd-4cbf-a71f-72bc2c272c17))
+    (pin "2" (uuid 83a30316-0849-4145-af64-68edd3f2f40c))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6171,22 +6208,22 @@
     )
   )
 
-  (symbol (lib_id "Phobri64:S_GND") (at 120.65 185.42 180) (unit 1)
+  (symbol (lib_id "Phobri64:S_GND") (at 113.03 185.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ed8997b-3302-41ac-8ac0-609df017cd18)
-    (property "Reference" "#PWR016" (at 120.65 179.07 0)
+    (property "Reference" "#PWR016" (at 113.03 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "S_GND" (at 120.396 181.356 0)
+    (property "Value" "S_GND" (at 112.776 181.356 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 185.42 0)
+    (property "Footprint" "" (at 113.03 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 120.65 185.42 0)
+    (property "Datasheet" "" (at 113.03 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7efe11fd-7cbe-4ef2-afcf-9c0c97ed6b10))
+    (pin "1" (uuid e882c2fe-1fa9-47ec-861c-44e9f9c23f38))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6211,7 +6248,7 @@
     (property "Datasheet" "~" (at 78.486 38.862 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c20434ec-5e11-4a01-9cb0-0415b919cdb8))
+    (pin "1" (uuid 9c207ff6-d63e-4fb5-9fb8-ddf46449a671))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6236,7 +6273,7 @@
     (property "Datasheet" "~" (at 117.348 92.202 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 94c84b2b-9f9b-4dbd-ac95-e0c5319dc78e))
+    (pin "1" (uuid 2350e088-63c2-499b-8044-3c9a8f1d3b3b))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6270,8 +6307,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 132.588 42.672 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a27b6978-09a2-4aaa-a924-d11d30bfd236))
-    (pin "2" (uuid dc51d1a0-a46a-457b-a7f8-92ad99d79061))
+    (pin "1" (uuid ef373d90-9c42-4973-8865-569d1e9cc2f7))
+    (pin "2" (uuid e5c27d39-d00f-443f-9550-1a9b0c90d3e9))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6305,8 +6342,8 @@
     (property "DIGIKEY" "" (at 188.976 201.676 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6061c75e-2f34-4aba-b3db-14a755154f0f))
-    (pin "2" (uuid 58347bd6-7fa0-4a61-b8d6-8740e913e7a9))
+    (pin "1" (uuid 113c668b-fe30-464f-b8c2-dc0a19b51c01))
+    (pin "2" (uuid 9f38dc5f-f6c7-41e8-9980-c32fc893964b))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6316,22 +6353,22 @@
     )
   )
 
-  (symbol (lib_id "Phobri64:+S_3V3") (at 121.92 196.215 270) (unit 1)
+  (symbol (lib_id "Phobri64:+S_3V3") (at 113.03 200.66 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36fad313-9023-4227-8c33-797141f3ca9d)
-    (property "Reference" "#PWR018" (at 118.11 196.215 0)
+    (property "Reference" "#PWR018" (at 109.22 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+S_3V3" (at 128.27 196.215 90)
+    (property "Value" "+S_3V3" (at 119.38 200.66 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 121.92 196.215 0)
+    (property "Footprint" "" (at 113.03 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 121.92 196.215 0)
+    (property "Datasheet" "" (at 113.03 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a13347ea-cfc2-4760-a120-24e3781eb307))
+    (pin "1" (uuid 1a2e8646-dacb-4cc7-a580-e95570e9c230))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6341,40 +6378,40 @@
     )
   )
 
-  (symbol (lib_id "Phobri64:ADS7142IRUGR") (at 166.751 252.222 0) (unit 1)
+  (symbol (lib_id "Phobri64:ADS7142IRUGR") (at 166.37 252.222 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 380a1373-a864-4689-8b13-793de3354497)
-    (property "Reference" "U4" (at 178.181 263.652 0)
+    (property "Reference" "U4" (at 177.8 263.652 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "ADS7142IRUGR" (at 185.293 266.065 0)
+    (property "Value" "ADS7142IRUGR" (at 184.912 266.065 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "Phobri64:RUG0010A" (at 166.751 252.222 0)
+    (property "Footprint" "Phobri64:RUG0010A" (at 166.37 252.222 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads7142.pdf" (at 166.751 252.222 0)
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads7142.pdf" (at 166.37 252.222 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "DIGIKEY" "296-50464-2-ND" (at 166.751 252.222 0)
+    (property "DIGIKEY" "296-50464-2-ND" (at 166.37 252.222 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C2669859" (at 166.751 252.222 0)
+    (property "LCSC" "C2669859" (at 166.37 252.222 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "ADS7142IRUGR" (at 166.751 252.222 0)
+    (property "MPN" "ADS7142IRUGR" (at 166.37 252.222 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 00333272-567f-42ab-8fb2-d64d7d75b76e))
-    (pin "10" (uuid 7d356b02-3d77-4ee7-b110-73944fb123a5))
-    (pin "2" (uuid 1eeee0d5-1f57-4e10-8808-eb85ba8bccfb))
-    (pin "3" (uuid 29fa3672-6bd3-4098-ab6e-ca91edf570a7))
-    (pin "4" (uuid e2eb84ea-b90c-490f-a76d-8f759a7b580c))
-    (pin "5" (uuid 43a6788d-1e60-43c2-ab5e-b485b35abb8c))
-    (pin "6" (uuid 00e6328b-4165-4bba-a034-88009be773e8))
-    (pin "7" (uuid dd55c934-7603-4b7a-a297-319ebd4476f4))
-    (pin "8" (uuid 41addcc5-725f-4835-a74f-41eef5219d2c))
-    (pin "9" (uuid a823eccb-7f9f-4e9a-bd37-94f9c13484fe))
+    (pin "1" (uuid f889f53d-4b30-4e99-a1d3-78e2ed9b5a19))
+    (pin "10" (uuid 0730b103-5d4e-4b0a-883f-1e6c9686270d))
+    (pin "2" (uuid 8c7d1e80-7954-457d-acd6-ad8f4103c776))
+    (pin "3" (uuid cdf26d08-27bc-4052-b99b-3cdae6f22ac3))
+    (pin "4" (uuid 4c8bd291-57f5-4190-b24d-03ef5f93da33))
+    (pin "5" (uuid 388c2e5b-df2e-4e4e-b3ee-2a118ed88b56))
+    (pin "6" (uuid 4f31dccb-755f-4c10-a3a9-60655bc40c21))
+    (pin "7" (uuid 93d168e8-eb54-4ddf-83e3-e0fede763c7e))
+    (pin "8" (uuid 0c6931c9-699d-4f81-bb86-0778caed104e))
+    (pin "9" (uuid 5c54a3bd-0032-49dd-ac9e-4311f96fbb1f))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6399,7 +6436,7 @@
     (property "Datasheet" "~" (at 282.194 28.702 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3fe0e45-aee3-4cd2-aa26-b79b398f4bf7))
+    (pin "1" (uuid 3a31575b-ecb1-4fa1-b20f-9439695ae6d8))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6427,8 +6464,8 @@
     (property "DIGIKEY" "" (at 196.85 75.946 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f201b4cd-24e6-4800-845f-6217e0b21a68))
-    (pin "2" (uuid 7f994766-eb3e-4674-8289-ef99050df83b))
+    (pin "1" (uuid 24a5b370-8dc1-49fd-b458-ee5258d16ddd))
+    (pin "2" (uuid 09a49beb-2c13-479f-a8ff-55c912320079))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6453,7 +6490,7 @@
     (property "Datasheet" "~" (at 229.362 75.946 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c791ddb-718d-4fb2-a01e-ff587f1b5852))
+    (pin "1" (uuid 0b52f3d0-225d-4449-a0f8-3afdc810afc8))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6478,7 +6515,7 @@
     (property "Datasheet" "" (at 99.568 23.622 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d8b2814c-e8ee-499f-95fa-6721ef1058c7))
+    (pin "1" (uuid 40132931-8ead-482b-b793-88ab36744576))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6539,8 +6576,8 @@
     (property "DIGIKEY" "" (at 157.861 234.188 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 84876119-78dc-41ec-a33d-9fd41c5a92da))
-    (pin "2" (uuid 78327a0e-022f-4686-b9e9-48f3522e7483))
+    (pin "1" (uuid f1953d17-b4bc-4035-9a78-70b94c3727f5))
+    (pin "2" (uuid 023e1c39-3ff8-4473-b875-4f6969db5700))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6565,7 +6602,7 @@
     (property "Datasheet" "~" (at 273.812 45.212 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 79e6ce59-a224-42d4-99fe-0f0d7e5d336f))
+    (pin "1" (uuid e7579e46-f3e7-4b2a-b6d2-b6b25fa0386d))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6590,7 +6627,7 @@
     (property "Datasheet" "~" (at 195.834 55.626 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 115ce51a-7602-4ece-ad4b-c074c6b1cc65))
+    (pin "1" (uuid e98c227a-f625-4e14-9d77-dda452266f48))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6624,12 +6661,12 @@
     (property "MPN" "USBLC6-2P6" (at 372.745 95.885 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 494e765e-190b-4ac8-b395-1092ac7da4c1))
-    (pin "2" (uuid 0bfb063f-2296-42c8-acdf-f3913a5482d9))
-    (pin "3" (uuid 392c4ca3-77fd-493a-999e-d50aca669635))
-    (pin "4" (uuid 463b7e90-e5ab-43e1-b080-125a49117324))
-    (pin "5" (uuid fb6ec2e3-49c5-4324-bd07-3185ef0c105a))
-    (pin "6" (uuid 51b559e7-ed20-4bb0-adca-03503104d002))
+    (pin "1" (uuid 13cd20c8-b3c6-4046-968b-958c1e7179ff))
+    (pin "2" (uuid 1114d653-9ccb-410f-952c-d2314f5221f3))
+    (pin "3" (uuid a25a5cc3-4882-45fd-884e-920c89613389))
+    (pin "4" (uuid 9ea2b899-f466-40bb-a208-c795592c7c61))
+    (pin "5" (uuid cf853b8c-9438-495a-9435-51fde624efb8))
+    (pin "6" (uuid ece4cf06-313b-4ea3-bc55-288f0a78592b))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6657,8 +6694,8 @@
     (property "DIGIKEY" "" (at 229.87 86.106 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 512ad963-a4ab-4e6d-8183-c6e7bfaedf6b))
-    (pin "2" (uuid 26262a2e-8f21-4005-b0d7-646b4885aa9f))
+    (pin "1" (uuid 4c6932cd-4df2-49c3-a00a-82473c476ff3))
+    (pin "2" (uuid d81fafac-4cf1-4b5b-b684-99d3f501a6c4))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6692,8 +6729,8 @@
     (property "MPN" "CUS10S30,H3F" (at 332.232 144.272 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b78155c4-9238-4457-8b9b-4b7dcc6ab375))
-    (pin "2" (uuid 00d36cd2-b211-473e-9cd9-87bb6ff857e7))
+    (pin "1" (uuid a9845160-a79e-408f-8e29-ac04e95226ec))
+    (pin "2" (uuid 8e1e64f3-44ab-4281-8723-db1b8cea0f3f))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6721,40 +6758,12 @@
     (property "DIGIKEY" "" (at 196.85 45.466 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e183b2e3-5dc1-4c6e-9e1b-495e96bbfae7))
-    (pin "2" (uuid 3c984f3b-8959-4e78-90c7-f7b1eb4cce28))
+    (pin "1" (uuid 0945b55d-a7c1-452c-8a05-9a56d0914508))
+    (pin "2" (uuid d75930d7-d178-41d2-921b-b5724ee4be65))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
           (reference "SW2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 117.094 221.234 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid 4a4c7068-7ee9-43c7-b175-af5a11469d72)
-    (property "Reference" "TP9" (at 121.285 221.234 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 119.126 222.6471 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 117.094 226.314 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 117.094 226.314 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DIGIKEY" "" (at 117.094 221.234 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dac73fb4-7fde-4f7b-a06e-8d43424500c6))
-    (instances
-      (project "Phobri64"
-        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
-          (reference "TP9") (unit 1)
         )
       )
     )
@@ -6784,8 +6793,8 @@
     (property "MPN" "PTFR0402B1K00P9" (at 105.791 242.697 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bc135536-c75e-44de-9975-0832a6497790))
-    (pin "2" (uuid 5ec9d6b4-7139-4af6-a8b1-728f757f8cce))
+    (pin "1" (uuid 39cff253-8ef3-4d08-af4e-4dfd015baa24))
+    (pin "2" (uuid 30019185-ead0-47fc-be65-c41baebc7f3a))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6813,9 +6822,9 @@
     (property "DIGIKEY" "" (at 288.798 45.212 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d6aa6a46-5582-4921-818d-5d1f91591801))
-    (pin "2" (uuid f3c86620-23e5-4904-be4c-bc523eaa2102))
-    (pin "3" (uuid 1433f22d-5050-40a8-abe2-fb4485eeefe1))
+    (pin "1" (uuid 99bd7d9c-f321-48da-a8bb-f7a25fc8f58a))
+    (pin "2" (uuid f7e60194-4f69-468e-9635-879dc68b5bd5))
+    (pin "3" (uuid 1d75983c-6e3a-4b6a-9647-a72201355351))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6849,8 +6858,8 @@
     (property "DIGIKEY" "" (at 361.95 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 497b4449-02df-4fc6-aac3-8f580b56614c))
-    (pin "2" (uuid 17479f82-d4fb-47ef-8101-f7ead0ef759f))
+    (pin "1" (uuid 983271ca-43af-4b7e-b159-038226d26657))
+    (pin "2" (uuid 94686578-1fd8-4bda-8280-5eb3a0f765f1))
     (instances
       (project "uniphob_main"
         (path "/1c80a2ef-14b7-41e0-a360-7b658896bff6"
@@ -6885,7 +6894,7 @@
     (property "Datasheet" "" (at 283.718 76.708 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8ffcda3c-e050-48b1-b5bb-25b458a79d42))
+    (pin "1" (uuid d892e429-cffc-4aad-b288-d4959929fe5b))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6913,7 +6922,7 @@
     (property "DIGIKEY" "" (at 346.202 144.272 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c36808e-accc-405d-b38a-fb7c90b9cd4a))
+    (pin "1" (uuid 989d0adb-6166-4ee1-be1e-d0e07937af76))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6941,8 +6950,8 @@
     (property "DIGIKEY" "" (at 229.87 65.786 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 746f70d0-f7b0-4d65-85c1-5e743a150a57))
-    (pin "2" (uuid 4531ed0a-fb4e-4682-95fb-63494f537d14))
+    (pin "1" (uuid f55d836f-1342-431a-a30b-1a2a00c779ad))
+    (pin "2" (uuid 63617221-5383-4a65-a102-e3d9e57a707d))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -6976,9 +6985,9 @@
     (property "LCSC" "C2650803" (at 389.255 130.048 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a991e952-fda1-4f75-932f-45991a38d6d6))
-    (pin "2" (uuid a3a411fb-cced-4f3b-879b-e08f1766fdce))
-    (pin "3" (uuid 8570f652-e0ec-4a98-b8a1-47bdafc01cce))
+    (pin "1" (uuid 389b918f-9374-43e2-ab40-33dfa096f39f))
+    (pin "2" (uuid fa050b87-1ac7-4c72-8c3f-b823fc4f49a5))
+    (pin "3" (uuid c0655d94-3176-47a3-a5d9-8cd05a35a92b))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7003,7 +7012,7 @@
     (property "Datasheet" "~" (at 117.348 84.582 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2397e736-f768-420e-b91b-1131c105fde7))
+    (pin "1" (uuid 5651f0b9-3540-4447-98fd-0eb4680b27b8))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7028,7 +7037,7 @@
     (property "Datasheet" "" (at 88.138 25.654 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a824023b-7dde-45f1-a79d-81a9a149b04a))
+    (pin "1" (uuid dff22815-b2d3-409a-bc23-78196a785b27))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7053,7 +7062,7 @@
     (property "Datasheet" "~" (at 258.826 33.782 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 25da3bfd-25b0-46fa-ba78-2aa819186469))
+    (pin "1" (uuid e887663a-a621-4471-b400-2430c6bc0b0f))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7087,9 +7096,9 @@
     (property "MPN" "MCP1700T-3302E/TT" (at 315.722 144.272 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 31869a52-1ab7-4f90-be66-9033c812be24))
-    (pin "2" (uuid 90ee96fa-e0ee-443b-8ca3-bc389714c86a))
-    (pin "3" (uuid 1c171fe5-ba9f-4f41-bf51-7b711173eb6b))
+    (pin "1" (uuid fbf897d4-cbf4-49f5-a577-abf86b6d3922))
+    (pin "2" (uuid e9a27711-0b4e-4105-8dc4-8e6ab653bbed))
+    (pin "3" (uuid 32425e71-6e42-4359-9100-06ea82e3707e))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7114,7 +7123,7 @@
     (property "Datasheet" "~" (at 68.326 25.146 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2feb6dfb-804b-4df1-9485-e916de757a37))
+    (pin "1" (uuid f26510a5-7476-4158-ae7d-c865e29ab884))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7142,8 +7151,8 @@
     (property "DIGIKEY" "" (at 196.85 96.266 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1bba18b8-3e67-4ac3-80db-ac2966025215))
-    (pin "2" (uuid fb45be96-afee-44aa-befa-fcab8abc24d3))
+    (pin "1" (uuid 06c12460-aee9-49c4-97bd-40bc6870371f))
+    (pin "2" (uuid ca566083-39d7-4eab-9f91-373a2d947bf9))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7177,16 +7186,16 @@
     (property "MPN" "5034801000" (at 288.798 74.168 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dc130a31-f357-48d8-a471-2b3dddbbe6d4))
-    (pin "10" (uuid cf3c6bc3-5161-447e-9fbf-59b1b788237e))
-    (pin "2" (uuid 77975010-35b5-4d88-8135-bdea5704f424))
-    (pin "3" (uuid d9f88676-a2c2-4052-9743-247567c1d55c))
-    (pin "4" (uuid dd90056b-8220-4315-b820-e713d73b5feb))
-    (pin "5" (uuid d5e2e225-4c4f-4c3f-9f19-14d4b9692c6a))
-    (pin "6" (uuid 10c67682-dcf5-49dc-80ad-687e74cce3b4))
-    (pin "7" (uuid b87b7e84-794b-43fc-b5e4-0e1b85dc4f1d))
-    (pin "8" (uuid e353680a-92c7-43e7-91bb-270a52ad5d0b))
-    (pin "9" (uuid a24d0b0d-734b-4e7c-a7ce-47d04979c5ef))
+    (pin "1" (uuid 6813ff72-84f9-4df8-b7b7-b0b642875e00))
+    (pin "10" (uuid aebd75c5-140a-47a1-89a5-6be5d2625a8a))
+    (pin "2" (uuid 1af0a843-9ca1-4c79-8b34-1702bf7dac2b))
+    (pin "3" (uuid 6a433bab-3191-4f77-95af-a84004674cb7))
+    (pin "4" (uuid 20db1b22-2d3c-47d4-92a0-6ab4b214b265))
+    (pin "5" (uuid 3dba7a95-6eb0-42a6-9753-f6ed48b5a90c))
+    (pin "6" (uuid 98124e14-50e1-4e61-8b05-f4e33957fd1a))
+    (pin "7" (uuid b426b8cf-e665-4dec-80a5-69f67f5d3c8d))
+    (pin "8" (uuid 3167fbd7-ed95-450c-8968-36f01df9653e))
+    (pin "9" (uuid 52af4d71-b32b-43a1-a9d7-c5c78d0a1bac))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7211,7 +7220,7 @@
     (property "Datasheet" "~" (at 117.094 221.234 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ba56c01c-92f8-43dd-b482-d6ab543b2496))
+    (pin "1" (uuid f4a9c84b-b175-4c94-848a-9667c434155b))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7236,7 +7245,7 @@
     (property "Datasheet" "~" (at 133.858 206.756 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d62cd0af-1eaf-4cb7-9fda-5b856a925f7e))
+    (pin "1" (uuid 2aedad81-df7e-4ed1-8bc6-28ae155469b1))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7270,8 +7279,8 @@
     (property "DIGIKEY" "" (at 188.976 187.706 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fe9c4837-9677-4277-94df-bfd62523fc44))
-    (pin "2" (uuid 0c649cc0-c07a-4e30-b72e-26085ac1d0f8))
+    (pin "1" (uuid 6a6e68f4-a0be-4105-acef-55ed903219b7))
+    (pin "2" (uuid 74e90657-c655-420c-9112-157af35cf506))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7296,7 +7305,7 @@
     (property "Datasheet" "~" (at 228.6 96.266 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c78c8d36-c1cd-40d6-a592-21e43745d43c))
+    (pin "1" (uuid d1efb604-8e28-422f-b393-5e9e8cec1890))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7330,8 +7339,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 34.671 188.976 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75b243f4-88e1-4207-b703-0c4a85300bc3))
-    (pin "2" (uuid 605429b4-7a40-4a63-95b3-92f40888b0e4))
+    (pin "1" (uuid 2332c521-5081-4bc9-9047-faa153f02e3d))
+    (pin "2" (uuid 51bfe0d3-9c36-4441-a4d8-05012442658c))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7356,7 +7365,7 @@
     (property "Datasheet" "" (at 306.832 124.587 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 84c9f284-a553-4fca-8c2d-493fa0f38d7b))
+    (pin "1" (uuid cae1ceca-8104-4848-a657-9ce7e2ab6cab))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7408,7 +7417,7 @@
     (property "Datasheet" "~" (at 114.808 24.892 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f3063e7f-6ea9-4ef5-bb7f-96915c9e3540))
+    (pin "1" (uuid 68b4c9de-42f2-4071-8932-b078b514f6ff))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7442,15 +7451,15 @@
     (property "MPN" "W25Q16JVUXIQ" (at 238.506 141.732 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ddd37bac-93a5-49ab-b4ac-f7afa4bf0e45))
-    (pin "2" (uuid 85ba413b-8338-440f-b3f5-d3db63f9b831))
-    (pin "3" (uuid 44131b80-c8d7-4781-9423-61e58d1196e4))
-    (pin "4" (uuid c43da92f-1516-42ef-ae5e-721ce08de1c2))
-    (pin "5" (uuid e8f7286b-4855-43e4-88c6-467478eec648))
-    (pin "6" (uuid bed7f6bf-fe48-41bb-ab1a-6e64716eda30))
-    (pin "7" (uuid b629436d-60aa-4f75-8143-4eeb01f914ab))
-    (pin "8" (uuid d314a244-a4ab-4235-868f-d4fffe2ea3e0))
-    (pin "9" (uuid ffe5f440-fd76-4ccd-b73f-396c4f817cfa))
+    (pin "1" (uuid 6b1d2b8b-4cf5-4362-bfcc-8beac3b4908c))
+    (pin "2" (uuid 87d40b54-2953-4c59-9a0a-ba91803a2f68))
+    (pin "3" (uuid cc57de49-33b9-4e13-b871-854145640a42))
+    (pin "4" (uuid 81b9c9b6-8f61-43be-83ce-9c90f26d5ab6))
+    (pin "5" (uuid 4b4f390e-3121-41e8-a522-9d59a9e2f5e3))
+    (pin "6" (uuid bbb2f8c1-dfd2-4dc2-b8f6-0088871eac81))
+    (pin "7" (uuid 7101ffb6-81c7-44a5-90a6-fe8145c06986))
+    (pin "8" (uuid d7b07351-e3cb-4e36-974d-bb597a684278))
+    (pin "9" (uuid 53d113fb-a07a-4b27-bbf0-8302467311bd))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7478,12 +7487,37 @@
     (property "DIGIKEY" "" (at 229.87 96.266 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 74abc523-2ed0-4b8d-971d-4729e08ab0fe))
-    (pin "2" (uuid 0706bf49-fd15-4080-9285-297a4d1ef3d3))
+    (pin "1" (uuid df304941-a13f-4cbf-a75c-910b5d948d10))
+    (pin "2" (uuid 7949aebc-915c-4145-a679-998cf220c1ca))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
           (reference "SW11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Phobri64:+S_3V3") (at 129.54 223.8756 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7093f0af-8085-4564-b882-222ff07ee6c9)
+    (property "Reference" "#PWR058" (at 133.35 223.8756 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+S_3V3" (at 125.984 223.8756 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 129.54 223.8756 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 129.54 223.8756 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4dfd58a7-0b03-4b4d-a876-b84a9548b54f))
+    (instances
+      (project "Phobri64"
+        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -7507,7 +7541,7 @@
     (property "DIGIKEY" "" (at 161.4424 101.092 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bac08630-e46f-4de6-a540-6a08ccb83958))
+    (pin "1" (uuid c05dfcd4-b14d-4718-a8bf-a876a83c2d64))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7541,8 +7575,8 @@
     (property "DIGIKEY" "" (at 195.072 201.676 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8f1ea547-949d-40a9-aef7-82479ddc1754))
-    (pin "2" (uuid bbb21f0b-9b56-46d7-976e-aa5d531bc750))
+    (pin "1" (uuid 5e763b36-65b0-410b-b3db-62032db8c103))
+    (pin "2" (uuid def7bc8a-16f4-47f5-8abb-d3fcf76887e4))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7576,8 +7610,8 @@
     (property "MPN" "PTFR0402B1K00P9" (at 137.414 65.532 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2c70a4b6-c3ba-431f-a75a-f1e27a5f9af2))
-    (pin "2" (uuid d7fe2d42-edf6-4417-804c-d7b1099b2f29))
+    (pin "1" (uuid 24e11999-191d-409b-ac5e-bb65c55a9502))
+    (pin "2" (uuid 5624f695-d9c7-49ee-8feb-07037389a433))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7602,7 +7636,7 @@
     (property "Datasheet" "~" (at 195.326 35.306 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 958c98f1-df3c-4fe3-bd69-8003811c7fcd))
+    (pin "1" (uuid 108b0eb4-6f3d-4918-8bfb-687ca9108eb4))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7654,7 +7688,7 @@
     (property "Datasheet" "~" (at 196.088 75.946 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 06e83123-9490-4edc-9ee2-f3e44d8e6a39))
+    (pin "1" (uuid a906704c-cf75-40db-8e17-33058f556e7b))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7679,7 +7713,7 @@
     (property "Datasheet" "" (at 137.414 61.722 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cbbe5a7e-2b23-46f9-a5a3-24b3845f1de6))
+    (pin "1" (uuid 4d719ffd-f08a-47bc-95dc-e1f72adb8861))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7704,7 +7738,7 @@
     (property "Datasheet" "~" (at 216.916 131.572 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4de45788-3de5-4d64-ab02-6c8656d0848f))
+    (pin "1" (uuid ed1e5422-1ca5-49ef-a6d7-fe8ab974c0e7))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7729,7 +7763,7 @@
     (property "Datasheet" "~" (at 284.988 43.688 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 69e9f090-5d37-446b-8ede-d00578eefef8))
+    (pin "1" (uuid a30f0fbb-ac54-4956-86ad-fae6c7f96120))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7754,7 +7788,7 @@
     (property "Datasheet" "" (at 283.718 64.008 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e1f31672-e593-497c-bf71-44304ae4a9cd))
+    (pin "1" (uuid 5024e1e3-4ef9-4c8c-bc3b-9c085c8bb626))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7779,7 +7813,7 @@
     (property "Datasheet" "" (at 166.751 234.188 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 36bc94d8-569a-4082-823b-f6f3611a6995))
+    (pin "1" (uuid e2f12c1e-816e-4740-9941-e37cffe553bf))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7804,7 +7838,7 @@
     (property "Datasheet" "" (at 68.326 30.226 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7427d251-8ab3-4eb0-9d66-e6c016c0281c))
+    (pin "1" (uuid 9e305a88-3036-44be-962e-41e1af6d408b))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7838,8 +7872,8 @@
     (property "MPN" "PTFR0402B1K00P9" (at 186.944 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4bd3228f-3588-4e20-b33c-06b17596f312))
-    (pin "2" (uuid da57ecad-f890-4431-865a-3fde709bb068))
+    (pin "1" (uuid 4cb75388-4c15-4919-95e1-6752f2c7b652))
+    (pin "2" (uuid 25fe0602-4148-40b7-83cc-e9697e553920))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7867,8 +7901,8 @@
     (property "DIGIKEY" "" (at 196.85 65.786 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4ed9b183-6f41-4d6b-8f7c-1b046fc49d32))
-    (pin "2" (uuid 41b92985-2e3a-4d26-a64b-e16c5ba0e767))
+    (pin "1" (uuid 00aa47c3-b7ab-4445-87af-b61e55e1b912))
+    (pin "2" (uuid 61292189-a406-4509-89a7-f2d223088875))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7893,7 +7927,7 @@
     (property "Datasheet" "~" (at 228.854 65.786 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 784b609e-7cce-4700-88b6-b24d142b866d))
+    (pin "1" (uuid b57a852e-1359-4f23-a1cd-578611b6da2c))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7918,7 +7952,7 @@
     (property "Datasheet" "" (at 355.346 122.936 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2564a992-e151-4a87-8e87-c6bbc5563e11))
+    (pin "1" (uuid 882b9411-9bee-40d8-bc73-4f063c9bbeb4))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7943,7 +7977,7 @@
     (property "Datasheet" "" (at 355.092 144.272 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 206e7c59-0165-4a9c-91d7-a2e3d9dd9894))
+    (pin "1" (uuid 470806f8-987e-4b41-b620-9a438560b6ab))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7968,8 +8002,8 @@
     (property "Datasheet" "" (at 347.726 61.722 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f6583061-0cca-49c3-95e2-a99fb6e6d2c0))
-    (pin "2" (uuid 3bca95b1-a283-48da-aaa9-0ab19bc86b36))
+    (pin "1" (uuid ba2ca6ed-0ca7-41ff-8dab-045d6e197a52))
+    (pin "2" (uuid d13381e6-62ba-49cc-b1d6-af8db432381e))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -7997,8 +8031,8 @@
     (property "DIGIKEY" "" (at 196.85 86.106 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d27ea1df-d2ca-4000-8076-5b88f462be1a))
-    (pin "2" (uuid 1af64a4c-b406-4125-809e-718c2b81dbf1))
+    (pin "1" (uuid 6012ca2a-0986-4b4d-897a-e839412e82a2))
+    (pin "2" (uuid 958253f6-67f3-4cba-a70b-4b6019528f5b))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8032,9 +8066,9 @@
     (property "MPN" "B3B-EH-A(LF)(SN)" (at 288.798 55.626 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 35690c4b-ed49-4d6f-a45f-21303567b0c9))
-    (pin "2" (uuid 693d7cb1-b05a-42a1-9b88-c68b90ee41e5))
-    (pin "3" (uuid aefa8d24-5ae5-44b7-9503-8a8162c98b3c))
+    (pin "1" (uuid a2143b95-a5ca-4cd0-b900-98f96537d42b))
+    (pin "2" (uuid 716094ad-03fe-47bf-8d3e-3132fb601df2))
+    (pin "3" (uuid ce6698dc-e9a3-41b4-bc45-c004e39d4415))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8059,7 +8093,7 @@
     (property "Datasheet" "~" (at 196.342 96.266 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3e6d1ac7-8371-420b-b7d6-e0b3fe833d02))
+    (pin "1" (uuid 49dc955a-a9b4-4a09-b19a-19831f66e631))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8093,18 +8127,18 @@
     (property "MPN" "LIS3MDLTR" (at 51.181 210.566 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9879f0e2-3713-4547-9838-ae53137df8d2))
-    (pin "10" (uuid 3e866cb4-abe0-4f8a-a2e9-275d6d8c6ede))
-    (pin "11" (uuid 08485751-f190-4c14-b546-5fc6dcf7fa11))
-    (pin "12" (uuid a64b7090-e07a-41b4-ad4c-ba191a2be8a9))
-    (pin "2" (uuid f5f451ae-3cf7-456f-b964-e9d16d18c30f))
-    (pin "3" (uuid 6303e0b3-7ea2-4349-ac28-297803b09c2f))
-    (pin "4" (uuid 90b6a20f-2ea5-442a-8fd1-65e1febadac9))
-    (pin "5" (uuid 99b1bc9f-673b-417a-90bb-9082ab123969))
-    (pin "6" (uuid f7dd37fe-358d-4d4d-ba64-b83b531211e7))
-    (pin "7" (uuid 69e96773-e8ec-4ae7-9a65-6b6b28088f67))
-    (pin "8" (uuid 494710a9-5e47-448b-a1f1-d4ad66fd8a5a))
-    (pin "9" (uuid c1455597-e3a9-4932-867c-e1ff2a345620))
+    (pin "1" (uuid 450374fb-547c-4ca3-b2aa-a2924c5720d7))
+    (pin "10" (uuid b0f67f17-36f3-4e5e-a9b7-9ddd8c7d96bc))
+    (pin "11" (uuid 588b330e-4600-431a-bfea-9a9f9b7a2220))
+    (pin "12" (uuid bc8a8096-1b84-478b-9c53-e45576745b32))
+    (pin "2" (uuid c3b4bf2f-76f7-4183-a0b3-1e414e3f54b9))
+    (pin "3" (uuid 0a7d3cfc-55ba-4a6f-8dfe-9fc903a7de44))
+    (pin "4" (uuid 3d0841f6-6ac4-4528-bc52-206bebbadd6f))
+    (pin "5" (uuid 7a0ff0b2-deb1-473b-ac56-eb01047c4325))
+    (pin "6" (uuid 482a23d0-2378-4775-9a83-2df75e06dc64))
+    (pin "7" (uuid 188858f4-6b4f-4a4e-a1cf-64cec327382f))
+    (pin "8" (uuid 8b1a2797-b543-4155-bcfd-0bc343141601))
+    (pin "9" (uuid 1141d7f5-3da9-4796-b021-e222aca43e26))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8129,7 +8163,7 @@
     (property "Datasheet" "" (at 105.664 221.234 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e465c003-21b5-4a83-bb6e-a948bab7e7b8))
+    (pin "1" (uuid 09e7f824-d00e-4cb1-8947-1aff625a2fb5))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8154,7 +8188,7 @@
     (property "Datasheet" "~" (at 208.534 75.946 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 86eb4921-bd1e-424b-b9a7-33d7cedb5c81))
+    (pin "1" (uuid 45d09713-f556-48a3-9e20-20e5096726c4))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8188,8 +8222,8 @@
     (property "DIGIKEY" "" (at 177.546 197.866 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5281f226-8f0d-4e3f-9e1c-3438795e347a))
-    (pin "2" (uuid 7e0a4fc6-ec3e-41bf-83df-7772b13220c6))
+    (pin "1" (uuid c79e0c77-53c5-41b6-819e-cb9f1fda4785))
+    (pin "2" (uuid 7a5265eb-2344-490e-b385-662ebc6a6393))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8217,8 +8251,8 @@
     (property "DIGIKEY" "" (at 229.87 75.946 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a32e7483-a8b2-4966-a700-ef1f544c5f53))
-    (pin "2" (uuid 3143a158-363b-4a1c-8ef0-28a4ff38239f))
+    (pin "1" (uuid 65e1e829-90e4-4c02-9568-90a3d0fe2e85))
+    (pin "2" (uuid 8a72f77c-860d-400c-8341-983ae73615fa))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8243,7 +8277,7 @@
     (property "Datasheet" "" (at 117.094 221.234 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c4a4968-6c2d-4f06-8109-cf693b44f5ff))
+    (pin "1" (uuid be72410f-4781-4cea-97f6-7c8310701844))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8277,10 +8311,10 @@
     (property "MPN" "TS-1187A-B-A-B" (at 203.581 131.572 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "A" (uuid ed50216f-f04a-470c-bda0-e96964ef57ee))
-    (pin "B" (uuid c4edd671-e671-44ff-87a4-6c4ebe867373))
-    (pin "C" (uuid 71fa1462-2087-410b-836a-20bdcd9e60f0))
-    (pin "D" (uuid d26dd9a2-21d9-4a26-8325-c50d18e2449b))
+    (pin "A" (uuid 16fabcf9-a490-4f2b-ab2c-8f4a1ae59cf1))
+    (pin "B" (uuid a4685a06-199b-43a7-89b5-54abf4eff94d))
+    (pin "C" (uuid d8a6534c-a3ad-4d29-a61a-31a067930c33))
+    (pin "D" (uuid 1c208673-21d3-42f7-aad8-ceeefa5c31e5))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8305,7 +8339,7 @@
     (property "Datasheet" "" (at 182.372 234.188 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9d07df5c-f5a7-4962-940c-d9ec793cb8cc))
+    (pin "1" (uuid 3f753c88-d1de-464a-bb1e-e2dbe1c3248b))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8339,8 +8373,8 @@
     (property "MPN" "RC0402FR-0727RL" (at 50.038 80.772 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 830e4652-8e7c-414b-9a07-027df564965d))
-    (pin "2" (uuid 2bfba749-9f88-494f-8f50-68d4cc68a713))
+    (pin "1" (uuid 1f1b13ef-1021-4b78-b375-3e9f3f5717c5))
+    (pin "2" (uuid b1fcee7e-a840-4149-b963-20619944a967))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8365,7 +8399,7 @@
     (property "Datasheet" "" (at 247.904 128.524 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 278c1fc1-774e-455c-ae1f-825bd2dab224))
+    (pin "1" (uuid 3c82cd48-154e-40a4-83ca-7284c5685c3c))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8399,8 +8433,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 148.082 194.437 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a1d1cee-7dcb-444b-ad0a-0c86ba915b2e))
-    (pin "2" (uuid de8753ba-8a59-4df9-9917-40c1a723f655))
+    (pin "1" (uuid 765452ed-e14d-4e00-a7a3-090cf647ff76))
+    (pin "2" (uuid 69ce4f11-00ad-4e7f-b4c1-93c0d2137708))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8425,7 +8459,7 @@
     (property "Datasheet" "~" (at 242.062 75.946 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fe71b928-fa13-4fff-b867-a56e16afef6b))
+    (pin "1" (uuid 9901e56f-9509-4867-b366-ef1ead41b181))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8459,8 +8493,8 @@
     (property "MPN" "CL05A105KA5NQNC" (at 44.196 237.236 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7e7e9e8e-0db4-4fbc-8868-aeced1649215))
-    (pin "2" (uuid 48e7fa82-3ff4-4ac8-9d88-923fdf60a476))
+    (pin "1" (uuid 69bec3cd-c3e8-4f77-b5b6-2f6278b2991c))
+    (pin "2" (uuid a7d256ea-8f0c-4bf4-b3dc-a97be8051c8e))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8494,8 +8528,8 @@
     (property "DIGIKEY" "" (at 294.132 144.272 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b40649e5-aaec-45fd-85b9-fb772b63b5df))
-    (pin "2" (uuid 52033c45-79a1-4290-a4c2-3c642c42e5ad))
+    (pin "1" (uuid 36ddb15d-efab-4b19-ae1a-78ee418b3edd))
+    (pin "2" (uuid a8cf4835-e8ca-4b87-bf62-9aa6ca2fcb83))
     (instances
       (project "uniphob_main"
         (path "/1c80a2ef-14b7-41e0-a360-7b658896bff6"
@@ -8530,7 +8564,7 @@
     (property "Datasheet" "" (at 183.134 205.486 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f0ecd2b4-8bcb-40c5-aeea-f1c46126209b))
+    (pin "1" (uuid 5c657ae1-5387-4a7e-80c4-201bfddfc585))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8555,7 +8589,7 @@
     (property "Datasheet" "~" (at 208.788 35.306 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9ef23867-5172-4e01-b8a7-56acc4bee0ff))
+    (pin "1" (uuid d9951042-5ddc-4fe9-a912-10141d1de432))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8589,18 +8623,18 @@
     (property "MPN" "LIS3MDLTR" (at 50.546 258.826 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dfe25cee-4ee5-4904-a5a4-b61883238b82))
-    (pin "10" (uuid 3929edbe-10df-48e8-a586-7d04c62d5b64))
-    (pin "11" (uuid bfae7ea8-4f20-4f8f-aef6-c2d85094a4b9))
-    (pin "12" (uuid eb62bc26-8296-424f-ba4d-5357c7520da3))
-    (pin "2" (uuid 2e245b29-07af-4210-968e-f664f0de3428))
-    (pin "3" (uuid 367d1b0e-2cfa-4678-a60c-537f84726538))
-    (pin "4" (uuid 85832d4d-2a44-4368-8360-091c25b35b14))
-    (pin "5" (uuid 2fe52cdc-d2a8-4b61-8412-41b579f085d3))
-    (pin "6" (uuid 9d55294a-ba75-4486-8630-44006521e3f0))
-    (pin "7" (uuid b5c345df-6386-4ac3-8f5c-61481e620bf8))
-    (pin "8" (uuid b6c6cceb-3a66-4049-85f5-23eeb22186d7))
-    (pin "9" (uuid 62ecd21b-1504-4901-9ab4-b55d2ccea947))
+    (pin "1" (uuid 6e2fb76c-2654-4e35-b0de-75195d40b2ea))
+    (pin "10" (uuid 7667bde3-35b0-4add-b5fd-36710db9bcf8))
+    (pin "11" (uuid 24ab1cc3-8e2b-4b20-9a66-ee09349f338f))
+    (pin "12" (uuid 4b9d0f54-5668-415c-b230-ed8e11839276))
+    (pin "2" (uuid bd788b91-a7e3-4c40-8ea6-fba21af5d25d))
+    (pin "3" (uuid 9a2aa257-801c-4bca-b109-ccbbae615e91))
+    (pin "4" (uuid 3ddb3d27-9fdf-4c73-ba06-2544d77a9fe1))
+    (pin "5" (uuid 35fbce09-9193-443d-8321-d1dd5ba7e336))
+    (pin "6" (uuid 1a316767-eb59-4dc3-b91a-fcbc1c73292c))
+    (pin "7" (uuid cbae9006-ad82-4a09-abe8-3adfe3e95fc3))
+    (pin "8" (uuid b08db917-ecb6-4f49-974f-2723de18c2e5))
+    (pin "9" (uuid 6db71549-c512-4d1d-8180-d854b3b9e44c))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8625,7 +8659,7 @@
     (property "Datasheet" "~" (at 355.346 122.936 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 336204a3-ae97-41bb-9148-21d469a76d3c))
+    (pin "1" (uuid 06323d9a-7e2c-424e-bfc2-8ca0a262ec31))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8650,7 +8684,7 @@
     (property "Datasheet" "~" (at 281.94 35.306 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f02be5b2-21ae-4634-8c48-7c928e12bd32))
+    (pin "1" (uuid 859ab9af-bb5f-492b-a19d-4e1dd04190e0))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8684,8 +8718,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 58.928 43.942 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 13c421e0-15d8-418f-a4fe-56c043a45d3d))
-    (pin "2" (uuid 4bfada99-a893-4311-a3e2-ea6a66c5e37c))
+    (pin "1" (uuid 9775eda3-9ce8-4271-bb20-9349cae6e37a))
+    (pin "2" (uuid 75d475c7-a15a-42b8-b1ba-a4b4e0a201cb))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8719,8 +8753,8 @@
     (property "DIGIKEY" "" (at 183.134 187.706 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5ad99fcc-d80d-4454-abf5-74d1efc29f3d))
-    (pin "2" (uuid 0dbf3807-7755-44c3-9e29-4e818f2adda7))
+    (pin "1" (uuid d0289937-56f5-4657-91e2-2597c94aa8ae))
+    (pin "2" (uuid 1dabbad9-da33-4577-aa53-a3e30991a34f))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8745,7 +8779,7 @@
     (property "Datasheet" "" (at 283.718 79.248 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a830bf9a-bee2-4144-b58d-6cdaa450dc57))
+    (pin "1" (uuid df318cac-dbed-4a40-bfab-5e57d4bfb01c))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8770,7 +8804,7 @@
     (property "Datasheet" "" (at 74.168 57.912 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1ce53d6b-cd56-4e1c-b728-c1bf9ebf536e))
+    (pin "1" (uuid 799fb5df-dd76-4408-a27d-2d11add21318))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8804,8 +8838,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 244.094 128.524 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f89c8303-f372-481e-9a41-3e4f71aeb499))
-    (pin "2" (uuid d392a7c7-bd02-42d3-9698-920a77a0ba26))
+    (pin "1" (uuid 2a442c83-6255-461d-b79f-9916c3e77e6d))
+    (pin "2" (uuid 4ab336f7-2f2b-42a3-89bb-787aa31dae00))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8866,8 +8900,8 @@
     (property "MPN" "CL21B105KBFNNNE" (at 306.197 149.987 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a095e4f9-63fc-4250-b526-61920049ff59))
-    (pin "2" (uuid 005ee3b5-fd46-4bfa-bb80-3e1f7a345c88))
+    (pin "1" (uuid 6b603ee3-3fb7-4cfc-bd63-caabd4cdd5cf))
+    (pin "2" (uuid 6cc3c007-c928-4da7-b3c5-00c174d84b8a))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8901,8 +8935,8 @@
     (property "MPN" "CUS10S30,H3F" (at 332.232 132.207 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f83b8697-cb4c-4d69-9833-dc4c19f10af4))
-    (pin "2" (uuid 1676d522-2866-42a9-b692-704046c6d1af))
+    (pin "1" (uuid d7f25756-3cb3-4ad0-8819-281c1c61640e))
+    (pin "2" (uuid 3aa7e08c-982d-4bed-bba6-dc3b3236618e))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8927,11 +8961,39 @@
     (property "Datasheet" "~" (at 196.088 86.106 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b49eac4b-732e-4964-b59e-8cd9fc50eea1))
+    (pin "1" (uuid 0af0be05-69c3-40fd-a33d-607b42b45923))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
           (reference "T_SW_6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x04_Socket") (at 134.62 218.7956 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b83316ba-cd88-4697-be6b-b1a09fa58b5c)
+    (property "Reference" "S_I2C1" (at 136.2456 218.7956 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Conn_01x04_Socket" (at 136.2456 221.3356 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x04_P1.27mm_Vertical" (at 134.62 218.7956 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 134.62 218.7956 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f8ed14ae-1950-4f78-9852-c4b078ed5cb8))
+    (pin "2" (uuid f2999fb6-f03d-46d8-9c73-2d8699afec04))
+    (pin "3" (uuid 1b1cf87c-e8e3-4138-b492-bce82956d628))
+    (pin "4" (uuid 612b15ec-b87c-42f6-aff4-2854aea0d2a6))
+    (instances
+      (project "Phobri64"
+        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+          (reference "S_I2C1") (unit 1)
         )
       )
     )
@@ -8952,7 +9014,7 @@
     (property "Datasheet" "" (at 88.138 153.162 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b2b505f3-1b61-4d91-9b41-b85ac50d8c63))
+    (pin "1" (uuid 99e04899-4a58-461c-87bf-ed5c92a938e3))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -8977,7 +9039,7 @@
     (property "Datasheet" "~" (at 136.0932 82.042 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 39212a10-66e2-4f11-9c62-b84ba400db14))
+    (pin "1" (uuid 9d7f0fa9-cf61-436c-a420-0f59d05b2da9))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9011,8 +9073,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 119.888 42.672 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0a673905-1d21-4740-9e0b-fd71e5ca1ba8))
-    (pin "2" (uuid 09da2004-5c45-4464-9dda-d861d10f53e7))
+    (pin "1" (uuid f66765a8-65eb-420a-abb6-a66f2c3205d7))
+    (pin "2" (uuid 3a4c4196-2499-450e-a7c5-6f90b7487e8d))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9046,8 +9108,8 @@
     (property "MPN" "CL21B105KBFNNNE" (at 324.612 149.987 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 91191a66-3af2-407a-b6c2-06563cfc1086))
-    (pin "2" (uuid 09560bd8-fbb5-45dc-a475-7a9b26f578d4))
+    (pin "1" (uuid 1a55cf1f-aede-44db-b10a-358365ed4dcb))
+    (pin "2" (uuid 4d4ac20b-3290-4ae0-960c-2d45e46c7296))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9072,7 +9134,7 @@
     (property "Datasheet" "~" (at 105.664 221.234 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 71a7ac90-e04e-444e-a3f6-f400734fd89e))
+    (pin "1" (uuid 9856c1eb-6520-4ddd-9090-292b86a4c037))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9100,8 +9162,8 @@
     (property "DIGIKEY" "" (at 196.85 35.306 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d98f7174-b655-420d-843c-fda0f425f53f))
-    (pin "2" (uuid a25d719d-fa50-4e7e-82fe-9bb46b9c2784))
+    (pin "1" (uuid 20fc4bc4-4187-4050-99b3-a7f7f2996984))
+    (pin "2" (uuid 25f6fe8d-f903-4d45-b451-23ff19dec5d8))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9153,7 +9215,7 @@
     (property "Datasheet" "" (at 34.036 233.426 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b1af62a-7f69-404b-ae69-87c452ab37b4))
+    (pin "1" (uuid e07ee483-d970-4de9-b929-2d3d1b09b934))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9178,7 +9240,7 @@
     (property "Datasheet" "~" (at 344.678 122.936 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 547140bc-52ce-444f-a05b-c4dc3c572811))
+    (pin "1" (uuid a8f4c400-7505-409a-b08e-c20b6c2923f0))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9203,7 +9265,7 @@
     (property "Datasheet" "" (at 365.76 42.545 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f1a4fd3d-218b-45c6-9de0-1cdbd7ff120d))
+    (pin "1" (uuid c9ab42ec-0aca-4bea-93d8-d1fa12e5b23f))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9237,8 +9299,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 107.188 28.702 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6b1ffccc-e6bd-4948-9286-5d889a25b750))
-    (pin "2" (uuid 825be0aa-2f14-475c-ac17-925e488115a6))
+    (pin "1" (uuid b7004bb2-974e-479e-9676-dde77b8f6268))
+    (pin "2" (uuid c51a10b7-e7b1-48e1-8493-7366c1ae26e3))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9263,7 +9325,7 @@
     (property "Datasheet" "~" (at 208.8623 86.106 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2ea26ca7-9487-42db-9cd9-7967a5c9aaf0))
+    (pin "1" (uuid 15c8b27e-e2a9-4c14-b77f-6f13bf372ad8))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9288,8 +9350,8 @@
     (property "Datasheet" "" (at 347.726 69.342 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3985120c-c13b-4770-a3b2-c4d12a809ab3))
-    (pin "2" (uuid 41fe35a7-ca71-44bc-a953-a2d809e5d69d))
+    (pin "1" (uuid d4ddffd8-bbae-4c37-a50a-917dd20a5e03))
+    (pin "2" (uuid c8b3fb72-0e62-457e-8cc5-2cf85aa92019))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9314,7 +9376,7 @@
     (property "Datasheet" "" (at 205.74 103.886 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f801707a-97d5-4fd1-8906-fe1151f255d5))
+    (pin "1" (uuid db4eef51-6b06-4983-b6a0-296bef8ac9b4))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9339,7 +9401,7 @@
     (property "Datasheet" "" (at 296.037 148.717 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8b1dff5b-3f6a-411e-beea-b4bf52815740))
+    (pin "1" (uuid 93748586-9e96-4237-94e9-262a5953c06a))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9373,12 +9435,37 @@
     (property "MPN" "CL05A105KA5NQNC" (at 44.831 188.976 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6543d725-f514-4d97-aca9-441461c748af))
-    (pin "2" (uuid 1d5f12f9-6f2f-4b8a-8ab5-4133c614e625))
+    (pin "1" (uuid 565ede86-0cea-4acb-995b-9744e09bf615))
+    (pin "2" (uuid 1445e68c-9976-457e-9d3f-db2341335b9c))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
           (reference "C4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Phobri64:S_GND") (at 129.54 216.2556 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d44e76c6-b68f-46c7-ad17-4bea8cb9888e)
+    (property "Reference" "#PWR059" (at 123.19 216.2556 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "S_GND" (at 125.73 216.2556 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 129.54 216.2556 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 129.54 216.2556 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a71e4e1c-22a0-4693-a9e1-9fea8f04f53b))
+    (instances
+      (project "Phobri64"
+        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -9408,8 +9495,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 66.421 216.916 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 610fd033-43d0-41ed-8116-75220c64af75))
-    (pin "2" (uuid f761afa5-ff7a-4b41-8736-647e0f549ab2))
+    (pin "1" (uuid 92b27624-91b0-414c-87e9-d3a5fce2bb54))
+    (pin "2" (uuid f4ea9fdf-399a-43f7-a227-47b52e48fe20))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9443,8 +9530,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 154.6566 194.4375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 10c555b5-1951-41d4-a8e0-7b2576b5dfce))
-    (pin "2" (uuid 16106f9c-a6fd-45ae-849a-29a2917f8259))
+    (pin "1" (uuid bace017d-b557-448f-ba41-580b217056fe))
+    (pin "2" (uuid e16a1373-7de6-4eac-afd8-e9cefa5fe286))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9505,8 +9592,8 @@
     (property "MPN" "PTFR0402B1K00P9" (at 222.631 135.382 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 26c9b4b7-0c90-4b75-8ab3-47ac639205e1))
-    (pin "2" (uuid d5ff82eb-94d9-44d2-ab36-2ed6bbc88ee5))
+    (pin "1" (uuid abf32aba-fcb2-4080-a412-7daeac55bcda))
+    (pin "2" (uuid 1c509587-5466-4bf8-aea5-cf812ef981f6))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9531,7 +9618,7 @@
     (property "Datasheet" "" (at 107.188 57.912 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 43cf02c3-a8aa-40e7-a78f-3a4d4582ea12))
+    (pin "1" (uuid e9b0e27b-dcac-4089-92af-7957eca58964))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9565,8 +9652,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 119.888 28.702 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9452152f-a450-4159-ac0e-5e31786a93d2))
-    (pin "2" (uuid 1df3ab08-9052-4a5b-946c-f07fe43a8ed6))
+    (pin "1" (uuid e7681779-caaa-4df4-a4b4-f0d13dcdca29))
+    (pin "2" (uuid 66530818-2947-49e4-849f-c02d04ba7ed2))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9591,7 +9678,7 @@
     (property "Datasheet" "~" (at 209.042 55.626 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3c150c26-81d0-4f6d-8a15-98c4edf72ee0))
+    (pin "1" (uuid a6ef9c48-9e9c-4791-87e4-23392e9edb4f))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9601,22 +9688,22 @@
     )
   )
 
-  (symbol (lib_id "Phobri64:S_GND") (at 120.65 208.28 0) (unit 1)
+  (symbol (lib_id "Phobri64:S_GND") (at 113.03 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dafd61e7-e04b-40c8-ac42-9d0da5e2dc03)
-    (property "Reference" "#PWR017" (at 120.65 214.63 0)
+    (property "Reference" "#PWR017" (at 113.03 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "S_GND" (at 120.65 212.09 0)
+    (property "Value" "S_GND" (at 113.03 212.09 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 120.65 208.28 0)
+    (property "Footprint" "" (at 113.03 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 120.65 208.28 0)
+    (property "Datasheet" "" (at 113.03 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b9c1526-d5d7-4311-ba5b-88247bf10506))
+    (pin "1" (uuid ecd22dee-b3a1-4086-84a9-d2be5b20f034))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9641,39 +9728,11 @@
     (property "Datasheet" "" (at 163.576 186.944 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2dbffce0-be7f-422a-8780-52c7a2527fad))
+    (pin "1" (uuid b37cdfe1-fbb5-41b1-a6d1-121947f06747))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
           (reference "#PWR021") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 105.791 246.507 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid dc2ff752-713e-4334-809c-1758f48931d7)
-    (property "Reference" "TP7" (at 107.315 248.539 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 107.823 247.9201 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 105.791 251.587 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 105.791 251.587 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DIGIKEY" "" (at 105.791 246.507 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 38a295fe-52ee-4723-920c-15ec4692649c))
-    (instances
-      (project "Phobri64"
-        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
-          (reference "TP7") (unit 1)
         )
       )
     )
@@ -9694,7 +9753,7 @@
     (property "Datasheet" "" (at 365.76 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4920278d-0647-415d-8075-3f7618334a02))
+    (pin "1" (uuid 9074f6d3-bcb0-4e9d-af3f-2fa3b85fae8a))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9719,7 +9778,7 @@
     (property "Datasheet" "" (at 169.418 46.482 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 58e7df28-f53a-402e-b170-d441d1cc672f))
+    (pin "1" (uuid 689a64c9-2a30-44fb-a7a3-61b82f946ee7))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9753,8 +9812,8 @@
     (property "DIGIKEY" "" (at 361.95 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8279f323-9d7b-486c-96d4-cdc79be717a4))
-    (pin "2" (uuid b344759b-8043-4df9-a0b7-81e57884452c))
+    (pin "1" (uuid 047f230c-5bee-454a-8f65-8128c85b64d0))
+    (pin "2" (uuid d50aa04a-4096-46b0-bb82-f76f5c205aa6))
     (instances
       (project "uniphob_main"
         (path "/1c80a2ef-14b7-41e0-a360-7b658896bff6"
@@ -9789,7 +9848,7 @@
     (property "Datasheet" "" (at 372.745 106.045 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0763265c-4b91-4a0c-bca8-58894d27d2b6))
+    (pin "1" (uuid 4e1211f5-49f9-4dfa-8ae8-34adce77a146))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9823,8 +9882,8 @@
     (property "MPN" "CL05A105KA5NQNC" (at 74.168 54.102 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf382f96-a019-40a9-918a-67ca84d316df))
-    (pin "2" (uuid e7153fb8-6326-4d85-b27a-0b50e2027f02))
+    (pin "1" (uuid 5089cf05-aa1a-418b-be9d-a34589a15213))
+    (pin "2" (uuid 2aaccc89-c606-4ed7-b380-74c3638157a4))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9849,7 +9908,7 @@
     (property "Datasheet" "" (at 163.576 202.438 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 242438e8-4cde-4953-8ed9-8b5d8d80e838))
+    (pin "1" (uuid bb3ee831-ae14-4e65-85bd-d38621e52e0e))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9877,11 +9936,36 @@
     (property "DIGIKEY" "" (at 273.7612 81.788 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9f30f259-9852-4013-b24d-ecbc15e8ff4d))
+    (pin "1" (uuid 80334fed-2937-42aa-a1cd-01d15170c53b))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
           (reference "TP2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Phobri64:+S_3V3") (at 113.03 198.12 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e0fc12ed-4cc2-4ca6-9d13-ccddc2a73bc0)
+    (property "Reference" "#PWR056" (at 109.22 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+S_3V3" (at 119.38 198.12 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 113.03 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 113.03 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e9e78112-aa54-4884-a4a9-dc10e9674d6e))
+    (instances
+      (project "Phobri64"
+        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -9902,7 +9986,7 @@
     (property "Datasheet" "~" (at 196.088 65.786 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6f24793d-590a-437b-8b84-ca06c892b87c))
+    (pin "1" (uuid efa4ac7e-6e61-4f4c-ac1d-13fdccf1e69d))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9927,7 +10011,7 @@
     (property "Datasheet" "~" (at 208.788 65.786 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 83de97b6-21d9-4406-bde7-9f5555d2c9d2))
+    (pin "1" (uuid 9ab57e3a-db07-4528-8c31-83beaad928e8))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -9961,8 +10045,8 @@
     (property "DIGIKEY" "" (at 294.132 132.207 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a258c2ff-f6d2-4a3c-a5af-afd79c1bd189))
-    (pin "2" (uuid dec298eb-dd42-4866-9965-bac8ae3d09c2))
+    (pin "1" (uuid febd302a-dea0-4bb0-8158-d77a6cc45367))
+    (pin "2" (uuid 0e1a4efc-c216-4b25-af51-1877de41fb60))
     (instances
       (project "uniphob_main"
         (path "/1c80a2ef-14b7-41e0-a360-7b658896bff6"
@@ -10006,8 +10090,8 @@
     (property "MPN" "GRM21BR61H106KE43L" (at 351.282 140.462 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 93967f19-2e32-410b-8e08-77c4995217e2))
-    (pin "2" (uuid 519c46aa-56d0-4a47-ad6e-7b52519ffa72))
+    (pin "1" (uuid 49d5558a-9207-4119-bdac-3ecbf83e5b1f))
+    (pin "2" (uuid 6bab0273-f1e9-4c70-9113-dde5ccf81861))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10035,7 +10119,7 @@
     (property "DIGIKEY" "" (at 315.722 153.797 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b6380413-bad8-4ea9-ad02-91ed1ab8619b))
+    (pin "1" (uuid 1d4e84c1-9f74-45bc-b839-a15e9eeae69b))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10060,7 +10144,7 @@
     (property "Datasheet" "" (at 50.546 272.161 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0c7ae42d-15d7-49ff-a37e-15b987c25dfe))
+    (pin "1" (uuid d6f052a9-6de9-4e4c-82a8-8b0d5d1e433e))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10085,7 +10169,7 @@
     (property "Datasheet" "~" (at 117.348 148.082 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6d82696c-08dd-46c5-88b2-0fee89272d69))
+    (pin "1" (uuid ffa782c3-404e-4a9f-a9ab-0ee199db7e10))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10110,7 +10194,7 @@
     (property "Datasheet" "" (at 62.738 145.542 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6aa6c0d2-2a52-4389-a92b-7b3a2cdf58c4))
+    (pin "1" (uuid 0c88bd5d-ace6-4b2f-996b-03981265f9b4))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10135,7 +10219,7 @@
     (property "Datasheet" "~" (at 117.348 89.662 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4a3315a6-4c43-4e25-85ca-bb983bab8422))
+    (pin "1" (uuid dbc0273f-5758-47d4-8eba-b57a0fe9f700))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10169,8 +10253,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 145.288 42.672 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2f5428d9-840e-4307-a6e0-dd19cd119842))
-    (pin "2" (uuid 53533d6e-392c-41f3-ab68-f21a29a979c3))
+    (pin "1" (uuid 0cb6adbf-9088-4e32-8e1b-5efc8e320b64))
+    (pin "2" (uuid fb0994fe-ac5a-442e-a322-e4fa3f631e9d))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10195,11 +10279,36 @@
     (property "Datasheet" "" (at 306.197 154.432 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8271a043-3fba-470e-9db0-b90825915cc3))
+    (pin "1" (uuid bd038ec7-c6a5-422f-9b3c-f09249fce955))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
           (reference "#PWR040") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Phobri64:S_GND") (at 113.03 193.04 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ebb2c161-1110-4a12-99ab-cec3112d30b7)
+    (property "Reference" "#PWR057" (at 119.38 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "S_GND" (at 116.84 193.04 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 113.03 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 113.03 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1597edb3-d9e8-493a-8f3c-fee38c04f8e9))
+    (instances
+      (project "Phobri64"
+        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -10229,8 +10338,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 65.786 265.176 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f63375fb-eaec-42a0-84ed-42866b331858))
-    (pin "2" (uuid ed8d9c50-4607-4e18-9333-ed1ca02937ea))
+    (pin "1" (uuid 4133af29-e501-4d9c-aca3-d42bd62edcbd))
+    (pin "2" (uuid 25016b62-272c-404e-9823-25aad1a99629))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10255,7 +10364,7 @@
     (property "Datasheet" "~" (at 242.316 86.106 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 51535a85-14fd-4886-bfb3-4b3652bf07a5))
+    (pin "1" (uuid 3c147bce-c7df-443f-aa17-7bc21128cb9c))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10280,7 +10389,7 @@
     (property "Datasheet" "" (at 283.718 86.868 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 64d84bd3-870d-46fd-8fc1-f04cbe56928a))
+    (pin "1" (uuid cc2ac40e-9ce2-4af9-9a44-d731e42aaa31))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10305,7 +10414,7 @@
     (property "Datasheet" "~" (at 145.288 24.892 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5204a1b7-c2fe-435b-80af-20e55072a0aa))
+    (pin "1" (uuid 675cd28b-f829-450e-a4f2-bf47375aaff8))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10333,8 +10442,8 @@
     (property "DIGIKEY" "" (at 196.85 55.626 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4c1ac94-2e82-4582-8afb-07dd8271dec3))
-    (pin "2" (uuid 934ca328-816d-436b-b4e9-f05a4cca03a6))
+    (pin "1" (uuid 7b91c4f1-34eb-4de6-83f4-c2697fb5bb33))
+    (pin "2" (uuid 9d60c8e3-6ac1-44ab-82bc-56512e383244))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10386,7 +10495,7 @@
     (property "Datasheet" "~" (at 229.108 86.106 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c1030149-5c25-49ed-bdad-0f65037e26dc))
+    (pin "1" (uuid 338d4f9b-d59d-4236-99cb-e419659e919e))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10414,39 +10523,11 @@
     (property "DIGIKEY" "" (at 273.8628 84.328 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 27cb8602-4d13-4630-a39c-a2c3ea880bde))
+    (pin "1" (uuid 0b34eb38-f03c-42cd-b7e5-369a2928d06c))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
           (reference "TP1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 105.664 221.234 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp no)
-    (uuid f76eb698-9341-4e35-bf67-8ec378dd26c9)
-    (property "Reference" "TP10" (at 109.855 221.234 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 107.696 222.6471 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 105.664 226.314 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 105.664 226.314 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "DIGIKEY" "" (at 105.664 221.234 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f1a33fbc-726f-418b-a804-f6910150329c))
-    (instances
-      (project "Phobri64"
-        (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
-          (reference "TP10") (unit 1)
         )
       )
     )
@@ -10476,63 +10557,63 @@
     (property "MPN" "RP2040" (at 88.138 107.442 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e26685cb-4aeb-4e01-a719-c476ffc728e1))
-    (pin "10" (uuid f21bd7f0-342d-47e3-b5dd-b0647c0a5598))
-    (pin "11" (uuid 3fe1d81f-11e7-4794-9d50-969a06aba96a))
-    (pin "12" (uuid 50ab3a9f-d8b5-446b-bd64-22cdb23e8f6d))
-    (pin "13" (uuid f9e0ed3b-3705-43fc-9237-137c826dde22))
-    (pin "14" (uuid 8fc80ee9-bfcf-4e0d-9723-185d6ae92ee3))
-    (pin "15" (uuid 9162b386-01ef-4723-b308-a1c370e8f766))
-    (pin "16" (uuid b8830d22-9c5c-4faa-8268-6ef043d443e8))
-    (pin "17" (uuid 9417d8f1-5bd8-4aea-a309-c4d57a3b421e))
-    (pin "18" (uuid 70c55a56-ffd8-4f98-b434-9281d1e98889))
-    (pin "19" (uuid 1097ff93-014c-4038-8b40-c6a457b25fa8))
-    (pin "2" (uuid 67164c94-a714-4c80-9234-16e759361cf0))
-    (pin "20" (uuid 6cde9829-cd69-415a-ab76-bfcfee16403b))
-    (pin "21" (uuid a55413c0-13b6-4a95-bc99-8a031c130216))
-    (pin "22" (uuid 57c2b4f3-ee3b-4b43-9ace-2da4554de60f))
-    (pin "23" (uuid 341402a9-49ed-4beb-8951-d53981cda89b))
-    (pin "24" (uuid 167e983f-3ec8-4a46-bf13-a1fb1443edf6))
-    (pin "25" (uuid 414dec78-b750-4241-b08f-9a8cefdecb83))
-    (pin "26" (uuid b95382f8-c0d9-4725-b376-865e9eea998b))
-    (pin "27" (uuid 6429aeae-a1e1-49cf-81d8-78ad3c246fcc))
-    (pin "28" (uuid 08e1c491-e9fd-4a6c-8492-d3c1748086d3))
-    (pin "29" (uuid 0a925b39-5cec-4f25-80e7-9f2684692f7a))
-    (pin "3" (uuid 6ea22795-8f0a-442a-86a1-548a70c30424))
-    (pin "30" (uuid 7de99080-e178-455b-befe-9a59e27c2fe8))
-    (pin "31" (uuid f1feffef-c3d4-4568-bda4-89b6f85110b9))
-    (pin "32" (uuid 2c2d93e1-5104-4651-8e38-831fb50376ab))
-    (pin "33" (uuid 4d8d9810-fc29-4d59-afa0-5d54a927fd63))
-    (pin "34" (uuid 87789bfa-c1e4-4a91-ae25-fdbe0e808470))
-    (pin "35" (uuid b4abaa96-4a8e-4ce7-bcf0-f79089ba8670))
-    (pin "36" (uuid 33b4605a-e06e-484c-aecc-164c3ab1de09))
-    (pin "37" (uuid abc433fd-7e02-4831-901e-5932de39313e))
-    (pin "38" (uuid 491c85bf-e3d3-4880-bcaa-24b152446d57))
-    (pin "39" (uuid 59b7b2e8-d68e-440e-b367-efb9bce97bbd))
-    (pin "4" (uuid 96fa3e86-42e8-4bd3-a306-b4d5c1b2a3f0))
-    (pin "40" (uuid 6d85c03b-5737-434f-a168-027390b914ce))
-    (pin "41" (uuid 27cff91f-0359-4028-896d-9d6c2a7ad712))
-    (pin "42" (uuid ad01f2df-7a5d-4b31-bbf3-abae1340604f))
-    (pin "43" (uuid dd9cf5b7-5a8a-40a1-8abf-7ecf1bbdb8f3))
-    (pin "44" (uuid c186e360-8b06-4b47-9afd-de62effd7513))
-    (pin "45" (uuid dc5d5ffc-91d4-4a89-bbd3-8817b7429b9c))
-    (pin "46" (uuid c83a19d8-eb0d-420c-834c-266e7b850654))
-    (pin "47" (uuid c5a054ad-9c0b-4877-8e2d-94075a6205fc))
-    (pin "48" (uuid 07a3fc5d-32f0-4f6d-9f28-606557eeeed7))
-    (pin "49" (uuid ea134979-2e2d-4695-80f6-0cd5c07f497e))
-    (pin "5" (uuid 6aefb59c-420d-4ad2-a07f-eaf7ff3c3de6))
-    (pin "50" (uuid f9804b47-5eef-4c37-b549-940c77660df2))
-    (pin "51" (uuid eda7ba17-4442-43f6-943e-81a3c557318c))
-    (pin "52" (uuid 882aa077-1123-4090-bf5c-659dd178754c))
-    (pin "53" (uuid 813073a9-772f-4d2c-aea3-f4cf1fc8a418))
-    (pin "54" (uuid b5889700-677e-4a23-89e1-089858547022))
-    (pin "55" (uuid b6e8d5f7-f361-49fc-be92-a54e6e63a200))
-    (pin "56" (uuid 714fc3ce-f21a-45d6-832a-8c5892e3c5ee))
-    (pin "57" (uuid f86ef6d3-c573-4cf1-80ea-00f0dcd04c90))
-    (pin "6" (uuid f9213b1d-3bdf-4406-8bef-c3a4daff3b6f))
-    (pin "7" (uuid e700eb0c-8a5b-4772-ab39-463799ddab6d))
-    (pin "8" (uuid 3be5e751-b9e4-4f84-a76b-474edb9f9363))
-    (pin "9" (uuid fdcca79b-4eb8-484c-9e5a-5dabaf0745c6))
+    (pin "1" (uuid 5a0b3b4a-6e93-43f9-9fa1-6e611a8591e7))
+    (pin "10" (uuid 06d8b446-1f53-459f-b858-43f3bb2d4a59))
+    (pin "11" (uuid 574cdb92-1e09-41e0-a373-04cbd342cc23))
+    (pin "12" (uuid 80eab714-87e3-4daf-909c-391e69d4a13e))
+    (pin "13" (uuid db54e7f0-c55b-4490-9633-420b78d0b7ae))
+    (pin "14" (uuid b1b5ddab-d37b-4880-b58f-471007584d9f))
+    (pin "15" (uuid 643bc605-00ae-421a-8c67-a3455c38aae2))
+    (pin "16" (uuid 2a38059c-d01b-456f-99f4-3b52ebd48f2f))
+    (pin "17" (uuid 0291faf8-c413-4830-8565-9f2599338016))
+    (pin "18" (uuid 61a3712e-60cf-4fa7-8447-7c1734558f96))
+    (pin "19" (uuid d5c4194d-be71-4a78-95c7-81166956bfa9))
+    (pin "2" (uuid 55dea5b7-fd4b-4cfa-a41c-f6f0ae29dfeb))
+    (pin "20" (uuid 081925cf-95e7-432b-b565-f0ca1f6ee319))
+    (pin "21" (uuid a949a9c7-887a-405d-a002-a9b343f8623e))
+    (pin "22" (uuid 7fb5c034-8270-4d13-87f2-7124cd861072))
+    (pin "23" (uuid 87efe7a7-36a5-43b9-83ee-04f82ebb0464))
+    (pin "24" (uuid 6410665b-29d6-4c61-b1e4-8ff361351265))
+    (pin "25" (uuid 327bd59b-b2dc-47e2-a8f1-79f2dd1ec551))
+    (pin "26" (uuid 00b83c59-f914-40f3-8e5c-815fb9b5b3fe))
+    (pin "27" (uuid 7537d9eb-0191-4940-8b8f-74cfd518da06))
+    (pin "28" (uuid c3b9d122-bdef-403a-9ad7-31a8eb584254))
+    (pin "29" (uuid 61a4b349-77c9-426c-ba17-1b7ee7828205))
+    (pin "3" (uuid 5279d5fa-7cc8-403b-8fc4-6190e1e136c9))
+    (pin "30" (uuid cab053f3-3275-48ff-a43c-a20976a640c9))
+    (pin "31" (uuid 09a57fd6-3b6a-4a9c-a703-088ec9eb2b21))
+    (pin "32" (uuid 21b63c88-b55f-4a70-8281-c459835d1778))
+    (pin "33" (uuid 6d63c4e8-fdc2-4618-be73-546d1e091190))
+    (pin "34" (uuid ca0e7136-61e6-4c29-ab1c-42b95a85ecd1))
+    (pin "35" (uuid 1fcf9977-2f5c-420f-af41-304ed6ca507d))
+    (pin "36" (uuid 199d26e6-faae-4801-a93d-3ef0e61e3c90))
+    (pin "37" (uuid b20bd5d5-9057-4e3c-a82f-60be3f6397ba))
+    (pin "38" (uuid 5930d4c2-9883-4998-954d-8422586c8e3d))
+    (pin "39" (uuid d1c6ce4e-bc74-47e1-a957-29f8365e46d6))
+    (pin "4" (uuid 449fd4f6-4da2-40d0-b1fe-52ff3d28ae8d))
+    (pin "40" (uuid 524ba27b-d1a4-41a4-ae4f-f8f315241f70))
+    (pin "41" (uuid bb936fd4-0112-40bb-950f-bae3494868e4))
+    (pin "42" (uuid 5afb26aa-5639-4281-993b-534343a936e6))
+    (pin "43" (uuid 11eb98b9-83d6-4a32-bf98-b9dae569d4a3))
+    (pin "44" (uuid 7978ba58-2827-4ae8-a4c7-bcf0ae5626e4))
+    (pin "45" (uuid 9aea2a31-9850-4b9d-b668-17707586e75a))
+    (pin "46" (uuid 507c8c79-2706-4674-b6d6-e33caaa5f503))
+    (pin "47" (uuid a8169246-c12f-4a0d-b6bf-c753bfa53a58))
+    (pin "48" (uuid b0ce7277-63c5-4f2c-8c3a-450c6c75986a))
+    (pin "49" (uuid 0ae6bd6c-dc24-4cbe-a90f-4bcbcd370a28))
+    (pin "5" (uuid afd29ac0-ab06-4afb-9421-7ba7368cf889))
+    (pin "50" (uuid 401adc7b-0ec1-431f-96a7-f2d2665fa46f))
+    (pin "51" (uuid 9caafb15-28cb-420e-991f-8c11eb8a2171))
+    (pin "52" (uuid 5c09e62e-615a-460d-8932-995ab2ff7a14))
+    (pin "53" (uuid dc1c4008-8b94-4d1a-9fd8-1e9909cdca1f))
+    (pin "54" (uuid 1f1e1594-9ccc-417f-9620-f0440694419e))
+    (pin "55" (uuid d9b47df0-93a2-4661-9dff-1a4871c7663e))
+    (pin "56" (uuid 9de5b321-8f58-4d1a-acd1-2d3ee19e1afa))
+    (pin "57" (uuid 7de1eba6-9931-45aa-b7ab-1fdbd363dc6a))
+    (pin "6" (uuid 15fcaa67-b8d3-409b-88d6-ef4f2421efb5))
+    (pin "7" (uuid 88448d45-addf-4e95-b1f2-a2b93099ef86))
+    (pin "8" (uuid 8d7eae5d-4447-435b-b9b1-6afba2b8cb38))
+    (pin "9" (uuid 8ed4a92c-b377-4216-9c31-c6829a9c32e1))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10584,7 +10665,7 @@
     (property "Datasheet" "~" (at 117.348 145.542 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e32161fd-eb11-4a2c-a490-45a9b48cf6ee))
+    (pin "1" (uuid 406bffe6-e7a3-414d-b60a-1a3d07b52ed2))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10618,8 +10699,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 107.188 42.672 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bd2f9822-cd7e-4345-b46b-2f5414c82d55))
-    (pin "2" (uuid 8818f962-4736-44a8-8066-28696d89727f))
+    (pin "1" (uuid a228a751-9c31-4a37-bd14-5097c6dc0057))
+    (pin "2" (uuid 441d0928-51d2-4558-9fd3-c76aac40e8bf))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10644,7 +10725,7 @@
     (property "Datasheet" "" (at 258.826 55.626 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c5b63543-ff11-4ad6-8483-9da31ff69189))
+    (pin "1" (uuid d13af3c4-e0d4-4fa7-acfc-da3380e086ff))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10669,7 +10750,7 @@
     (property "Datasheet" "" (at 190.754 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 98952914-0b8a-4489-948b-f616abebe6a7))
+    (pin "1" (uuid 94bdc032-3b23-41e3-94aa-a3c003e6fe06))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10703,8 +10784,8 @@
     (property "MPN" "CC0402JRX7R8BB104" (at 145.288 28.702 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c4bf1a62-5bcb-4987-8aa8-397c5524d7de))
-    (pin "2" (uuid d020f699-ca66-46f7-960b-39ad71e04a91))
+    (pin "1" (uuid 0d2c6685-62df-43fd-8d3b-a57c7b5b9ada))
+    (pin "2" (uuid aec8643e-bd5e-473d-a4c1-ab7e1fe8a56f))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10729,7 +10810,7 @@
     (property "Datasheet" "" (at 151.13 234.188 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 86d00af1-9525-49a4-8779-feeee7f2fe24))
+    (pin "1" (uuid 7896c0b7-6571-466e-bea9-022029419243))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10754,7 +10835,7 @@
     (property "Datasheet" "" (at 34.671 185.166 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f9e0b234-0105-4bd0-bfcd-a36e7cde2309))
+    (pin "1" (uuid 903f77a0-ff40-4042-b5ee-7126b1cd48ba))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10779,7 +10860,7 @@
     (property "Datasheet" "~" (at 209.042 96.266 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e15100d9-ce27-42b4-a631-9ac02cf86972))
+    (pin "1" (uuid 3d409d4d-a4af-4b99-ae5f-60d5ac39f492))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
@@ -10804,7 +10885,7 @@
     (property "Datasheet" "" (at 238.506 127.508 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c0193497-547c-4486-b4c2-186361531cdf))
+    (pin "1" (uuid 48b71a72-8a99-49e7-8d9a-fe73e9c25d0e))
     (instances
       (project "Phobri64"
         (path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
