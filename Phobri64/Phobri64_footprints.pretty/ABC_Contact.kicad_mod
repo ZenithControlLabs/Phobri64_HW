@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (property "Sheetfile" "File: PhobGCC_2_0_0_proto_1.kicad_sch")
   (property "Sheetname" "")
-  (attr smd exclude_from_pos_files exclude_from_bom)
+  (attr smd exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
   (fp_text reference "SW1" (at -3.15 -6.5) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     (tstamp 5b73c279-383b-4835-b20d-edfc3f85a0e9)
@@ -27,7 +27,7 @@
     (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
-      (gr_arc (start 3.9356 0.25922) (mid 0.15721 0.14788) (end -0.509716 -3.57285) (width 0.362856))
+      (gr_arc (start 3.9356 0.25922) (mid 0.157212 0.147878) (end -0.509717 -3.57285) (width 0.362856))
       (gr_line (start 1.44729 -1.44799) (end 0.034898 -0.0356) (width 0.362856))
       (gr_arc (start 3.006688 -2.282947) (mid 1.484924 -1.484924) (end 2.282946 -3.006688) (width 0.22))
       (gr_arc (start 3.78973 -3.030391) (mid 0.777817 -0.777817) (end 3.030391 -3.78973) (width 0.22))
