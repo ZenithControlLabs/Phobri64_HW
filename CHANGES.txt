@@ -1,4 +1,22 @@
- (6/8/2023)
+# v1.0.0 Release - 9/23/2023
+
+* Redesign stickboard to support 2 types of sensors: 3-axis digital sensors (LIS3MDL), and analog through-hole hall sensors (DRV5055).
+* Replaced Mini USB connector with USB-C, also supporting BOXX-style USB-C to N64 once installed using solder pads
+* Switch to I2C serial communication for interfacing with ADC & digital sensors.
+* Completely redone layout to optimize noise, EMI, reliability, etc.
+* Added testpoints for extra GPIO pins and all buttons for future modding
+* Switched to a different FFC cable/connector to accomodate new stickboard interface (6 -> 10 pins)
+* Added footprints to install extra capacitors to configure stick LPF behavior
+* Improved board outline for better fit
+* Added fuses for safety
+* Added logo, product name & version, designer credits, source file location with licensing info
+
+Design credits:
+- Julien/@panther03 - design, part of layout work
+- Griffin - layout
+- wermi - provided scans of stock Hori motherboard
+
+# Prototype - 6/8/2023
  
  Schematic:
  
