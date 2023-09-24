@@ -10334,7 +10334,7 @@
     )
   )
 
-  (gr_line (start 193.7512 100.4824) (end 193.7512 116.5352)
+  (gr_line (start 191.7192 99.822) (end 191.7192 115.8748)
     (stroke (width 0.2) (type solid)) (layer "B.SilkS") (tstamp 2bb277b7-59b5-463a-9c82-7314b613dcd5))
   (gr_line (start 148.1836 87.9922) (end 148.1836 100.076)
     (stroke (width 0.12) (type solid)) (layer "B.SilkS") (tstamp 8f02c590-6e53-473f-a4db-47e0384f8bce))
@@ -10506,8 +10506,11 @@
   (gr_text "Design by JDC" (at 189.91 119.3) (layer "B.Cu" knockout) (tstamp cfc89e6d-06c8-425d-bcd6-471164b51381)
     (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom mirror))
   )
-  (gr_text "CERN-OHL-S-v2" (at 193.2432 100.2792 90) (layer "B.SilkS") (tstamp 03624ad8-2df6-4446-b1af-3467fad3420c)
+  (gr_text "CERN-OHL-S-v2" (at 191.2112 99.6188 90) (layer "B.SilkS") (tstamp 03624ad8-2df6-4446-b1af-3467fad3420c)
     (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom mirror))
+  )
+  (gr_text "ZenithControlLabs" (at 193.6496 99.822 90) (layer "B.SilkS") (tstamp 16ed8c19-1838-45a3-a91e-5a5272effd80)
+    (effects (font (size 1.2 1.2) (thickness 0.25) bold) (justify left bottom mirror))
   )
   (gr_text "Licensed under" (at 145.9296 87.9098 90) (layer "B.SilkS") (tstamp 27a0ab85-463f-4ede-9d83-162798518c4c)
     (effects (font (size 0.8 0.8) (thickness 0.16) bold) (justify left mirror))
@@ -10518,7 +10521,7 @@
   (gr_text "BRIDGE JP1&2 FOR USB-C OVER N64\nAND REMOVE R12&R13" (at 165.735 67.564) (layer "B.SilkS") (tstamp 8d5e9363-9fb0-4317-a6bd-df0c2ada7456)
     (effects (font (size 1 0.8) (thickness 0.15)) (justify left bottom mirror))
   )
-  (gr_text "Licensed under\n" (at 191.7192 100.2792 90) (layer "B.SilkS") (tstamp a7f8a824-bc68-495b-8f00-6fe1269efef2)
+  (gr_text "Licensed under\n" (at 189.6872 99.6188 90) (layer "B.SilkS") (tstamp a7f8a824-bc68-495b-8f00-6fe1269efef2)
     (effects (font (size 0.8 0.8) (thickness 0.153) bold) (justify left bottom mirror))
   )
   (gr_text "github.com/ZenithControlLabs" (at 151.5872 87.6366 90) (layer "B.SilkS") (tstamp e0d102db-94ca-4f05-b9af-054f8ab59c21)
@@ -51954,15 +51957,6 @@
       ec2bdc23-0ce6-4fba-b0fe-15fa54ecd0a9
       ee7ba6d1-d3c8-4d0b-8f36-3ba868b25df4
       f1fd48a1-b9e7-4c8d-8f8b-22c327f76786
-    )
-  )
-  (group "" (id c32faff8-c5a6-449b-a9e8-1cee6efd9e6b)
-    (members
-      27a0ab85-463f-4ede-9d83-162798518c4c
-      2956c951-ce9f-4ab1-8aed-bb3dfc5bc269
-      8f02c590-6e53-473f-a4db-47e0384f8bce
-      e0d102db-94ca-4f05-b9af-054f8ab59c21
-      ed3b02a0-1bdf-459b-a500-4891351f088c
     )
   )
   (group "" (id 4310fe71-8f61-4339-bfa2-3de613b0f004)
