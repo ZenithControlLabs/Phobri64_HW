@@ -9579,8 +9579,8 @@
 			(uuid "3696cd29-d1b4-4c99-a4da-0b0bfcebdd60")
 		)
 		(fp_line
-			(start -1.8 -1.15)
-			(end 1.75 -1.15)
+			(start -0.5 -0.76)
+			(end 0.5 -0.76)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -9589,8 +9589,8 @@
 			(uuid "941cfca6-d4de-4fc2-8823-3da9b63dc4dc")
 		)
 		(fp_line
-			(start -1.8 4.95)
-			(end -1.8 -1.15)
+			(start -0.5 4.5)
+			(end -0.5 -0.76)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -9599,8 +9599,8 @@
 			(uuid "7d14d66d-5940-4170-86cb-71ab48b80ae7")
 		)
 		(fp_line
-			(start 1.75 -1.15)
-			(end 1.75 4.95)
+			(start 0.5 -0.76)
+			(end 0.5 4.5)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -9609,8 +9609,8 @@
 			(uuid "b2f826fb-678f-49f0-9f6e-7fb9bfd8ee15")
 		)
 		(fp_line
-			(start 1.75 4.95)
-			(end -1.8 4.95)
+			(start 0.5 4.5)
+			(end -0.5 4.5)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -14990,8 +14990,8 @@
 			(uuid "64299720-9093-41c5-87ff-23b3978e935c")
 		)
 		(fp_line
-			(start 1.75 -1.15)
-			(end 1.749999 4.95)
+			(start 0.5 -0.5)
+			(end 0.5 4.5)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -15000,8 +15000,8 @@
 			(uuid "aad215f6-946e-42c6-97c4-7dce788c70d8")
 		)
 		(fp_line
-			(start -1.8 -1.15)
-			(end 1.75 -1.15)
+			(start -0.5 -0.5)
+			(end 0.5 -0.5)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -15010,8 +15010,8 @@
 			(uuid "8064eca3-06b3-4810-84e9-3b4e3caec8de")
 		)
 		(fp_line
-			(start 1.749999 4.95)
-			(end -1.8 4.95)
+			(start 0.5 4.505001)
+			(end -0.5 4.505001)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -15020,8 +15020,8 @@
 			(uuid "f3f8fecb-d997-4fc3-aab6-2407ccf0aa38")
 		)
 		(fp_line
-			(start -1.8 4.95)
-			(end -1.8 -1.15)
+			(start -0.5 4.5)
+			(end -0.5 -0.5)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -17140,7 +17140,6 @@
 		(path "/248c159c-57f5-465b-9fe0-baff6cb7adb6")
 		(sheetname "Root")
 		(sheetfile "Phobri64.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -4.52 -2.27)
 			(end -4.52 -1.77)
@@ -20333,7 +20332,7 @@
 			)
 		)
 		(property "Footprint" "Phobri64:RP2040_QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
-			(at 0 0 -45)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "209c16bf-ab64-419d-984f-14038657845a")
@@ -20345,7 +20344,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf"
-			(at 0 0 -45)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5d2ad5b1-25ff-4406-b23d-c7afd0ccd59b")
@@ -20357,7 +20356,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -45)
+			(at 0 0 135)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1fac351f-9bd2-4530-9c49-8e6b64d81668")
@@ -20408,7 +20407,6 @@
 		(path "/f77b2540-4070-4420-8649-e788fe54d0bc")
 		(sheetname "Root")
 		(sheetfile "Phobri64.kicad_sch")
-		(attr smd)
 		(fp_line
 			(start -3.61 3.61)
 			(end -3.61 2.960001)
@@ -28831,14 +28829,6 @@
 		(uuid "17891f27-e55a-4ed2-b9a5-5f831c9aac80")
 	)
 	(segment
-		(start 125.35 93.94)
-		(end 125.35 94.77)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "18394b1b-01f5-4988-9a8c-e256172145a9")
-	)
-	(segment
 		(start 143.345078 93.71)
 		(end 144.26 92.795078)
 		(width 0.2)
@@ -29823,14 +29813,6 @@
 		(uuid "522d9c35-8b08-4386-b52c-a4343907a8f2")
 	)
 	(segment
-		(start 125.35 93.94)
-		(end 125.35 93.965306)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "525c8bf3-5453-444b-8e8f-c3df3f782510")
-	)
-	(segment
 		(start 125.47 88.02)
 		(end 124.209999 88.02)
 		(width 0.2)
@@ -30175,6 +30157,14 @@
 		(uuid "6337c77d-0e75-4bc7-a6a1-d5d31d65f693")
 	)
 	(segment
+		(start 125.35 94.77)
+		(end 126.56 95.98)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "63815e12-39f4-441a-93c2-bf344ef91223")
+	)
+	(segment
 		(start 126.56 95.98)
 		(end 126.56 95.61)
 		(width 0.2)
@@ -30405,14 +30395,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "6f727b45-3257-4f78-b845-5f50eb1ff9f7")
-	)
-	(segment
-		(start 124.48 94.8)
-		(end 124.48 94.835306)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "6f94c7d7-4970-4de8-b1ea-eed308a75768")
 	)
 	(segment
 		(start 149.91 115.03)
@@ -30735,6 +30717,14 @@
 		(uuid "813a3e82-9fdf-41e6-94e5-74b6b61a372a")
 	)
 	(segment
+		(start 124.675 95.325)
+		(end 124 96)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "81d1a05b-1980-41cc-8bf1-3fa5442cc40e")
+	)
+	(segment
 		(start 138.058193 104.408193)
 		(end 138.1 104.45)
 		(width 0.2)
@@ -31047,6 +31037,14 @@
 		(uuid "96388e45-5ac5-4366-900c-e95dfe033328")
 	)
 	(segment
+		(start 124.675 95.175)
+		(end 125.35 94.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "967e95de-bfc7-4aac-952d-a1933fa6f4f2")
+	)
+	(segment
 		(start 155.1378 85.4122)
 		(end 153.2661 85.4122)
 		(width 0.2)
@@ -31101,6 +31099,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "9a184297-6171-4efa-b34f-2de521cc7994")
+	)
+	(segment
+		(start 125.35 94.5)
+		(end 125.35 94.77)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "9ad24d69-f818-41be-b096-8f5a8e8717ed")
 	)
 	(segment
 		(start 127.01 106.45)
@@ -31255,14 +31261,6 @@
 		(uuid "a38710a5-79d8-43a0-af3c-33d92b422afa")
 	)
 	(segment
-		(start 125.35 93.965306)
-		(end 124.515306 94.8)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "a454cf22-41d9-4616-8520-a62116694b73")
-	)
-	(segment
 		(start 150.275 112.259922)
 		(end 150.275 107.445052)
 		(width 0.2)
@@ -31367,6 +31365,14 @@
 		(uuid "aaa70122-4874-4b13-83f4-b091650308fc")
 	)
 	(segment
+		(start 124.675 95.175)
+		(end 124.675 95.325)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "aaa92439-ffe5-4cac-ac47-6a049cc1f3b7")
+	)
+	(segment
 		(start 121.1 79.86)
 		(end 120.91 79.67)
 		(width 0.2)
@@ -31461,14 +31467,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "aeb23c98-e164-4fb1-90b5-e4b518a09391")
-	)
-	(segment
-		(start 124.48 94.835306)
-		(end 123.585306 95.73)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "af20bd1c-f260-4053-8477-652ad8dbc70c")
 	)
 	(segment
 		(start 137.2881 104.8881)
@@ -31807,14 +31805,6 @@
 		(uuid "c55ac3f3-9b3d-4d99-98a9-f43f966fbf5c")
 	)
 	(segment
-		(start 123.585306 95.73)
-		(end 123.42 95.73)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "c569ee68-0b7c-4e30-82f4-30c366cb4177")
-	)
-	(segment
 		(start 134.6 82.2)
 		(end 134.675 82.2)
 		(width 0.2)
@@ -32061,14 +32051,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "d5985c2f-7122-4904-a84d-3dc3b7116593")
-	)
-	(segment
-		(start 124.515306 94.8)
-		(end 124.48 94.8)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "d68795f2-4a9c-4ac6-b148-62360bbe9fb7")
 	)
 	(segment
 		(start 136.253822 95.225)
@@ -32469,14 +32451,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "f317f5d9-6f50-409f-b42a-2b43aa9775e2")
-	)
-	(segment
-		(start 125.35 94.77)
-		(end 126.56 95.98)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "f3a84874-0da6-4e80-b2db-1083d2313055")
 	)
 	(segment
 		(start 132.245589 92.007107)
@@ -33131,7 +33105,7 @@
 		(uuid "3b33c4a9-cada-4908-838d-856482a4fc96")
 	)
 	(via
-		(at 123.42 95.73)
+		(at 124 96)
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -33167,7 +33141,7 @@
 		(uuid "3c66bc53-1fdc-4b63-8d40-4a94aedd5cfb")
 	)
 	(via
-		(at 125.35 93.94)
+		(at 125.35 94.5)
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -34315,7 +34289,7 @@
 		(uuid "e1603fe3-fdc5-4126-9c9a-387336c85c52")
 	)
 	(via
-		(at 124.48 94.8)
+		(at 124.675 95.175)
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
