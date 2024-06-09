@@ -17,7 +17,7 @@ permissions:
 jobs:
   ERC:
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad7_auto:latest
+    container: ghcr.io/inti-cmnb/kicad8_auto:latest
 
     steps:
     - uses: actions/checkout@v3
@@ -30,7 +30,7 @@ jobs:
   
   DRC:
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad7_auto:latest
+    container: ghcr.io/inti-cmnb/kicad8_auto:latest
 
     steps:
     - uses: actions/checkout@v3
@@ -43,7 +43,7 @@ jobs:
 
   PCB:
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad7_auto:latest
+    container: ghcr.io/inti-cmnb/kicad8_auto:latest
       #    if: startsWith(github.ref, 'refs/tags/')
     steps:
     - uses: actions/checkout@v3
