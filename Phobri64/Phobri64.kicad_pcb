@@ -9,7 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Phobri64")
-		(rev "1.0.0")
+		(date "2024-06-12")
+		(rev "1.1.0")
 		(company "Zenith Control Labs")
 	)
 	(layers
@@ -1130,7 +1131,7 @@
 		(descr "LGA12")
 		(tags "lga land grid array")
 		(property "Reference" "U1"
-			(at -0.007808 -0.001082 0)
+			(at 0.122192 2.418918 -90)
 			(layer "F.SilkS")
 			(uuid "f03b740e-4cb2-48f7-8e67-5f06ed8c06d5")
 			(effects
@@ -1689,7 +1690,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at 0.507101 1.3856 90)
+			(at 0.147101 1.4256 90)
 			(layer "F.SilkS")
 			(uuid "8353fc5c-face-4d47-90fe-1bb466ad3fea")
 			(effects
@@ -3068,7 +3069,7 @@
 		(path "/d1fb3095-7815-4926-8e9b-481e5201b93e")
 		(sheetname "Root")
 		(sheetfile "Phobri64.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -8969,9 +8970,10 @@
 		(at 185.95 99.83)
 		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
 		(tags "test point THT pad")
-		(property "Reference" "GND"
+		(property "Reference" "TP_GND1"
 			(at -0.61 1.46 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e4cd0fff-e716-47b1-a7cf-bfe25b77313c")
 			(effects
 				(font
@@ -8980,9 +8982,9 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at 0 1.55 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "c3829aed-7300-4eb7-8a96-5b342003c6cf")
 			(effects
 				(font
@@ -9438,6 +9440,7 @@
 		(property "Reference" "S_I2C1"
 			(at 0 -2.135 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "692e4da1-b095-4b71-99a2-cbaac1ad3723")
 			(effects
 				(font
@@ -9803,6 +9806,7 @@
 		(path "/5401b489-320b-42eb-8584-fed4e41dce68")
 		(sheetname "Root")
 		(sheetfile "Phobri64.kicad_sch")
+		(attr exclude_from_bom)
 		(fp_line
 			(start 8 -8)
 			(end -8 -8)
@@ -16743,7 +16747,7 @@
 		(at 187.9924 94.027899)
 		(tags "ADS7142IRUGR ")
 		(property "Reference" "U2"
-			(at -0.0124 -0.017899 0)
+			(at -2.4924 -1.027899 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "423b925d-fd86-4a77-912d-0be9c2529e92")
@@ -19055,9 +19059,10 @@
 		(at 185.62 97.72)
 		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
 		(tags "test point THT pad")
-		(property "Reference" "V+"
+		(property "Reference" "TP_V+1"
 			(at -1.06 -1.24 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fa3327fb-5719-451c-83e1-7927371b7011")
 			(effects
 				(font
@@ -19066,9 +19071,9 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 0 1.55 0)
-			(layer "F.Fab")
+		(property "Value" "V+"
+			(at -1.12 -1.22 0)
+			(layer "F.SilkS")
 			(uuid "d0b05d22-34e3-4606-9f10-9abd198035df")
 			(effects
 				(font
@@ -21764,7 +21769,7 @@
 		(path "/ab1b1b18-3dd6-49e5-97fd-45ef0391abc6")
 		(sheetname "Root")
 		(sheetfile "Phobri64.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -27948,6 +27953,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "v1.1.0"
+		(at 185.5 117 90)
+		(layer "B.SilkS")
+		(uuid "91448fff-3ecd-43b7-a0be-66daca84f251")
+		(effects
+			(font
+				(size 3 2)
+				(thickness 0.3)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "github.com/ZenithControlLabs"
 		(at 151.5872 87.6366 90)
 		(layer "B.SilkS")
@@ -27987,7 +28004,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Phobri64 1.0.0"
+	(gr_text "Phobri64 1.1.0"
 		(at 102.235 87.503 45)
 		(layer "F.SilkS")
 		(uuid "0a87eb53-d796-4bca-bd88-d5977fbee1a6")

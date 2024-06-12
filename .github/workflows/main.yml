@@ -75,6 +75,7 @@ jobs:
         run: |
           mv PCB_SCH_Output/Phobri64-schematic.pdf ./Phobri64_${{ github.ref_name }}_schematic.pdf
           mv PCB_SCH_Output/Phobri64-JLCPCB.zip ./Phobri64_${{ github.ref_name }}_JLCPCB_FAB.zip
+          mv PCB_SCH_Output/Phobri64-ELECROW.zip ./Phobri64_${{ github.ref_name }}_ELECROW_FAB.zip
 
       - name: Push to release
         uses: softprops/action-gh-release@v1
@@ -83,3 +84,4 @@ jobs:
             files: |
               Phobri64_${{ github.ref_name }}_schematic.pdf
               Phobri64_${{ github.ref_name }}_JLCPCB_FAB.zip
+              Phobri64_${{ github.ref_name }}_ELECROW_FAB.zip
