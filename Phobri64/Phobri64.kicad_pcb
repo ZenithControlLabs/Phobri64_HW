@@ -17718,6 +17718,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
+			(clearance 0.1)
 			(uuid "bb3149be-8737-489e-8e83-bf2c3aafc185")
 		)
 		(pad "B1" smd rect
@@ -17727,6 +17728,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
+			(clearance 0.1)
 			(uuid "9423ae66-8ce2-4917-afbd-59a6f15e2875")
 		)
 		(pad "B2" smd rect

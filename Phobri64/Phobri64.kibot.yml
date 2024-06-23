@@ -14,6 +14,8 @@ preflight:
     - error: "silk_overlap"
     - error: "lib_footprint_mismatch"
     - error: "lib_footprint_issues"
+    - error: "copper_edge_clearance"
+      regex: "NPTH pad of J8"
 
 
 #global:
