@@ -1,0 +1,23 @@
+---
+geometry: margin=1in
+---
+
+# Continuity test
+
+Check continuity between points connected in the two images:
+
+## 3.3V net
+
+![](3.3v.png)
+
+## GND net
+
+![](gnd.png)
+
+# Smoke test
+
+Supply 3.3V power to highlighted test points. 
+Verify all boards behave "normally": no magic smoke, draws nonzero current, draws less than 1A current.
+Components may be warm but should not be hot to touch after running for any amount of time.
+
+![](testpoints.png)

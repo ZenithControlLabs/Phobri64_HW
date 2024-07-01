@@ -1638,17 +1638,6 @@
 			(pintype "passive")
 			(uuid "1d1aac3a-1dfe-449a-bd44-66b019935bcf")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Phobri64:MountingHole_1.7mm"
 		(layer "F.Cu")
@@ -2923,17 +2912,6 @@
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "33b0d8f0-7ab5-4da5-a339-0d46039f8d9c")
-		)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x04_P1.27mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
 		)
 	)
 	(footprint "Phobri64:Hori_Style_Stick_pot"
@@ -5247,17 +5225,6 @@
 			(pinfunction "Pin_3")
 			(pintype "passive")
 			(uuid "e93cc55e-fdbf-46b2-8ef2-8b4595a8a3fa")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
 		)
 	)
 	(footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
