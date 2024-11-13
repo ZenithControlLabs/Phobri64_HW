@@ -1781,6 +1781,377 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x10"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x10"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x10_1_1"
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 11.43)
+					(end 1.27 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -10971,7 +11342,7 @@
 	)
 	(global_label "S_HALL_DRDY"
 		(shape output)
-		(at 107.95 187.96 0)
+		(at 119.38 208.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10981,7 +11352,7 @@
 		)
 		(uuid "2a6f71ce-7cde-4b3e-82bf-ebe4f500d9c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.4538 187.96 0)
+			(at 134.8838 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11257,7 +11628,7 @@
 	)
 	(global_label "S_SDA"
 		(shape bidirectional)
-		(at 107.95 203.2 0)
+		(at 101.6 205.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11267,7 +11638,7 @@
 		)
 		(uuid "4e6f9d56-d929-4ad2-b8ab-a24dbf451b90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.7917 203.2 0)
+			(at 111.4417 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11433,7 +11804,7 @@
 	)
 	(global_label "S_SCL"
 		(shape bidirectional)
-		(at 107.95 205.74 0)
+		(at 101.6 208.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11443,7 +11814,7 @@
 		)
 		(uuid "63dfe216-40b5-46e0-95e2-50a39c2dd7eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.7312 205.74 0)
+			(at 111.3812 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12049,7 +12420,7 @@
 	)
 	(global_label "S_SCL"
 		(shape bidirectional)
-		(at 118.11 218.44 0)
+		(at 124.46 215.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12059,7 +12430,7 @@
 		)
 		(uuid "aebe37ec-ef3c-4c96-a5e7-140f8d763edd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.8912 218.44 0)
+			(at 134.2412 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12621,7 +12992,7 @@
 	)
 	(global_label "S_SDA"
 		(shape bidirectional)
-		(at 118.11 220.98 0)
+		(at 124.46 218.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12631,7 +13002,7 @@
 		)
 		(uuid "db932bb2-5b1f-4f73-9191-d10ed383322e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.9517 220.98 0)
+			(at 134.3017 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16101,7 +16472,7 @@
 	)
 	(symbol
 		(lib_id "Phobri64:S_GND")
-		(at 107.95 185.42 180)
+		(at 119.38 205.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16109,7 +16480,7 @@
 		(dnp no)
 		(uuid "2ed8997b-3302-41ac-8ac0-609df017cd18")
 		(property "Reference" "#PWR016"
-			(at 107.95 179.07 0)
+			(at 119.38 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16118,7 +16489,7 @@
 			)
 		)
 		(property "Value" "S_GND"
-			(at 107.696 181.356 0)
+			(at 119.126 201.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16126,7 +16497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 185.42 0)
+			(at 119.38 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16135,7 +16506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 185.42 0)
+			(at 119.38 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16144,7 +16515,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 185.42 0)
+			(at 119.38 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16527,6 +16898,127 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 96.52 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "360ab076-ba58-46a5-bd1e-e58e5dff5096")
+		(property "Reference" "J11"
+			(at 99.06 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mobo_To_Stick"
+			(at 99.06 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Phobri64:CON_5034801000_MOL"
+			(at 96.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811021608_MOLEX-5034801000_C127355.pdf"
+			(at 96.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C127355"
+			(at 96.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "WM1389TR-ND"
+			(at 96.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5034801000"
+			(at 96.52 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b78b76e8-7d15-4f59-b04c-054deec4dce1")
+		)
+		(pin "10"
+			(uuid "91b7224b-e44d-41c0-a4d0-1127c22f8391")
+		)
+		(pin "2"
+			(uuid "c6a5a348-434e-4aea-a051-fd27ad49deea")
+		)
+		(pin "3"
+			(uuid "131141e2-cea3-4886-8d19-47fe000c4a0f")
+		)
+		(pin "4"
+			(uuid "53cf4d6e-8ad3-4a56-a453-557448250280")
+		)
+		(pin "5"
+			(uuid "862a8af8-3667-41e0-8830-c40106822d1e")
+		)
+		(pin "6"
+			(uuid "c5978eef-79ef-4efd-9148-a772f3fffbb2")
+		)
+		(pin "7"
+			(uuid "1dd33c3f-da5b-4229-aaf6-3f325fd7efcb")
+		)
+		(pin "8"
+			(uuid "b4306c00-89a7-4dfd-b107-65c5349ac30b")
+		)
+		(pin "9"
+			(uuid "3532b6d3-6158-4be5-b916-598b08f29810")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Phobri64:+S_3V3")
 		(at 40.64 245.11 0)
 		(unit 1)
@@ -16593,7 +17085,7 @@
 	)
 	(symbol
 		(lib_id "Phobri64:+S_3V3")
-		(at 107.95 200.66 270)
+		(at 101.6 203.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16601,7 +17093,7 @@
 		(dnp no)
 		(uuid "36fad313-9023-4227-8c33-797141f3ca9d")
 		(property "Reference" "#PWR018"
-			(at 104.14 200.66 0)
+			(at 97.79 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16610,7 +17102,7 @@
 			)
 		)
 		(property "Value" "+S_3V3"
-			(at 114.3 200.66 90)
+			(at 107.95 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16618,7 +17110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 200.66 0)
+			(at 101.6 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16627,7 +17119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 200.66 0)
+			(at 101.6 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16636,7 +17128,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 200.66 0)
+			(at 101.6 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19937,7 +20429,7 @@
 	)
 	(symbol
 		(lib_id "Phobri64:+S_3V3")
-		(at 118.11 215.9 270)
+		(at 124.46 213.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19945,7 +20437,7 @@
 		(dnp no)
 		(uuid "7093f0af-8085-4564-b882-222ff07ee6c9")
 		(property "Reference" "#PWR058"
-			(at 114.3 215.9 0)
+			(at 120.65 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19954,7 +20446,7 @@
 			)
 		)
 		(property "Value" "+S_3V3"
-			(at 124.968 215.7476 90)
+			(at 131.318 213.2076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19962,7 +20454,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 215.9 0)
+			(at 124.46 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19971,7 +20463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 215.9 0)
+			(at 124.46 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19980,7 +20472,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 215.9 0)
+			(at 124.46 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24088,7 +24580,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 113.03 220.98 180)
+		(at 119.38 218.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24096,7 +24588,7 @@
 		(dnp no)
 		(uuid "b83316ba-cd88-4697-be6b-b1a09fa58b5c")
 		(property "Reference" "S_I2C1"
-			(at 118.745 227.1776 0)
+			(at 125.095 224.6376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24105,7 +24597,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 111.4044 218.44 0)
+			(at 117.7544 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24115,7 +24607,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 113.03 220.98 0)
+			(at 119.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24124,7 +24616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 220.98 0)
+			(at 119.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24133,7 +24625,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 113.03 220.98 0)
+			(at 119.38 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24157,6 +24649,125 @@
 			(project "Phobri64"
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "S_I2C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 129.54 191.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b84e7b3a-f4b0-4641-9771-5d93d7957c4f")
+		(property "Reference" "J10"
+			(at 125.73 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Stick_To_Mobo"
+			(at 120.65 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phobri64:CON_5034801000_MOL"
+			(at 129.54 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811021608_MOLEX-5034801000_C127355.pdf"
+			(at 129.54 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C127355"
+			(at 129.54 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" "WM1389TR-ND"
+			(at 129.54 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5034801000"
+			(at 129.54 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99d5afa5-5217-4081-81dc-a48ceec98083")
+		)
+		(pin "10"
+			(uuid "b7a8da16-5550-4c36-85fa-39e7cbf896a6")
+		)
+		(pin "2"
+			(uuid "473c4c08-5179-4369-8acc-13d70ef2501c")
+		)
+		(pin "3"
+			(uuid "dc63eb5a-2527-4a4d-9c69-23641b514664")
+		)
+		(pin "4"
+			(uuid "45c642c5-f465-4a6e-9803-4fe8b3c57fa8")
+		)
+		(pin "5"
+			(uuid "562600e2-1d0a-4988-8a78-b899d4439195")
+		)
+		(pin "6"
+			(uuid "80d70fd0-9029-412d-8ab7-65f757be2b68")
+		)
+		(pin "7"
+			(uuid "6fec7d05-55d8-4f97-8c1c-bf16530c34ca")
+		)
+		(pin "8"
+			(uuid "4b28e925-e062-41b3-91a1-a33e6348bf0e")
+		)
+		(pin "9"
+			(uuid "5e5ba3de-43c3-4577-8be3-39291d1ab218")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -26223,7 +26834,7 @@
 	)
 	(symbol
 		(lib_id "Phobri64:S_GND")
-		(at 118.11 223.52 90)
+		(at 124.46 220.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26231,7 +26842,7 @@
 		(dnp no)
 		(uuid "d44e76c6-b68f-46c7-ad17-4bea8cb9888e")
 		(property "Reference" "#PWR059"
-			(at 124.46 223.52 0)
+			(at 130.81 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26240,7 +26851,7 @@
 			)
 		)
 		(property "Value" "S_GND"
-			(at 124.841 223.6216 90)
+			(at 131.191 221.0816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26248,7 +26859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 223.52 0)
+			(at 124.46 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26257,7 +26868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 223.52 0)
+			(at 124.46 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26266,7 +26877,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 223.52 0)
+			(at 124.46 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26687,7 +27298,7 @@
 	)
 	(symbol
 		(lib_id "Phobri64:S_GND")
-		(at 107.95 208.28 0)
+		(at 101.6 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26695,7 +27306,7 @@
 		(dnp no)
 		(uuid "dafd61e7-e04b-40c8-ac42-9d0da5e2dc03")
 		(property "Reference" "#PWR017"
-			(at 107.95 214.63 0)
+			(at 101.6 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26704,7 +27315,7 @@
 			)
 		)
 		(property "Value" "S_GND"
-			(at 107.95 212.09 0)
+			(at 101.6 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26712,7 +27323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 208.28 0)
+			(at 101.6 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26721,7 +27332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 208.28 0)
+			(at 101.6 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26730,7 +27341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 208.28 0)
+			(at 101.6 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27154,7 +27765,7 @@
 	)
 	(symbol
 		(lib_id "Phobri64:+S_3V3")
-		(at 107.95 198.12 270)
+		(at 101.6 200.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27162,7 +27773,7 @@
 		(dnp no)
 		(uuid "e0fc12ed-4cc2-4ca6-9d13-ccddc2a73bc0")
 		(property "Reference" "#PWR056"
-			(at 104.14 198.12 0)
+			(at 97.79 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27171,7 +27782,7 @@
 			)
 		)
 		(property "Value" "+S_3V3"
-			(at 114.3 198.12 90)
+			(at 107.95 200.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27179,7 +27790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 198.12 0)
+			(at 101.6 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27188,7 +27799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 198.12 0)
+			(at 101.6 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27197,7 +27808,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 198.12 0)
+			(at 101.6 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
