@@ -10,7 +10,7 @@
 	(title_block
 		(title "Phobri64")
 		(date "2024-06-12")
-		(rev "1.1.0")
+		(rev "1.2.0")
 		(company "Zenith Control Labs")
 	)
 	(layers
@@ -1469,7 +1469,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at 0.147101 1.4256 0)
+			(at 0.891799 1.8144 90)
 			(layer "F.SilkS")
 			(uuid "8353fc5c-face-4d47-90fe-1bb466ad3fea")
 			(effects
@@ -2330,7 +2330,7 @@
 			)
 		)
 		(property "Value" "DD"
-			(at 2.15 0.45 0)
+			(at -0.82 -1.841 0)
 			(layer "F.SilkS")
 			(uuid "1bf77d6b-a009-420f-be55-cabc89958a01")
 			(effects
@@ -2786,8 +2786,8 @@
 		(at 184.5564 99.187)
 		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
 		(tags "test point THT pad")
-		(property "Reference" "BTN_N1"
-			(at 0 -1.448 0)
+		(property "Reference" "N"
+			(at -0.0564 1.813 0)
 			(layer "F.SilkS")
 			(uuid "439fd004-e680-484d-9883-71d34dc7bf1f")
 			(effects
@@ -3525,6 +3525,7 @@
 		(property "Reference" "J3"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bee06191-91e4-41dd-9093-1ea844fc3acc")
 			(effects
 				(font
@@ -4578,7 +4579,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C30"
-			(at 0.1972 -2.3478 180)
+			(at -2.340389 -1.617289 180)
 			(layer "F.SilkS")
 			(uuid "434f415b-dba0-402e-a354-bf16b03ce0ab")
 			(effects
@@ -5198,7 +5199,7 @@
 			)
 		)
 		(property "Value" "S"
-			(at 0 1.55 0)
+			(at 0 1.675 0)
 			(layer "F.SilkS")
 			(uuid "fc3793ad-720b-4ec1-a3d3-96ca54f86cba")
 			(effects
@@ -5301,7 +5302,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.06 90)
+			(at 1.3422 -1.416 180)
 			(layer "F.SilkS")
 			(uuid "f7d5a164-de04-4097-ab10-67e6130a18f8")
 			(effects
@@ -5546,8 +5547,8 @@
 		(at 186.7916 99.2124)
 		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
 		(tags "test point THT pad")
-		(property "Reference" "BTN_P1"
-			(at 0 -1.448 0)
+		(property "Reference" "P"
+			(at 0 1.7876 0)
 			(layer "F.SilkS")
 			(uuid "91730f4f-f7dd-43e4-8ef5-41fa455a4579")
 			(effects
@@ -7716,7 +7717,7 @@
 		(descr "http://toshiba.semicon-storage.com/info/docget.jsp?did=5879&prodName=RN1104MFV")
 		(tags "sot 723")
 		(property "Reference" "TVS_10"
-			(at 0.1 -1.6 90)
+			(at -14.8594 43.519 90)
 			(layer "F.SilkS")
 			(uuid "048226a5-fc3e-4c90-8fb4-81fdc5af5e47")
 			(effects
@@ -7984,7 +7985,7 @@
 		(at 180.274986 87.092699 180)
 		(tags "5034801000 ")
 		(property "Reference" "J7"
-			(at 0 -5.08 180)
+			(at -6.225014 0.092699 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f9a95953-d9e2-41fc-b3fa-c6ab88376bf9")
@@ -9389,7 +9390,6 @@
 		(property "Reference" "J5"
 			(at 0 2.573582 0)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "3234ce0f-7752-4f56-91e4-a49de9b3d7dd")
 			(effects
 				(font
@@ -9411,7 +9411,7 @@
 			)
 		)
 		(property "Footprint" "Phobri64:Header_1x3"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "276deaaf-433c-4147-8aea-dbd40d7d157e")
@@ -9423,7 +9423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f504a0db-7e6a-4035-830e-64ee876d2adc")
@@ -9435,7 +9435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6207a7b1-a371-4c3c-96f0-7f9fcc668fb9")
@@ -9775,7 +9775,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 2.1844 -0.381 0)
+			(at 0.1956 -1.8448 0)
 			(layer "F.SilkS")
 			(uuid "a2d0e309-2c4d-4f29-b240-fd06c3e22f80")
 			(effects
@@ -9878,7 +9878,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0.03 1.38 90)
+			(at 3.6578 -2.2938 180)
 			(layer "F.SilkS")
 			(uuid "0dc3cca2-1190-493a-9304-cea8f8e997c9")
 			(effects
@@ -11451,7 +11451,7 @@
 		(descr "http://toshiba.semicon-storage.com/info/docget.jsp?did=5879&prodName=RN1104MFV")
 		(tags "sot 723")
 		(property "Reference" "TVS_1"
-			(at 0.1 -1.6 90)
+			(at 0.9217 -15.1274 90)
 			(layer "F.SilkS")
 			(uuid "6192abd0-d25f-4cbf-91d1-5be5db6170ef")
 			(effects
@@ -12519,7 +12519,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at -0.462501 1.57 0)
+			(at 0.692971 -3.914799 90)
 			(layer "F.SilkS")
 			(uuid "b2888954-ff50-461c-b0bb-de6b9eb7e620")
 			(effects
@@ -12883,7 +12883,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 2.249307 -0.403758 135)
+			(at 1.392718 1.081591 135)
 			(layer "F.SilkS")
 			(uuid "6865e179-7de3-41a4-beb1-87d3f37870c8")
 			(effects
@@ -14189,7 +14189,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C21"
-			(at 1.899 -0.246 0)
+			(at 1.920447 -0.392075 180)
 			(layer "F.SilkS")
 			(uuid "08dfce94-fbdf-4f72-b88e-76fd34ddf73d")
 			(effects
@@ -14680,7 +14680,7 @@
 		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
 		(tags "test point THT pad")
 		(property "Reference" "TP5"
-			(at 0 -1.448 0)
+			(at 0 1.67 0)
 			(layer "F.SilkS")
 			(uuid "3a414837-119e-49fb-81e2-bb2e7feccbff")
 			(effects
@@ -15875,7 +15875,7 @@
 		(descr "http://toshiba.semicon-storage.com/info/docget.jsp?did=5879&prodName=RN1104MFV")
 		(tags "sot 723")
 		(property "Reference" "TVS_7"
-			(at 0.1 -1.6 0)
+			(at -30.8526 -38.1974 0)
 			(layer "F.SilkS")
 			(uuid "94231b92-0939-4193-a2f8-65537a5790cb")
 			(effects
@@ -16143,7 +16143,7 @@
 		(descr "http://toshiba.semicon-storage.com/info/docget.jsp?did=5879&prodName=RN1104MFV")
 		(tags "sot 723")
 		(property "Reference" "TVS_11"
-			(at 0.1 -1.6 90)
+			(at -14.8594 52.7368 90)
 			(layer "F.SilkS")
 			(uuid "621173f3-a4c9-455e-9bee-5f8f825fe009")
 			(effects
@@ -17021,7 +17021,7 @@
 		(descr "http://toshiba.semicon-storage.com/info/docget.jsp?did=5879&prodName=RN1104MFV")
 		(tags "sot 723")
 		(property "Reference" "TVS_13"
-			(at 0.1 -1.6 90)
+			(at 24.6964 -34.0866 90)
 			(layer "F.SilkS")
 			(uuid "0e198897-cbaa-4f48-97b8-ceffc34871c9")
 			(effects
@@ -18712,7 +18712,7 @@
 		(descr "http://toshiba.semicon-storage.com/info/docget.jsp?did=5879&prodName=RN1104MFV")
 		(tags "sot 723")
 		(property "Reference" "TVS_20"
-			(at 0.1 -1.6 90)
+			(at 5.32 -4.25 -90)
 			(layer "F.SilkS")
 			(uuid "39e3a024-7e53-45b5-8402-cd6f1df91ea6")
 			(effects
@@ -18921,7 +18921,7 @@
 			(uuid "235ab415-5bdd-41a3-b3b2-8a8eedc94596")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.8 0 360)
+			(at 0.8 0 0)
 			(layer "F.Fab")
 			(uuid "ab63c41c-f964-4bee-9321-91de04910d64")
 			(effects
@@ -19094,8 +19094,8 @@
 		(at 118.3132 103.0986)
 		(descr "Through hole straight socket strip, 1x04, 1.27mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x04 1.27mm single row")
-		(property "Reference" "GPIO_1"
-			(at 0 -2.135 0)
+		(property "Reference" "GPIO"
+			(at -0.8132 -1.5986 0)
 			(layer "F.SilkS")
 			(uuid "606197c0-21cd-4331-a302-36a45d1ba87f")
 			(effects
@@ -19782,7 +19782,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0.07 1.15 90)
+			(at -0.6598 2.6762 90)
 			(layer "F.SilkS")
 			(uuid "ef82d695-4c1b-4d19-89bd-d79243a0c7c5")
 			(effects
@@ -20276,12 +20276,12 @@
 			)
 		)
 		(property "Value" "BOOT"
-			(at 1.4224 -1.8796 0)
+			(at 2.6006 0.3598 0)
 			(layer "F.SilkS")
 			(uuid "e179641a-56f9-46a3-9a3d-0d5d85dfcba4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -21358,7 +21358,7 @@
 		(at 164.783201 97.1188 90)
 		(tags "ADS7142IRUGR ")
 		(property "Reference" "U2"
-			(at -2.4924 -1.027899 90)
+			(at -3.3812 0.216799 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "423b925d-fd86-4a77-912d-0be9c2529e92")
@@ -22619,7 +22619,7 @@
 		(descr "http://toshiba.semicon-storage.com/info/docget.jsp?did=5879&prodName=RN1104MFV")
 		(tags "sot 723")
 		(property "Reference" "TVS_12"
-			(at 0.1 -1.6 0)
+			(at -21.5052 -12.8736 0)
 			(layer "F.SilkS")
 			(uuid "c3980726-da96-434f-8501-61f36811fccd")
 			(effects
@@ -23145,7 +23145,7 @@
 			)
 		)
 		(property "Value" "DL"
-			(at 1.625 -0.275 180)
+			(at 1.625 0.6828 180)
 			(layer "F.SilkS")
 			(uuid "457a79a2-508d-45d9-bbb1-4a6f9936561f")
 			(effects
@@ -24024,7 +24024,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
-			(at 3.1818 0.8732 0)
+			(at -3.82 -0.06 0)
 			(layer "F.SilkS")
 			(uuid "c6221f73-dff7-405d-892a-fe146c214b32")
 			(effects
@@ -24631,7 +24631,7 @@
 		(descr "QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "QFN NoLead")
 		(property "Reference" "U3"
-			(at 5.658114 4.967397 45)
+			(at 5.929643 3.589953 45)
 			(layer "F.SilkS")
 			(uuid "4016f754-1dd8-4968-9ce2-bbbb31fe0003")
 			(effects
@@ -26291,6 +26291,7 @@
 		(property "Reference" "J9"
 			(at 0 -2.33 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5b4b6015-9700-4432-8e03-2d12581bf08e")
 			(effects
 				(font
@@ -27682,7 +27683,7 @@
 		(at 138.7881 102.1582 90)
 		(tags "5034801000 ")
 		(property "Reference" "J12"
-			(at 0 -5.08 90)
+			(at -4.8418 1.7119 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "d78fd970-138c-441b-8a91-8581168c3e4c")
@@ -28257,8 +28258,9 @@
 		(descr "Through hole straight socket strip, 1x04, 1.27mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x04 1.27mm single row")
 		(property "Reference" "GPIO_2"
-			(at 0 -2.135 0)
+			(at 0.8378 -2.135 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "618bd168-1113-4fd8-b196-91c7dc2fa492")
 			(effects
 				(font
@@ -28563,7 +28565,7 @@
 		(descr "http://toshiba.semicon-storage.com/info/docget.jsp?did=5879&prodName=RN1104MFV")
 		(tags "sot 723")
 		(property "Reference" "TVS_19"
-			(at 0.1 -1.6 90)
+			(at 9.33 -3.92 -90)
 			(layer "F.SilkS")
 			(uuid "425a9f0a-b4ea-4dfb-bdce-2ead2f976798")
 			(effects
@@ -28772,7 +28774,7 @@
 			(uuid "239966f1-ac09-4bd1-9b22-1fb561627d22")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.8 0 360)
+			(at 0.8 0 0)
 			(layer "F.Fab")
 			(uuid "96ca27f9-d2e3-4c11-999c-a9b06b2206f8")
 			(effects
@@ -33449,7 +33451,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "v1.1.0"
+	(gr_text "v1.2.0"
 		(at 185.5 117 90)
 		(layer "B.SilkS")
 		(uuid "91448fff-3ecd-43b7-a0be-66daca84f251")
@@ -33500,7 +33502,30 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Phobri64 1.1.0"
+	(gr_text "3"
+		(at 110 117 0)
+		(layer "F.SilkS")
+		(uuid "08a66a91-83ea-47f8-a486-fa3a3396a6b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D"
+		(at 182.5 96 0)
+		(layer "F.SilkS")
+		(uuid "097e83c5-b423-4007-bfef-ad09350c9540")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "Phobri64 1.2.0"
 		(at 102.235 87.503 45)
 		(layer "F.SilkS")
 		(uuid "0a87eb53-d796-4bca-bd88-d5977fbee1a6")
@@ -33510,6 +33535,17 @@
 				(thickness 0.3)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "G"
+		(at 148.366548 96.330415 0)
+		(layer "F.SilkS")
+		(uuid "10191bea-0ea8-4b27-8141-2ba2c2ea1aa5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "ZenithControlLabs"
@@ -33597,6 +33633,41 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "V"
+		(at 143.5 100.5 0)
+		(layer "F.SilkS")
+		(uuid "62b6cfb5-1a81-4427-ac43-648ac27008e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "X"
+		(at 164 113 0)
+		(layer "F.SilkS")
+		(uuid "74ba5438-83ac-444c-ad45-b1acba1c0226")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1"
+		(at 110 113 0)
+		(layer "F.SilkS")
+		(uuid "75ad76ab-0c1b-481e-88d1-62ef031f1e56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SEE BACK FOR\nJP1&2 HELP"
 		(at 115.697 87.503 90)
 		(layer "F.SilkS")
@@ -33633,6 +33704,28 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "C"
+		(at 143.5 98.5 0)
+		(layer "F.SilkS")
+		(uuid "9a5737c3-d707-4809-baec-3e82b680cfca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "D"
+		(at 148.366548 98.788415 0)
+		(layer "F.SilkS")
+		(uuid "9fb3235d-f48e-4317-ba53-948a39c29287")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "GP14"
 		(at 122.936 89.662 315)
 		(layer "F.SilkS")
@@ -33643,6 +33736,17 @@
 				(thickness 0.1875)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "C"
+		(at 181.5 91 0)
+		(layer "F.SilkS")
+		(uuid "a541ef38-4df6-413e-83b8-941fe094893c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(gr_text "Licensed under\n"
@@ -33659,7 +33763,7 @@
 		)
 	)
 	(gr_text "Y"
-		(at 182.118 97.536 90)
+		(at 179.5 98.5 0)
 		(layer "F.SilkS")
 		(uuid "dd215e6d-2c17-44f4-8afa-6fec4bf9e5b6")
 		(effects
@@ -33668,6 +33772,28 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "G"
+		(at 180.5 96 0)
+		(layer "F.SilkS")
+		(uuid "f65de871-5cd5-48a9-872d-e0dcdcb29660")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(gr_text "V"
+		(at 183.5 91 0)
+		(layer "F.SilkS")
+		(uuid "fc2ff65a-e2fa-49e4-9e46-e3e02ff700a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(segment
