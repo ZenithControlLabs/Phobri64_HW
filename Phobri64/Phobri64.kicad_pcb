@@ -7859,7 +7859,7 @@
 		(descr "http://toshiba.semicon-storage.com/info/docget.jsp?did=5879&prodName=RN1104MFV")
 		(tags "sot 723")
 		(property "Reference" "TVS"
-			(at 1.6406 -1.481 180)
+			(at 1.6406 -1.481 0)
 			(layer "F.SilkS")
 			(uuid "048226a5-fc3e-4c90-8fb4-81fdc5af5e47")
 			(effects
@@ -9922,7 +9922,7 @@
 			(uuid "a2d0e309-2c4d-4f29-b240-fd06c3e22f80")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -10638,6 +10638,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_1.27mm:PinSocket_1x06_P1.27mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "6d6053d2-0d09-4627-a351-56b2dc09808e")
 		(at 150.33 70.9 90)
@@ -10876,18 +10877,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "84f05676-61f4-4464-8420-324ebac15cb2")
-		)
-		(fp_text user "GND RTS CTS RX TX 3V3"
-			(at -2.65 3.54 0)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "0d2d4a1a-01d3-4eb5-bed8-8a79e00646a2")
-			(effects
-				(font
-					(size 0.7 0.7)
-					(thickness 0.15)
-				)
-			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 3.175 0)
@@ -13027,7 +13016,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C12"
-			(at 1.392718 1.081591 135)
+			(at 0.685611 1.081591 135)
 			(layer "F.SilkS")
 			(uuid "6865e179-7de3-41a4-beb1-87d3f37870c8")
 			(effects
@@ -20239,7 +20228,7 @@
 			(uuid "e179641a-56f9-46a3-9a3d-0d5d85dfcba4")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -28332,7 +28321,7 @@
 		(descr "http://toshiba.semicon-storage.com/info/docget.jsp?did=5879&prodName=RN1104MFV")
 		(tags "sot 723")
 		(property "Reference" "TVS"
-			(at -0.323685 1.472762 225)
+			(at -0.323685 1.472762 -135)
 			(layer "F.SilkS")
 			(uuid "425a9f0a-b4ea-4dfb-bdce-2ead2f976798")
 			(effects
@@ -32371,6 +32360,16 @@
 		)
 	)
 	(gr_line
+		(start 173.61643 86.37)
+		(end 171.58357 86.386749)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "6ec22be3-69d6-498b-9752-08f6e5b40faf")
+	)
+	(gr_line
 		(start 167.599044 74.9802)
 		(end 118.9761 74.9802)
 		(stroke
@@ -33315,12 +33314,12 @@
 		)
 	)
 	(gr_text "GND"
-		(at 136.652 68.8848 -0)
+		(at 136.652 68.8848 0)
 		(layer "B.SilkS")
 		(uuid "15f6e5cd-7e1e-41df-8182-5a766edf47bd")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 			(justify mirror)
@@ -33357,18 +33356,6 @@
 		(effects
 			(font
 				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "3V3 TX RX CTS RTS GND"
-		(at 153.8986 73.533 0)
-		(layer "B.SilkS")
-		(uuid "24b750e0-e398-4410-98a3-b4c5f39882f8")
-		(effects
-			(font
-				(size 0.7 0.7)
 				(thickness 0.15)
 			)
 			(justify mirror)
@@ -33444,6 +33431,18 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.1875)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "RTS"
+		(at 152.0975 72.3 90)
+		(layer "B.SilkS")
+		(uuid "3c3f1212-7248-4910-acfc-79e3f91b8c59")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
 			)
 			(justify left bottom mirror)
 		)
@@ -33532,6 +33531,18 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "CTS"
+		(at 153.3675 72.3 90)
+		(layer "B.SilkS")
+		(uuid "50fe26d0-dd40-4100-bb4c-dc4df6d111d4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "GND"
 		(at 139.319 87.9094 -0)
 		(layer "B.SilkS")
@@ -33569,6 +33580,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "3v3"
+		(at 157.1775 72.3 90)
+		(layer "B.SilkS")
+		(uuid "5a843d4a-6062-4cfd-83c0-e73364284b36")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "s2"
 		(at 143.2306 102.1334 -0)
 		(layer "B.SilkS")
@@ -33582,12 +33605,12 @@
 		)
 	)
 	(gr_text "BOOT"
-		(at 133.1468 68.8848 -0)
+		(at 133.1468 69 0)
 		(layer "B.SilkS")
 		(uuid "641edff4-d765-40b6-bdcc-b7613a7895e5")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 			(justify mirror)
@@ -33749,7 +33772,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "BRIDGE JP1&2 FOR USB-C OVER N64\nAND REMOVE R12&R13"
+	(gr_text "BRIDGE JP1&2 FOR N64 OVER USB-C\nAND REMOVE R12&R13"
 		(at 165.735 67.564 0)
 		(layer "B.SilkS")
 		(uuid "8d5e9363-9fb0-4317-a6bd-df0c2ada7456")
@@ -33807,6 +33830,30 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "RX"
+		(at 154.6375 72.3 90)
+		(layer "B.SilkS")
+		(uuid "a7181129-7c15-4fdd-a715-9c62e4d9dc54")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 150.8275 72.3 90)
+		(layer "B.SilkS")
+		(uuid "a9189ada-73ed-4933-ae2e-98acad49efe0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "GND"
@@ -33917,6 +33964,18 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "TX"
+		(at 155.9075 72.3 90)
+		(layer "B.SilkS")
+		(uuid "c9410614-2eda-4bb4-ada7-60f6f1527e80")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "s1"
 		(at 148.6154 100.9904 -0)
 		(layer "B.SilkS")
@@ -33947,7 +34006,7 @@
 		(uuid "cca35086-347c-43af-bdf8-17b0b05cea04")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 			(justify mirror)
@@ -34026,12 +34085,12 @@
 		)
 	)
 	(gr_text "SCL"
-		(at 174.5996 86.4108 -0)
+		(at 174.5996 86.4108 0)
 		(layer "B.SilkS")
 		(uuid "dbe622e9-432f-4532-a9e5-e7eaff5fedb5")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 			(justify mirror)
@@ -34172,7 +34231,7 @@
 		)
 	)
 	(gr_text "V+"
-		(at 174.5234 88.7984 -0)
+		(at 172.5 88.9 -0)
 		(layer "B.SilkS")
 		(uuid "f9009ddf-743b-4233-8e71-e86a6574e041")
 		(effects
@@ -34238,7 +34297,7 @@
 		(uuid "097e83c5-b423-4007-bfef-ad09350c9540")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
@@ -34296,7 +34355,7 @@
 		(uuid "189a7df7-8c87-4ae6-b46b-432841f68800")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
@@ -34382,6 +34441,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "CTS"
+		(at 153.36 74.638095 90)
+		(layer "F.SilkS")
+		(uuid "418acc87-dbfa-4efd-8c3e-1df70634a86c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "15"
 		(at 117.5 109 0)
 		(layer "F.SilkS")
@@ -34390,6 +34461,18 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.1875)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3v3"
+		(at 157.17 74.6 90)
+		(layer "F.SilkS")
+		(uuid "5959cbd5-2e32-4d25-b6af-e1bb5f16137f")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -34511,6 +34594,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND"
+		(at 150.82 74.904761 90)
+		(layer "F.SilkS")
+		(uuid "97697841-b348-47bd-ab20-41db1341e884")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SCL"
 		(at 142.7226 97.9424 0)
 		(layer "F.SilkS")
@@ -34539,7 +34634,7 @@
 		(uuid "a541ef38-4df6-413e-83b8-941fe094893c")
 		(effects
 			(font
-				(size 0.7 0.7)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
@@ -34553,6 +34648,30 @@
 				(size 0.8 0.8)
 				(thickness 0.153)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TX"
+		(at 155.9 73.838095 90)
+		(layer "F.SilkS")
+		(uuid "afba9361-b27f-4373-804f-7cce440d6b11")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RX"
+		(at 154.63 74.028571 90)
+		(layer "F.SilkS")
+		(uuid "b3ed25fe-f18d-4cd3-a736-6bbb3909b9cb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -34691,6 +34810,18 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(gr_text "RTS"
+		(at 152.09 74.638095 90)
+		(layer "F.SilkS")
+		(uuid "f04af9e6-7089-4eec-a99b-6eb8e7167de3")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "08"
