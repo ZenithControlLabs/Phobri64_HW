@@ -7856,6 +7856,12 @@
 		(uuid "d2d47ffa-977f-4e68-855d-e50d55fdf78b")
 	)
 	(junction
+		(at 219.71 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3e255f0-53e0-4793-abf6-c2a418ed13bb")
+	)
+	(junction
 		(at 292.1 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9331,6 +9337,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 215.9) (xy 219.202 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f3208c-7c40-4fc9-9522-a910c5fe6c33")
+	)
+	(wire
+		(pts
 			(xy 146.05 34.29) (xy 170.18 34.29)
 		)
 		(stroke
@@ -9391,7 +9407,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.218 215.9) (xy 219.202 215.9)
+			(xy 220.218 215.9) (xy 219.71 215.9)
 		)
 		(stroke
 			(width 0)
@@ -13006,28 +13022,6 @@
 		(uuid "bf060273-a534-49a3-91ab-0de578043456")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.2853 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Start"
-		(shape output)
-		(at 261.62 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c2cbf348-c3b6-42c1-9d91-e3157b95e177")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.0387 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20922,7 +20916,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 261.62 106.68 180)
+		(at 219.71 233.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20930,7 +20924,7 @@
 		(dnp no)
 		(uuid "54264f96-c178-4b99-ab61-74af1fdf9ba0")
 		(property "Reference" "#PWR082"
-			(at 261.62 102.87 0)
+			(at 219.71 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20939,7 +20933,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 262.128 111.252 0)
+			(at 220.218 238.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20947,7 +20941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 106.68 0)
+			(at 219.71 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20956,7 +20950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 106.68 0)
+			(at 219.71 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20965,7 +20959,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 106.68 0)
+			(at 219.71 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28052,7 +28046,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 97.79 270)
+		(at 215.9 224.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28060,7 +28054,7 @@
 		(dnp no)
 		(uuid "cb3df10a-711d-42e6-b201-ce26ca8059ca")
 		(property "Reference" "#PWR083"
-			(at 251.46 97.79 0)
+			(at 209.55 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28069,7 +28063,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 97.79 90)
+			(at 208.28 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28078,7 +28072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 97.79 0)
+			(at 215.9 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28087,7 +28081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 97.79 0)
+			(at 215.9 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28096,7 +28090,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 97.79 0)
+			(at 215.9 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28350,7 +28344,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
-		(at 261.62 97.79 270)
+		(at 219.71 224.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28358,7 +28352,7 @@
 		(dnp no)
 		(uuid "ceef2e96-c3f8-4f89-9957-9006a12524c2")
 		(property "Reference" "TVS_16"
-			(at 264.16 97.79 90)
+			(at 222.25 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28367,7 +28361,7 @@
 			)
 		)
 		(property "Value" "SZUESD3.3DT5G"
-			(at 265.43 97.79 0)
+			(at 223.52 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28376,7 +28370,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-723"
-			(at 261.62 93.98 0)
+			(at 219.71 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28385,7 +28379,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2210202101_onsemi-SZUESD3-3DT5G_C896625.pdf"
-			(at 261.62 93.98 0)
+			(at 219.71 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28394,7 +28388,7 @@
 			)
 		)
 		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
-			(at 261.62 97.79 0)
+			(at 219.71 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28403,7 +28397,7 @@
 			)
 		)
 		(property "LCSC" "C896625"
-			(at 261.62 97.79 0)
+			(at 219.71 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28412,7 +28406,7 @@
 			)
 		)
 		(property "MPN" "SZUESD3.3DT5G"
-			(at 201.93 121.92 90)
+			(at 160.02 248.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
