@@ -7418,6 +7418,12 @@
 		(uuid "03947dc3-7741-4662-9e11-7390dc2c34a1")
 	)
 	(junction
+		(at 304.8 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ef83221-22fe-47df-84e5-92e725c8463a")
+	)
+	(junction
 		(at 96.52 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7554,6 +7560,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fe5e338-ce79-4132-95fd-9042019f3bc7")
+	)
+	(junction
+		(at 304.8 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50769781-f988-4c23-ab75-a42b85b78eb4")
 	)
 	(junction
 		(at 226.568 199.39)
@@ -7898,12 +7910,6 @@
 		(uuid "de1cdc7b-e44f-4121-aaa1-8aab8bd0639a")
 	)
 	(junction
-		(at 304.8 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de6c81d5-0b9f-483c-a1a9-8df0824670d4")
-	)
-	(junction
 		(at 260.858 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7962,12 +7968,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1d419c0-ebfd-4fb8-9a37-98da21b94d16")
-	)
-	(junction
-		(at 304.8 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4b0a7d4-9820-4620-8f5d-d5322f4181cf")
 	)
 	(junction
 		(at 74.168 40.64)
@@ -8547,7 +8547,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 180.34) (xy 303.149 180.34)
+			(xy 303.149 180.34) (xy 304.8 180.34)
 		)
 		(stroke
 			(width 0)
@@ -8604,6 +8604,16 @@
 			(type default)
 		)
 		(uuid "30af38d9-104a-440a-b7ff-479b689889e1")
+	)
+	(wire
+		(pts
+			(xy 304.8 198.12) (xy 307.34 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c5cfb9-1639-431d-9e15-ae86ef8ab3b3")
 	)
 	(wire
 		(pts
@@ -8897,6 +8907,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 180.34) (xy 305.054 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8b10a1-ae58-4c8a-b9d5-dc58e99da6d3")
+	)
+	(wire
+		(pts
 			(xy 39.7764 205.74) (xy 40.8432 205.74)
 		)
 		(stroke
@@ -9014,16 +9034,6 @@
 			(type default)
 		)
 		(uuid "577740f7-7e8c-4f81-9dca-9aea2adf8120")
-	)
-	(wire
-		(pts
-			(xy 304.8 198.12) (xy 307.34 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57f60a87-6d74-431a-b748-5c9586c300f7")
 	)
 	(wire
 		(pts
@@ -10654,16 +10664,6 @@
 			(type default)
 		)
 		(uuid "f759a21d-a8ba-4825-8e6c-7846f798e828")
-	)
-	(wire
-		(pts
-			(xy 305.054 180.34) (xy 304.8 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f82f867c-eb41-45ad-bc9b-9efa97ca7b8f")
 	)
 	(wire
 		(pts
@@ -19189,7 +19189,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 300.99 189.23 270)
+		(at 308.61 189.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19197,7 +19197,7 @@
 		(dnp no)
 		(uuid "43fbd0ab-b553-4718-99ae-41999d60a2e8")
 		(property "Reference" "#PWR072"
-			(at 294.64 189.23 0)
+			(at 314.96 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19206,7 +19206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 293.37 189.23 90)
+			(at 316.23 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19215,7 +19215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 300.99 189.23 0)
+			(at 308.61 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19224,7 +19224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 300.99 189.23 0)
+			(at 308.61 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19233,7 +19233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 300.99 189.23 0)
+			(at 308.61 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26254,7 +26254,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
-		(at 304.8 189.23 270)
+		(at 304.8 189.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26262,7 +26262,7 @@
 		(dnp no)
 		(uuid "b221269f-d636-4a80-a755-f8fb75d25385")
 		(property "Reference" "TVS_6"
-			(at 307.34 189.23 90)
+			(at 302.26 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26271,7 +26271,7 @@
 			)
 		)
 		(property "Value" "SZUESD3.3DT5G"
-			(at 308.61 189.23 0)
+			(at 300.99 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26280,7 +26280,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-723"
-			(at 304.8 185.42 0)
+			(at 304.8 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26289,7 +26289,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2210202101_onsemi-SZUESD3-3DT5G_C896625.pdf"
-			(at 304.8 185.42 0)
+			(at 304.8 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26316,7 +26316,7 @@
 			)
 		)
 		(property "MPN" "SZUESD3.3DT5G"
-			(at -67.31 171.45 90)
+			(at 676.91 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
