@@ -7418,6 +7418,12 @@
 		(uuid "03947dc3-7741-4662-9e11-7390dc2c34a1")
 	)
 	(junction
+		(at 256.54 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06d55205-b56b-4209-a7e7-58d7df8db08d")
+	)
+	(junction
 		(at 304.8 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7434,6 +7440,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11e89148-d657-4fb5-a9ef-4f2c298910f1")
+	)
+	(junction
+		(at 281.94 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16d383eb-e9f7-4a56-b7c8-d8b2af84d87d")
 	)
 	(junction
 		(at 44.45 187.96)
@@ -7494,6 +7506,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c611eea-2b6f-4ab6-919b-0411c0d89e31")
+	)
+	(junction
+		(at 262.89 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2deec78b-772d-496c-bf1d-c0925d794a2e")
 	)
 	(junction
 		(at 307.34 132.715)
@@ -7610,6 +7628,18 @@
 		(uuid "67a05ee1-db7b-45dc-8893-6572d0aae253")
 	)
 	(junction
+		(at 247.65 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68516ea2-32b0-4506-9642-5f2e8b5e65e4")
+	)
+	(junction
+		(at 255.27 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "691046a4-858f-4a2a-875d-66137e0c9748")
+	)
+	(junction
 		(at 229.616 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7652,6 +7682,12 @@
 		(uuid "7835a289-ff58-4e3a-b81d-aef39a7cf96d")
 	)
 	(junction
+		(at 255.27 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78d6ea14-9efe-4fc6-a921-e79e40b2507c")
+	)
+	(junction
 		(at 263.652 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7662,6 +7698,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c12baca-b516-451a-92df-906c2a5a9a53")
+	)
+	(junction
+		(at 262.89 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "833344f6-087e-4b71-9d8e-1be20e9b70fa")
 	)
 	(junction
 		(at 310.642 232.41)
@@ -7706,6 +7748,12 @@
 		(uuid "8cc24aa2-be73-459b-8389-f4568a1edbd5")
 	)
 	(junction
+		(at 247.65 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ce89d7c-ecae-4860-bb4d-c8d468745cd4")
+	)
+	(junction
 		(at 325.12 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7734,6 +7782,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98dda3ae-1cea-429e-81c9-1c478fbc0b27")
+	)
+	(junction
+		(at 255.27 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d74ee1e-95f9-47cb-bdbc-170c8a283970")
 	)
 	(junction
 		(at 100.33 52.07)
@@ -7898,6 +7952,12 @@
 		(uuid "dc03ae66-d640-4c70-b75b-23da328e978f")
 	)
 	(junction
+		(at 271.78 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc239447-aff0-4a5e-be6e-0907f7b05a85")
+	)
+	(junction
 		(at 216.408 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7964,6 +8024,12 @@
 		(uuid "f0540b2e-a2f3-47f6-b39a-361bdaa21e58")
 	)
 	(junction
+		(at 245.11 273.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f13965e5-d386-419a-b1da-2cb69ba03060")
+	)
+	(junction
 		(at 307.34 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7974,6 +8040,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6269091-87e5-4079-9cd8-728dca744b26")
+	)
+	(junction
+		(at 234.95 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f73b5e3e-62d9-4ee3-9329-71789be0503f")
 	)
 	(junction
 		(at 120.65 40.64)
@@ -8397,6 +8469,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 262.89) (xy 281.94 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f02c75d-db12-4fdf-a11e-26a4dfbc7fe8")
+	)
+	(wire
+		(pts
 			(xy 274.32 198.12) (xy 276.352 198.12)
 		)
 		(stroke
@@ -8434,6 +8516,16 @@
 			(type default)
 		)
 		(uuid "20bfd8c8-93fe-4843-ae9c-c8eb70d8e951")
+	)
+	(wire
+		(pts
+			(xy 262.89 270.51) (xy 271.78 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f49f9a-57ac-40fb-bb7b-7a43f362b4ce")
 	)
 	(wire
 		(pts
@@ -8517,6 +8609,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 267.97) (xy 234.95 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "280c8372-1321-4a10-8969-4574a9c0a9a9")
+	)
+	(wire
+		(pts
 			(xy 354.33 74.93) (xy 355.6 74.93)
 		)
 		(stroke
@@ -8584,6 +8686,16 @@
 			(type default)
 		)
 		(uuid "2ce3874e-cbce-4ee5-aa81-aa4ef1b0ef3d")
+	)
+	(wire
+		(pts
+			(xy 247.65 262.89) (xy 247.65 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ded9698-b430-4f13-a114-1d62d1aeee59")
 	)
 	(wire
 		(pts
@@ -8767,6 +8879,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 267.97) (xy 262.89 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b0bf71e-ba99-4c86-a6c0-2976747d0ec2")
+	)
+	(wire
+		(pts
 			(xy 93.98 59.69) (xy 91.44 59.69)
 		)
 		(stroke
@@ -8894,6 +9016,16 @@
 			(type default)
 		)
 		(uuid "465f65f5-18e8-4e3e-9be9-d8a27f5503f6")
+	)
+	(wire
+		(pts
+			(xy 256.54 267.97) (xy 262.89 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471e4006-d707-4643-88f4-f7fbedb71f48")
 	)
 	(wire
 		(pts
@@ -9057,6 +9189,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 267.97) (xy 255.27 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bdcf389-f61a-4725-a4a7-b66a5cd41205")
+	)
+	(wire
+		(pts
 			(xy 133.35 34.29) (xy 146.05 34.29)
 		)
 		(stroke
@@ -9204,6 +9346,16 @@
 			(type default)
 		)
 		(uuid "6775ecf4-8586-45a6-b807-df05d8324fd8")
+	)
+	(wire
+		(pts
+			(xy 271.78 267.97) (xy 271.78 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d023b8-8772-4254-8cd0-9750705ffced")
 	)
 	(wire
 		(pts
@@ -9387,6 +9539,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 273.05) (xy 247.65 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785e2aac-8c41-48fe-8ebc-e57bc27195fd")
+	)
+	(wire
+		(pts
 			(xy 44.45 187.96) (xy 50.8 187.96)
 		)
 		(stroke
@@ -9394,6 +9556,16 @@
 			(type default)
 		)
 		(uuid "788c0bc9-0e03-48a7-a31e-aa623f85928c")
+	)
+	(wire
+		(pts
+			(xy 255.27 273.05) (xy 262.89 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f15d13-45e0-4747-a022-cbe56f17a4dd")
 	)
 	(wire
 		(pts
@@ -9737,6 +9909,26 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 262.89) (xy 281.94 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cae6982-ed5e-42e1-947f-27bf0954428d")
+	)
+	(wire
+		(pts
+			(xy 256.54 261.62) (xy 256.54 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cdeb792-acfc-4c21-a5b8-42fd8a545681")
+	)
+	(wire
+		(pts
 			(xy 114.3 88.9) (xy 118.11 88.9)
 		)
 		(stroke
@@ -10067,6 +10259,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 262.89) (xy 247.65 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf30da64-82f0-473f-951f-3d89ad991ddb")
+	)
+	(wire
+		(pts
 			(xy 306.705 144.78) (xy 306.705 146.685)
 		)
 		(stroke
@@ -10147,6 +10349,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 267.97) (xy 234.95 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c967d0f2-1a2c-4007-beee-e86262975d76")
+	)
+	(wire
+		(pts
 			(xy 111.76 198.12) (xy 109.22 198.12)
 		)
 		(stroke
@@ -10154,6 +10366,16 @@
 			(type default)
 		)
 		(uuid "ca0ad4f2-d39d-4c0a-9b1b-379f01beb569")
+	)
+	(wire
+		(pts
+			(xy 245.11 267.97) (xy 245.11 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad13059-dd18-4dee-8465-fea7f4108c75")
 	)
 	(wire
 		(pts
@@ -10317,6 +10539,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 270.51) (xy 271.78 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc36689f-480e-49a1-a341-0cfe65fb4f70")
+	)
+	(wire
+		(pts
 			(xy 323.342 232.41) (xy 325.12 232.41)
 		)
 		(stroke
@@ -10334,6 +10566,16 @@
 			(type default)
 		)
 		(uuid "dc83e009-44a4-4790-9920-4ecd9847328f")
+	)
+	(wire
+		(pts
+			(xy 255.27 267.97) (xy 256.54 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda5121d-9c0c-4c11-a1cb-a1c872bd89ea")
 	)
 	(wire
 		(pts
@@ -10457,6 +10699,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 270.51) (xy 262.89 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8db2023-e2a4-4d36-a424-c6606377b1d0")
+	)
+	(wire
+		(pts
 			(xy 118.11 111.76) (xy 114.3 111.76)
 		)
 		(stroke
@@ -10484,6 +10736,16 @@
 			(type default)
 		)
 		(uuid "ea30d3ca-fcfd-4699-928e-37b22090cd32")
+	)
+	(wire
+		(pts
+			(xy 247.65 270.51) (xy 255.27 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5f4cd4-aeca-4011-a91b-022319e36f3c")
 	)
 	(wire
 		(pts
@@ -10667,6 +10929,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 273.05) (xy 255.27 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77df9b4-42d8-445c-b003-b227de048346")
+	)
+	(wire
+		(pts
 			(xy 341.63 144.78) (xy 351.79 144.78)
 		)
 		(stroke
@@ -10744,6 +11016,16 @@
 			(type default)
 		)
 		(uuid "fddc3f20-5486-498f-8402-ca1ba874ea03")
+	)
+	(wire
+		(pts
+			(xy 281.94 267.97) (xy 281.94 273.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe965619-c1a3-428f-a859-0f651f1ca2d4")
 	)
 	(wire
 		(pts
@@ -11048,6 +11330,17 @@
 			(justify left bottom)
 		)
 		(uuid "6d6835c1-025f-473b-b9e8-c9dff74860a9")
+	)
+	(text "Triggers (One Copy Only)"
+		(exclude_from_sim no)
+		(at 203.2 252.73 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e3af17b-904b-48a5-8c53-fe7b47bb37e4")
 	)
 	(text "To Mainboard Interface"
 		(exclude_from_sim no)
@@ -13537,6 +13830,28 @@
 			)
 		)
 	)
+	(global_label "trigger_gnd_R"
+		(shape input)
+		(at 256.54 261.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3717d96-ee63-4aae-91bb-e80ac4c7fa1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 245.6931 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "N64_3V3"
 		(shape output)
 		(at 271.78 53.086 180)
@@ -15615,6 +15930,83 @@
 			(project "Phobri64"
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "TP_UNUSED_7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 276.86 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "18a3f6d0-a095-4759-8625-350d2349be85")
+		(property "Reference" "TriggerSW_1_1"
+			(at 289.56 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 276.86 263.0424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Phobri64:Dpad_Contact"
+			(at 276.86 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
+			(at 276.86 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dc66ea0-e0cc-40b8-8677-e7a81b4732e7")
+		)
+		(pin "2"
+			(uuid "cb3d4d8a-6d1a-4f8d-a060-772ac9079723")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "TriggerSW_1_1")
 					(unit 1)
 				)
 			)
@@ -18162,6 +18554,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 260.35 270.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "323c32dd-c751-47f3-9f02-85aa596dc4ec")
+		(property "Reference" "Conn_R_1"
+			(at 255.27 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 254 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Phobri64:PinHeader_1x03_P2.00mm_Vertical_SMD_Pin1Right_no_silk"
+			(at 260.35 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 260.35 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "668217ee-aeea-42dc-8a42-be62168836bd")
+		)
+		(pin "2"
+			(uuid "72a9121e-2a0b-46c0-aa98-f091497c5057")
+		)
+		(pin "3"
+			(uuid "a441b158-a0e4-46fa-87da-aff30d6652eb")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "Conn_R_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
 		(at 55.88 198.12 0)
 		(unit 1)
@@ -18503,6 +18968,79 @@
 			(project "Phobri64"
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 252.73 270.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "388ac7ca-581a-456e-a909-e55bf67f730f")
+		(property "Reference" "Conn_R_0"
+			(at 247.65 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 245.11 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Phobri64:PinHeader_1x03_P2.00mm_Vertical_no_silk"
+			(at 252.73 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 252.73 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b423c06-669e-43ba-8464-ea8b6aa47a91")
+		)
+		(pin "2"
+			(uuid "68f17cb1-2d6e-4e29-a00f-31d30abe01eb")
+		)
+		(pin "3"
+			(uuid "44272af1-5fae-4cb3-bf88-0fc7b6234e36")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "Conn_R_0")
 					(unit 1)
 				)
 			)
@@ -22502,6 +23040,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 279.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "701d36b5-b525-4eb7-b443-dc340ca9bdab")
+		(property "Reference" "H14"
+			(at 227.965 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MouseBite"
+			(at 227.965 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Phobri64:breakaway-mousebites"
+			(at 224.79 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
+			(at 224.79 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 50.8 210.82 180)
 		(unit 1)
@@ -22696,6 +23307,83 @@
 			(project "Phobri64"
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 276.86 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "73ecfe05-25ce-4b6b-8b12-aa9e1d05b548")
+		(property "Reference" "TriggerSW_1_2"
+			(at 289.56 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 276.86 268.1224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Phobri64:SW_SPST_PTS647_Sx38_no_silk"
+			(at 276.86 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
+			(at 276.86 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45638f14-5344-4eb4-a084-2b11b8ceedbd")
+		)
+		(pin "2"
+			(uuid "d1b4c93b-413c-4356-9cf9-bb38c4b038bd")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "TriggerSW_1_2")
 					(unit 1)
 				)
 			)
@@ -23732,6 +24420,79 @@
 			(project "Phobri64"
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 222.25 257.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "879b58ef-389f-4a71-ade1-92f9c59f3e2c")
+		(property "Reference" "H13"
+			(at 225.425 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MouseBite"
+			(at 225.425 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Phobri64:breakaway-mousebites"
+			(at 222.25 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
+			(at 222.25 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -25065,6 +25826,83 @@
 			(project "Phobri64"
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 240.03 267.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "94427a74-4103-4de8-8b2a-e36b6ead3382")
+		(property "Reference" "TriggerSW_1"
+			(at 227.33 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 240.03 263.0424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Phobri64:Dpad_Contact"
+			(at 240.03 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
+			(at 240.03 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "307acdb0-43aa-40f2-a665-c70b6c31e6bd")
+		)
+		(pin "2"
+			(uuid "5b5293fd-7eab-49c4-bc25-8c45df94b6ec")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "TriggerSW_1")
 					(unit 1)
 				)
 			)
@@ -27244,6 +28082,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 247.65 280.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "bde48bc3-df9f-437a-82ac-3d2dbc8ba55d")
+		(property "Reference" "Mounting_Hole_R1"
+			(at 250.825 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 250.825 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Phobri64:MountingHole_1.5mm"
+			(at 247.65 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
+			(at 247.65 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "Mounting_Hole_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Phobri64:+S_3V3")
 		(at 127.381 186.436 0)
 		(unit 1)
@@ -28982,6 +29893,83 @@
 			(project ""
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 240.03 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d383f543-9063-45f2-90bd-c2a382ed0bb9")
+		(property "Reference" "TriggerSW_2"
+			(at 227.33 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 240.03 268.1224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Phobri64:SW_SPST_PTS647_Sx38_no_silk"
+			(at 240.03 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIGIKEY" ""
+			(at 240.03 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "408668e7-e1f7-4e68-a519-da9e89123a42")
+		)
+		(pin "2"
+			(uuid "43df562d-ebf4-4a4e-be19-3c7ac0b0e9fa")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "TriggerSW_2")
 					(unit 1)
 				)
 			)
@@ -31005,6 +31993,79 @@
 			(project "Phobri64"
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 267.97 270.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "e9ce0f9b-300f-4ee7-8061-ecfb73d73731")
+		(property "Reference" "Conn_R_2"
+			(at 262.89 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 261.62 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Phobri64:PinHeader_1x03_P2.00mm_Vertical_SMD_Pin1Left_no_silk"
+			(at 267.97 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 267.97 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac954e99-8bb0-45dc-aa61-b4fe8b728df0")
+		)
+		(pin "2"
+			(uuid "a95b41f4-1ed0-443e-b18f-c2592330bce6")
+		)
+		(pin "3"
+			(uuid "344dfd0e-9a67-4bf7-873b-d5ffc63da96b")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "Conn_R_2")
 					(unit 1)
 				)
 			)
