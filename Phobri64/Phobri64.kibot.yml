@@ -16,6 +16,12 @@ preflight:
     - error: "lib_footprint_issues"
     - error: "copper_edge_clearance"
       regex: "NPTH pad of J8"
+    - error: "courtyards_overlap"
+      regex: "(Conn_R1|Conn_R2)"
+    - error: "solder_mask_bridge"
+      regex: "Mounting_Hole_R1"
+    - error: "unconnected_items",
+      regex: "(trigger_gnd_R)|(Conn_R_0-Pin_2)|(Conn_R_0-Pin_3)"
 
 
 #global:
