@@ -2078,7 +2078,9 @@
 				)
 			)
 		)
-		(attr smd exclude_from_bom allow_missing_courtyard dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_line
 			(start 2.85 -3.5)
 			(end -2.85 -3.5)
@@ -4024,7 +4026,7 @@
 		(path "/73ecfe05-25ce-4b6b-8b12-aa9e1d05b548")
 		(sheetname "Root")
 		(sheetfile "Phobri64.kicad_sch")
-		(attr smd exclude_from_bom allow_missing_courtyard)
+		(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_rect
 			(start -3.65 -2.7)
 			(end 3.65 2.7)
@@ -7080,7 +7082,9 @@
 				)
 			)
 		)
-		(attr smd exclude_from_bom allow_missing_courtyard dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_line
 			(start 2.85 -3.5)
 			(end -2.85 -3.5)
@@ -10027,7 +10031,9 @@
 		(path "/323c32dd-c751-47f3-9f02-85aa596dc4ec")
 		(sheetname "Root")
 		(sheetfile "Phobri64.kicad_sch")
-		(attr smd exclude_from_bom allow_missing_courtyard dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_line
 			(start 2.85 -3.5)
 			(end -2.85 -3.5)
@@ -11027,7 +11033,7 @@
 				)
 			)
 		)
-		(attr smd exclude_from_bom allow_missing_courtyard)
+		(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_rect
 			(start -3.65 -2.7)
 			(end 3.65 2.7)
@@ -11308,7 +11314,9 @@
 				)
 			)
 		)
-		(attr through_hole exclude_from_bom allow_missing_courtyard dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_line
 			(start 1.5 -1.5)
 			(end -1.5 -1.5)
@@ -12521,7 +12529,9 @@
 		(path "/388ac7ca-581a-456e-a909-e55bf67f730f")
 		(sheetname "Root")
 		(sheetfile "Phobri64.kicad_sch")
-		(attr through_hole exclude_from_bom allow_missing_courtyard dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_line
 			(start 1.5 -1.5)
 			(end -1.5 -1.5)
@@ -16482,7 +16492,7 @@
 		(path "/d383f543-9063-45f2-90bd-c2a382ed0bb9")
 		(sheetname "Root")
 		(sheetfile "Phobri64.kicad_sch")
-		(attr smd exclude_from_bom allow_missing_courtyard)
+		(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_rect
 			(start -3.65 -2.7)
 			(end 3.65 2.7)
@@ -22759,7 +22769,9 @@
 		(path "/e9ce0f9b-300f-4ee7-8061-ecfb73d73731")
 		(sheetname "Root")
 		(sheetfile "Phobri64.kicad_sch")
-		(attr smd exclude_from_bom allow_missing_courtyard dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_line
 			(start 2.85 -3.5)
 			(end -2.85 -3.5)
@@ -26987,7 +26999,7 @@
 				)
 			)
 		)
-		(attr smd exclude_from_bom allow_missing_courtyard)
+		(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_rect
 			(start -3.65 -2.7)
 			(end 3.65 2.7)
