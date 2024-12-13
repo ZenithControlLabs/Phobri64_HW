@@ -3,3 +3,6 @@
 */*bak*
 */fp-info-cache
 *kate-swp*
+Output/
+kibot_error.log
+kibot.mk

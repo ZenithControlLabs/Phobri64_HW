@@ -24,7 +24,7 @@ drc: $(MAK)
 	$(MAKE) -f $(MAK) run_drc
 
 fab: $(MAK) 
-	$(MAKE) -f $(MAK) print_sch JLCPCB
+	$(MAKE) -f $(MAK) print_sch JLCPCB Elecrow
 
 clean:
 	rm -rf $(DEST) $(MAK)

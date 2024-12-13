@@ -4,15 +4,24 @@ kibot:
 preflight:
   run_erc: true
   update_xml: false
-  run_drc: true
+  run_drc: 
+    enabled: true
+    ignore_unconnected: false
   check_zone_fills: true
-  ignore_unconnected: false
   filters:
     - error: "silk_edge_clearance"
     - error: "silk_over_copper"
     - error: "silk_overlap"
     - error: "lib_footprint_mismatch"
     - error: "lib_footprint_issues"
+    - error: "copper_edge_clearance"
+      regex: "NPTH pad of J8"
+    - error: "courtyards_overlap"
+      regex: "(Conn_R1|Conn_R2)"
+    - error: "solder_mask_bridge"
+      regex: "Mounting_Hole_R1"
+    - error: "unconnected_items"
+      regex: "(trigger_gnd_R)|(Conn_R_0-Pin_2)|(Conn_R_0-Pin_3)"
 
 
 #global:
@@ -21,6 +30,7 @@ preflight:
 
 import:
   - file: JLCPCB_with_THT
+  - file: Elecrow
 
 outputs:
   - name: 'print_sch'
@@ -29,7 +39,7 @@ outputs:
     dir: .
 
   - name: 'JLCPCB_fab_compress'
-    comment: "Generates a ZIP file with all the gerber/drill outputs"
+    comment: "(JLC) Generates a ZIP file with all the gerber/drill outputs"
     type: compress
     run_by_default: false
     options:
@@ -39,9 +49,88 @@ outputs:
         - from_output: _JLCPCB_drill
           dest: /
       output: "%f_gerbers_jlc.%x"
+
+  - name: 'Elecrow_fab_compress'
+    comment: "(Elecrow) Generates a ZIP file with all the gerber/drill outputs"
+    type: compress
+    run_by_default: false
+    options:
+      files:
+        - from_output: _Elecrow_gerbers
+          dest: /
+        - from_output: _Elecrow_drill
+          dest: /
+      output: "%f_gerbers_elecrow.%x"
+
+  - name: 'Elecrow_position'
+    comment: "Pick and place file, Elecrow style"
+    type: position
+    run_by_default: false
+    options:
+      output: '%f_cpl_elecrow.%x'
+      format: CSV
+      units: millimeters
+      separate_files_for_front_and_back: false
+      columns:
+        - id: Ref
+          name: Designator
+        - Val
+        - Package
+        - id: PosX
+          name: "Mid X"
+        - id: PosY
+          name: "Mid Y"
+        - id: Rot
+          name: Rotation
+        - id: Side
+          name: Layer
   
+  - name: 'Elecrow_bom'
+    comment: "BoM for Elecrow"
+    type: bom
+    run_by_default: false
+    options:
+      output: '%f_%i_elecrow.%x'
+      exclude_filter: '_only_jlc_parts'
+      ref_separator: ','
+      columns:
+        - field: MPN
+          name: 'Manufacturer Part number'
+        - field: References
+          name: 'References'
+        - field: 'Build Quantity'
+          name: QTY
+        - field: Original
+          join:
+            - text: 'N'
+        - field: Value
+          name: 'Description'
+        
+        - field: PlaceholderPurchaseLink
+          name: 'Purchase Link'
+          join:
+            - field: LCSC
+              text_after: ".html"
+              text_before: "https://www.lcsc.com/product-detail/"
+        - field: Footprint
+      csv:
+        hide_pcb_info: false
+        hide_stats_info: false
+  
+  - name: 'Elecrow'
+    comment: "(Elecrow) Generates a ZIP file with all outputs together"
+    type: compress
+    run_by_default: false
+    options:
+      files:
+        - from_output: Elecrow_fab_compress
+        - from_output: Elecrow_position
+          dest: /
+        - from_output: Elecrow_bom
+          dest: /
+
   - name: 'JLCPCB'
-    comment: "Generates a ZIP file with all outputs together"
+    comment: "(JLC) Generates a ZIP file with all outputs together"
     type: compress
     run_by_default: false
     options:

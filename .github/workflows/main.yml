@@ -17,7 +17,7 @@ permissions:
 jobs:
   ERC:
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad7_auto:latest
+    container: ghcr.io/inti-cmnb/kicad8_auto:latest
 
     steps:
     - uses: actions/checkout@v3
@@ -30,7 +30,7 @@ jobs:
   
   DRC:
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad7_auto:latest
+    container: ghcr.io/inti-cmnb/kicad8_auto:latest
 
     steps:
     - uses: actions/checkout@v3
@@ -43,7 +43,7 @@ jobs:
 
   PCB:
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad7_auto:latest
+    container: ghcr.io/inti-cmnb/kicad8_auto:latest
       #    if: startsWith(github.ref, 'refs/tags/')
     steps:
     - uses: actions/checkout@v3
@@ -75,6 +75,7 @@ jobs:
         run: |
           mv PCB_SCH_Output/Phobri64-schematic.pdf ./Phobri64_${{ github.ref_name }}_schematic.pdf
           mv PCB_SCH_Output/Phobri64-JLCPCB.zip ./Phobri64_${{ github.ref_name }}_JLCPCB_FAB.zip
+          mv PCB_SCH_Output/Phobri64-ELECROW.zip ./Phobri64_${{ github.ref_name }}_ELECROW_FAB.zip
 
       - name: Push to release
         uses: softprops/action-gh-release@v1
@@ -83,3 +84,4 @@ jobs:
             files: |
               Phobri64_${{ github.ref_name }}_schematic.pdf
               Phobri64_${{ github.ref_name }}_JLCPCB_FAB.zip
+              Phobri64_${{ github.ref_name }}_ELECROW_FAB.zip
