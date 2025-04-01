@@ -17,7 +17,7 @@ preflight:
     - error: "copper_edge_clearance"
       regex: "NPTH pad of J8"
     - error: "courtyards_overlap"
-      regex: "(Conn_R1|Conn_R2)"
+      regex: "(Conn_R_0|Conn_R_1|Conn_R_2)"
     - error: "solder_mask_bridge"
       regex: "Mounting_Hole_R1"
     - error: "unconnected_items"
