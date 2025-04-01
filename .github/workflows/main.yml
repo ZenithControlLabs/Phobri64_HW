@@ -20,7 +20,7 @@ jobs:
     container: ghcr.io/inti-cmnb/kicad8_auto:latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Run ERC
       run: make erc || { cat Output/*.txt; exit 1; }
@@ -33,7 +33,7 @@ jobs:
     container: ghcr.io/inti-cmnb/kicad8_auto:latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Run DRC
       run: make drc || { cat Output/*.txt; exit 1; }
@@ -46,13 +46,13 @@ jobs:
     container: ghcr.io/inti-cmnb/kicad8_auto:latest
       #    if: startsWith(github.ref, 'refs/tags/')
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: PCB/SCH outputs
       run: make fab
 
     - name: Retrieve results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: PCB_SCH_Output
         path: Output/
@@ -65,10 +65,10 @@ jobs:
       - PCB
     if: startsWith(github.ref, 'refs/tags/')
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         name: Clone Phobri repo
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         name: Download artifacts
 
       - name: Move around files
