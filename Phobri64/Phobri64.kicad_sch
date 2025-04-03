@@ -1992,10 +1992,10 @@
 		(uuid "6e2c0aa5-81d7-4abc-9a79-02712794bd4f")
 	)
 	(junction
-		(at 73.66 199.39)
+		(at 78.74 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "93cb8fe5-2a93-423d-aef9-3bad232274a3")
+		(uuid "70b8c77f-d83a-4bbb-829a-94fca85e399f")
 	)
 	(junction
 		(at 129.54 186.436)
@@ -2022,8 +2022,26 @@
 		(uuid "ef60ea22-c8df-4160-87b4-a6c74dadd043")
 	)
 	(no_connect
+		(at 31.75 255.27)
+		(uuid "0697020b-c173-41e2-842b-625b6d8886a4")
+	)
+	(no_connect
 		(at 38.1 262.89)
 		(uuid "d7fac13d-a11c-43ac-a2e8-863a41d7c8f4")
+	)
+	(no_connect
+		(at 31.75 252.73)
+		(uuid "dcbf446e-47be-4c75-9e57-16e328ffb045")
+	)
+	(wire
+		(pts
+			(xy 77.47 185.42) (xy 67.31 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05578340-4e23-447a-94f3-ec8544b02c2c")
 	)
 	(wire
 		(pts
@@ -2114,6 +2132,16 @@
 			(type default)
 		)
 		(uuid "3bf8e72d-91bf-4f7e-ab2a-d165e5a1d191")
+	)
+	(wire
+		(pts
+			(xy 86.36 194.31) (xy 86.36 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d63b8e7-17da-4070-a7f7-480a5f511f88")
 	)
 	(wire
 		(pts
@@ -2277,6 +2305,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 195.58) (xy 78.74 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd348ca-e20b-4938-9902-ebc99c206ae3")
+	)
+	(wire
+		(pts
 			(xy 124.46 186.436) (xy 127.381 186.436)
 		)
 		(stroke
@@ -2284,6 +2322,16 @@
 			(type default)
 		)
 		(uuid "95fa7251-e595-4b98-8077-103b5a56b73b")
+	)
+	(wire
+		(pts
+			(xy 86.36 195.58) (xy 78.74 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8baeb9-6bc5-43d0-8e28-e0b1a23275ec")
 	)
 	(wire
 		(pts
@@ -2354,6 +2402,16 @@
 			(type default)
 		)
 		(uuid "bc7e51bc-b326-41b6-9154-692e67e594fc")
+	)
+	(wire
+		(pts
+			(xy 77.47 184.15) (xy 77.47 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb3680c-b778-40b2-bec1-54cd84c21da0")
 	)
 	(wire
 		(pts
@@ -2437,6 +2495,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 194.31) (xy 86.36 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff07aba-a519-471f-bfbe-4dbddafd0c71")
+	)
+	(wire
+		(pts
 			(xy 50.8 252.73) (xy 49.53 252.73)
 		)
 		(stroke
@@ -2454,6 +2522,16 @@
 			(type default)
 		)
 		(uuid "f4628571-4c1c-486d-9fbd-51c1b6282ac4")
+	)
+	(wire
+		(pts
+			(xy 67.31 185.42) (xy 67.31 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9507cc1-727c-4903-b818-26bfe03206fa")
 	)
 	(rectangle
 		(start 102.108 171.45)
@@ -2615,7 +2693,6 @@
 	)
 	(label "POT_Y"
 		(at 50.8 276.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2626,7 +2703,6 @@
 	)
 	(label "POT_X"
 		(at 109.22 203.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2637,7 +2713,6 @@
 	)
 	(label "POT_X"
 		(at 35.56 276.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2648,7 +2723,6 @@
 	)
 	(label "POT_X"
 		(at 50.8 252.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2659,7 +2733,6 @@
 	)
 	(label "POT_Y"
 		(at 50.8 255.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2670,7 +2743,6 @@
 	)
 	(label "POT_Y"
 		(at 109.22 198.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3827,7 +3899,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 67.31 187.96 0)
+		(at 77.47 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3836,7 +3908,7 @@
 		(fields_autoplaced yes)
 		(uuid "438e87e5-ad0e-4181-a309-b05865f3efb3")
 		(property "Reference" "TP_UNUSED_15"
-			(at 69.85 184.0229 0)
+			(at 80.01 180.2129 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +3917,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 69.85 185.928 0)
+			(at 80.01 182.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +3926,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 72.39 187.96 0)
+			(at 82.55 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +3935,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 187.96 0)
+			(at 82.55 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,7 +3944,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 187.96 0)
+			(at 77.47 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4247,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 73.66 199.39 0)
+		(at 87.63 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4184,7 +4256,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d124f58-5606-44b3-8c83-8666ab7d484e")
 		(property "Reference" "TP_UNUSED_11"
-			(at 76.2 195.4529 0)
+			(at 90.17 190.3729 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,7 +4265,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 76.2 197.358 0)
+			(at 90.17 192.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +4274,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 78.74 199.39 0)
+			(at 92.71 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +4283,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 199.39 0)
+			(at 92.71 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4292,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 199.39 0)
+			(at 87.63 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,10 +4673,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6f45ac0a-33cf-40be-acfb-fdb9f0ab9dd5")
 		(property "Reference" "TP_UNUSED_9"
-			(at 78.74 201.8029 0)
+			(at 77.724 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,73 +4726,6 @@
 			(project "Phobri64"
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "TP_UNUSED_9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 31.75 252.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "728ac128-2341-4bee-9044-f43b65d96e61")
-		(property "Reference" "BTN_P1"
-			(at 26.543 256.667 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 26.67 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 31.75 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d78c4e40-93de-4f80-9498-cbde7e76feb7")
-		)
-		(instances
-			(project "Phobri64"
-				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
-					(reference "BTN_P1")
 					(unit 1)
 				)
 			)
@@ -5062,10 +5066,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "98b207a5-5258-4f54-aa63-34fa72227a57")
 		(property "Reference" "TP_UNUSED_12"
-			(at 72.39 213.4869 0)
+			(at 56.896 216.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5279,7 @@
 			)
 		)
 		(property "Value" "S_GND"
-			(at 73.66 214.63 0)
+			(at 74.168 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,73 +5392,6 @@
 			(project "Phobri64"
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 31.75 255.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b58b0d2f-7270-429c-89e1-77e73cdc5902")
-		(property "Reference" "BTN_N1"
-			(at 28.067 254.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ZR"
-			(at 26.67 254 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 31.75 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f386707-888a-43c1-9f87-501d3f923f2e")
-		)
-		(instances
-			(project "Phobri64"
-				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
-					(reference "BTN_N1")
 					(unit 1)
 				)
 			)
