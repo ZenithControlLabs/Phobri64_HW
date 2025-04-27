@@ -37953,7 +37953,7 @@
 		)
 	)
 	(gr_text "Z R/L G"
-		(at 179.86 73.06 0)
+		(at 179.86 69.9 0)
 		(layer "B.SilkS")
 		(uuid "3ebaf56c-cdbd-4b6f-a7c7-2ec9c6d4eb3a")
 		(effects
@@ -37986,6 +37986,18 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(gr_text "Z R/L G"
+		(at 190.46 69.9 0)
+		(layer "B.SilkS")
+		(uuid "4561a6c2-cfd8-447c-b396-4c08c0d3d9e1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "A"
@@ -38101,18 +38113,6 @@
 		(at 157.1244 67.7418 90)
 		(layer "B.SilkS")
 		(uuid "5a843d4a-6062-4cfd-83c0-e73364284b36")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "Z R/L G"
-		(at 190.459128 73.06 0)
-		(layer "B.SilkS")
-		(uuid "5e81f083-b46f-4bbe-999f-e4261e9bf917")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -38277,18 +38277,6 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "PCB By\nGriffin\nBarrett"
-		(at 188.009128 75.07 -0)
-		(layer "B.SilkS")
-		(uuid "7ec1b277-733e-4ebe-9206-45ca71f1d853")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.2)
-			)
-			(justify top mirror)
-		)
-	)
 	(gr_text "15"
 		(at 120.8532 107.5944 0)
 		(layer "B.SilkS")
@@ -38311,18 +38299,6 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
-		)
-	)
-	(gr_text "Originally By\nNoah Cardosi"
-		(at 187.859128 79.13 -0)
-		(layer "B.SilkS")
-		(uuid "84b68550-ad03-4ad9-92e1-e0d5ef5415b4")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.2)
-			)
-			(justify top mirror)
 		)
 	)
 	(gr_text "BRIDGE JP1&2 FOR N64 OVER USB-C\nAND REMOVE R12&R13"
@@ -38385,6 +38361,18 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "PCB By\nNoah Cardosi\nGriffin Barrett"
+		(at 188 77.6 0)
+		(layer "B.SilkS")
+		(uuid "9b78ac2c-e4f3-4521-be87-e1365aad3ecf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+			(justify top mirror)
+		)
+	)
 	(gr_text "RX"
 		(at 154.5844 68.0974 90)
 		(layer "B.SilkS")
@@ -38407,6 +38395,18 @@
 				(thickness 0.15)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "^ Wires IN ^\nhere!"
+		(at 187.9 72.2 0)
+		(layer "B.SilkS")
+		(uuid "a919355f-ac78-4ee4-8b94-712e387d5f8d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+			(justify top mirror)
 		)
 	)
 	(gr_text "GND"
@@ -38734,8 +38734,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Originally By\nNoah Cardosi"
-		(at 177.26 79.13 -0)
+	(gr_text "PCB By\nNoah Cardosi\nGriffin Barrett"
+		(at 177.4 77.6 0)
 		(layer "B.SilkS")
 		(uuid "e838493a-237e-4a70-a6b5-541aa2b39fd9")
 		(effects
@@ -38831,8 +38831,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "PCB By\nGriffin\nBarrett"
-		(at 177.41 75.07 -0)
+	(gr_text "^ Wires IN ^\nhere!"
+		(at 177.3 72.2 0)
 		(layer "B.SilkS")
 		(uuid "febb2e2c-b256-409c-8038-5e831ef792a5")
 		(effects
@@ -39642,6 +39642,18 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(gr_text "STICKBOX \nUP HERE"
+		(at 170.7 109.1 0)
+		(layer "F.SilkS")
+		(uuid "e5f03984-f30c-4875-b3d9-2820e323635a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "TVS"
