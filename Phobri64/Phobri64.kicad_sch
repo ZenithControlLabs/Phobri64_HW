@@ -21395,7 +21395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Phobri64:Hori_Style_Stick_pot"
+		(property "Footprint" "Phobri64:Hori_Style_Stick_pot_combined"
 			(at 56.134 246.38 0)
 			(effects
 				(font
