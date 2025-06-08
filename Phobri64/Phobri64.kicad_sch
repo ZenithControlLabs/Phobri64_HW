@@ -21395,7 +21395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Phobri64:Hori_Style_Stick_pot_combined"
+		(property "Footprint" "Phobri64:Hori_Style_Stick_pot_rect"
 			(at 56.134 246.38 0)
 			(effects
 				(font
@@ -23190,7 +23190,7 @@
 		(dnp no)
 		(uuid "728ac128-2341-4bee-9044-f43b65d96e61")
 		(property "Reference" "BTN_P1"
-			(at 26.543 256.667 0)
+			(at 24.13 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27358,7 +27358,7 @@
 		(dnp no)
 		(uuid "b58b0d2f-7270-429c-89e1-77e73cdc5902")
 		(property "Reference" "BTN_N1"
-			(at 28.067 254.508 0)
+			(at 22.86 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
