@@ -19,7 +19,7 @@ Check continuity between points in the two images:
 ## Smoke test 
 
 Supply 3.3V power to the 3v3 pin and GND pin at the highlighted test points. 
-Verify all boards behave "normally": no magic smoke, draws nonzero current, does not draw more than 1A.
+Verify all boards behave "normally": no magic smoke, draws nonzero current, does not draw more than ~1A.
 Components may be warm but should not be hot to touch after running for any amount of time.
 
 ![](mb_testpoints.png)
@@ -55,7 +55,7 @@ Check continuity between points connected in the two images:
 ## Smoke test
 
 Supply 3.3V power to the V+ pin and the GND pin at the highlighted test points. 
-Verify all boards behave "normally": no magic smoke, draws nonzero current, does not draw more than 1A.
+Verify all boards behave "normally": no magic smoke, draws nonzero current, does not draw more than 0.3A.
 Components may be warm but should not be hot to touch after running for any amount of time.
 
 ![](testpoints.png)
