@@ -1,4 +1,23 @@
-# v1.0.0 Release - 9/23/2023
+# v1.3.0 - 6/13/2025
+
+* Add support for 13mm stickbox, to allow compatibility OOTB with dualsense-style stickboxes
+* Widen footprint to allow original Hori stickbox as well
+* Additional info on silkscreens to aid in assembly
+
+# v1.2.0 - 12/13/2024
+
+* Switch to dualsense-style pinout for potentiometers (was ps4 before)
+* Add tactile button trigger boards (credit: Noah Cardosi)  
+* Add TVSes for voltage protection
+* More debug pins
+
+# v1.1.X - ??/??/2024
+
+Lost track of these, but we did some various prototypes in this time.
+At some point, a standard 3-pin potentiometer pinout got added.
+3-axis digital sensors eventually got removed. All the LPF stuff got thrown away as we switched to pre-assembled halls in the pot form factor.
+
+# v1.0.0 - 9/23/2023
 
 * Redesign stickboard to support 2 types of sensors: 3-axis digital sensors (LIS3MDL), and analog through-hole hall sensors (DRV5055).
 * Replaced Mini USB connector with USB-C, also supporting BOXX-style USB-C to N64 once installed using solder pads
@@ -16,11 +35,11 @@ Design credits:
 - Griffin - layout
 - wermi - provided scans of stock Hori motherboard
 
-# Prototype - 6/8/2023
+# First prototype - 6/8/2023
  
- Schematic:
+Schematic:
  
- Phobri64 reuses most of the same circuit elements from the PhobGCC, namely:
+Phobri64 reuses most of the same circuit elements from the PhobGCC, namely:
  
  * Hall effect + LPF + ADC subsystem (specifically for the cstick board, because it attaches separately like the hori does)
  * Crystal circuit
