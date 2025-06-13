@@ -3070,6 +3070,139 @@
 				)
 			)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Resonator"
 			(pin_names
 				(offset 1.016) hide)
@@ -7514,6 +7647,12 @@
 		(uuid "2deec78b-772d-496c-bf1d-c0925d794a2e")
 	)
 	(junction
+		(at 67.31 264.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "314c4376-2b3e-42d4-a800-4cb99d806fb5")
+	)
+	(junction
 		(at 307.34 132.715)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7812,6 +7951,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6d439a2-905b-4acf-84ab-f11585915f39")
+	)
+	(junction
+		(at 62.23 246.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7ed6ca2-b253-4ece-8b14-b408eb00f5b6")
 	)
 	(junction
 		(at 50.8 210.82)
@@ -8409,6 +8554,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 255.27) (xy 62.23 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1add5a9a-74fd-4353-b03f-6439c145512a")
+	)
+	(wire
+		(pts
 			(xy 235.0008 151.13) (xy 237.49 151.13)
 		)
 		(stroke
@@ -8659,7 +8814,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 255.27) (xy 49.53 255.27)
+			(xy 49.53 255.27) (xy 62.23 255.27)
 		)
 		(stroke
 			(width 0)
@@ -8856,6 +9011,16 @@
 			(type default)
 		)
 		(uuid "386ba57f-6cbd-4ec7-a749-d388557efecf")
+	)
+	(wire
+		(pts
+			(xy 68.58 264.16) (xy 67.31 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38bcdc75-3f09-4aa6-b170-8a9fde235395")
 	)
 	(wire
 		(pts
@@ -9436,6 +9601,16 @@
 			(type default)
 		)
 		(uuid "6e571fc2-5a99-491b-8886-b223f6311d7f")
+	)
+	(wire
+		(pts
+			(xy 57.15 252.73) (xy 57.15 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9ab298-fb45-4ec8-850d-e6c0126baf19")
 	)
 	(wire
 		(pts
@@ -10539,6 +10714,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 246.38) (xy 62.23 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf0afea-bd7e-4495-85c5-da63f5b8b448")
+	)
+	(wire
+		(pts
 			(xy 271.78 270.51) (xy 271.78 273.05)
 		)
 		(stroke
@@ -10839,7 +11024,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 252.73) (xy 49.53 252.73)
+			(xy 49.53 252.73) (xy 57.15 252.73)
 		)
 		(stroke
 			(width 0)
@@ -11215,7 +11400,7 @@
 	)
 	(text_box "<- Snap-back cap positions, not connectors"
 		(exclude_from_sim no)
-		(at 57.912 272.288 0)
+		(at 57.15 275.59 0)
 		(size 18.542 8.89)
 		(stroke
 			(width 0)
@@ -11466,6 +11651,17 @@
 		(uuid "22964ff3-6038-458d-9b59-608193b41268")
 	)
 	(label "POT_X"
+		(at 63.5 246.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ba7d385-cfcc-4282-a53e-15b8bb281404")
+	)
+	(label "POT_X"
 		(at 109.22 203.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11475,6 +11671,17 @@
 			(justify right bottom)
 		)
 		(uuid "332962e9-ee9e-4a4b-b54e-52f3a1bb1566")
+	)
+	(label "POT_Y"
+		(at 68.58 264.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "511bab7d-07e2-4573-bf42-acf0ad44ccc2")
 	)
 	(label "POT_X"
 		(at 35.56 276.86 0)
@@ -11487,17 +11694,6 @@
 		)
 		(uuid "5130f9c1-8bb6-4162-a12c-10382972f9a3")
 	)
-	(label "POT_X"
-		(at 50.8 252.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f0fa592-6882-4757-b911-249c73829ffd")
-	)
 	(label "USBC_Raw_D-"
 		(at 341.63 45.72 0)
 		(fields_autoplaced yes)
@@ -11508,17 +11704,6 @@
 			(justify left bottom)
 		)
 		(uuid "80d28b28-f1d6-4005-bf2d-55da97dfd49c")
-	)
-	(label "POT_Y"
-		(at 50.8 255.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "82b2e9ad-050e-4354-b12c-812370e9598a")
 	)
 	(label "POT_Y"
 		(at 109.22 198.12 180)
@@ -14472,6 +14657,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 62.23 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "063938da-52cf-4519-9dd0-ddf6010c400f")
+		(property "Reference" "R7"
+			(at 64.77 247.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 64.77 250.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 62.23 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 62.23 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b44ef57-2971-442d-8162-940f47a4314d")
+		)
+		(pin "2"
+			(uuid "4f47710b-f6b7-44a2-b0c4-4ef2e27a25bb")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 182.88 130.81 0)
 		(unit 1)
@@ -15505,6 +15760,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Phobri64:S_GND")
+		(at 62.23 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d18be46-aaa2-4f1a-8356-6bc2f0a1660a")
+		(property "Reference" "#PWR089"
+			(at 62.23 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "S_GND"
+			(at 62.23 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca1ebef5-f5c4-46df-a0ab-205165240ea6")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 307.34 128.905 180)
 		(unit 1)
@@ -15595,6 +15915,74 @@
 			(project "Phobri64"
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 64.77 264.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "128e5f97-7173-48bd-bbe1-f2a76876c7ba")
+		(property "Reference" "R15"
+			(at 64.77 257.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 64.77 260.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 64.77 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 64.77 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b6192e1-2f51-4807-abc5-2d300f962fea")
+		)
+		(pin "2"
+			(uuid "0605a5e0-86da-48e5-9a75-abff1e94d7de")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -18158,6 +18546,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 67.31 261.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d1f5a82-0e24-4d55-a0da-bbf7566acc5b")
+		(property "Reference" "R16"
+			(at 69.85 260.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 69.85 262.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 67.31 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 67.31 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b73b5274-0899-43ee-a49f-76e3bfd37a22")
+		)
+		(pin "2"
+			(uuid "f8f325eb-87d5-4468-9bd4-858accb8ba0b")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 299.72 223.52 270)
 		(unit 1)
@@ -18283,6 +18741,75 @@
 			(project "Phobri64"
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 62.23 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f8196c8-5186-47fe-ac71-e0f1af147093")
+		(property "Reference" "R6"
+			(at 64.77 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 68.58 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 62.23 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 62.23 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "276ccbe6-c181-4fac-b49b-59e8370bc886")
+		)
+		(pin "2"
+			(uuid "f163813e-d347-4088-a0ae-805bbf53232f")
+		)
+		(instances
+			(project ""
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -19520,6 +20047,76 @@
 			(project "Phobri64"
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 67.31 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f445f4d-ef09-4297-ba4a-c4c7937859af")
+		(property "Reference" "R17"
+			(at 69.85 265.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 69.85 267.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 67.31 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 67.31 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b855f96f-6da7-4ced-a9e2-672191f1f29b")
+		)
+		(pin "2"
+			(uuid "6265025e-68ff-4789-bfa3-e856fd2bab18")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -20997,6 +21594,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Phobri64:S_GND")
+		(at 67.31 269.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4da7ef55-f8ae-4fbc-be10-44bb10094d04")
+		(property "Reference" "#PWR085"
+			(at 67.31 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "S_GND"
+			(at 67.31 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "224b798b-d0e7-407b-b19b-21d24e09ff27")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 311.15 180.34 0)
 		(unit 1)
@@ -21387,7 +22049,7 @@
 			)
 		)
 		(property "Value" "HoriStyleStick"
-			(at 49.53 245.11 0)
+			(at 41.91 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26460,6 +27122,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Phobri64:+S_3V3")
+		(at 67.31 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3fb5163-9efd-4b23-8992-694f5d2d98dd")
+		(property "Reference" "#PWR059"
+			(at 67.31 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+S_3V3"
+			(at 67.31 255.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f078f20-a0e8-47ba-909c-4aefac68b74d")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 229.616 181.61 0)
 		(unit 1)
@@ -26847,7 +27574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
 			(at 45.72 276.86 0)
 			(effects
 				(font
@@ -29853,7 +30580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
 			(at 30.48 276.86 0)
 			(effects
 				(font
@@ -31463,6 +32190,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 59.69 246.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e670eeb5-5d67-4d0c-a3a3-872b4f51959c")
+		(property "Reference" "R14"
+			(at 59.69 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Small_US"
+			(at 50.8 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 59.69 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 59.69 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46518030-d273-4ee6-908e-7f8b5887075f")
+		)
+		(pin "2"
+			(uuid "72ed4afe-06f4-4717-ab2c-76b529f0b404")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Phobri64:S_GND")
 		(at 50.8 279.4 0)
 		(unit 1)
@@ -32132,6 +32926,71 @@
 			(project "Phobri64"
 				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phobri64:+S_3V3")
+		(at 62.23 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb68004e-87af-419f-bd08-508db0073147")
+		(property "Reference" "#PWR036"
+			(at 62.23 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+S_3V3"
+			(at 62.23 237.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c64451b1-8fc2-4869-b94a-3f9d064e1b4b")
+		)
+		(instances
+			(project "Phobri64"
+				(path "/3df85fa1-2ab8-4873-88fa-2f89ced6f2a2"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
